@@ -10,9 +10,10 @@
   `collage`; coach photo on thumbnails (gym poses only — grey studio head shots rejected by the owner).
 - Tests: quiz Short, long video (8:05, chapters, sources), picture Short; GitHub build of the picture Short OK (3.5 min, rembg cutout works).
 - Setup: public repo github.com/rezapantomim/rezfitlab-auto; Pixabay key in .env (Pexels paused new keys); Telegram bot
-  @RezFitlabbot (secrets set); Google Cloud project `rezfitlab-auto` (YouTube Data API v3, OAuth app In production, Desktop client
-  `rezfitlab-uploader`, secret `_gKh` active, extra secret `kHNd` disabled); home/privacy pages on GitHub Pages (branch gh-pages);
-  secret YT_TOKEN_JSON = Rez Fitlab (@rezfitlab), verified. Two tokens for the wrong channel (ThinkVers) were revoked.
+  @RezFitlabbot (secrets set); home/privacy pages on GitHub Pages (branch gh-pages).
+- Google Cloud (moved 2026-11-26 to the channel's own account rezfitlab@gmail.com): project `rezfitlab-auto-515916`
+  (YouTube Data API v3, OAuth app "Rez Fitlab Uploader" In production, Desktop client `rezfitlab-uploader` 715040955711-…);
+  secret YT_TOKEN_JSON = Rez Fitlab (@rezfitlab), verified. The old project `rezfitlab-auto` (personal account) was shut down on 2026-11-26 (deleted after 2026-12-26).
 
 ## Decisions
 - Fully automatic, no human review; writing on the owner's PC (Claude Code), render/upload on GitHub Actions.
