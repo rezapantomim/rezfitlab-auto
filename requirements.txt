@@ -1,0 +1,11 @@
+edge-tts>=7.0.0
+piper-tts>=1.2.0
+numpy
+soundfile
+requests
+Pillow
+jsonschema>=4.20
+rembg[cpu]>=2.0.50
+google-api-python-client>=2.100
+google-auth>=2.23
+google-auth-oauthlib>=1.1

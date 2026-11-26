@@ -1,0 +1,1302 @@
+[
+ {
+  "id": "Q001",
+  "aha": "AHA-0001",
+  "concept": "Yana omuz açış hareket düzlemlerinde nereye oturur?",
+  "angles": [
+   "Önden çekimde kolun yükselişi",
+   "frontal düzlemin tanınması",
+   "squat ve öne lunge ile hareket yollarının karşılaştırılması"
+  ],
+  "source_note": "Soru kökü bozuk. Konu seçenekler ve cevap anahtarından çıkarıldı.",
+  "long_topic": "T04",
+  "status": "todo"
+ },
+ {
+  "id": "Q002",
+  "aha": "AHA-0002",
+  "concept": "Fleksiyon nedir ve egzersizde nasıl görülür?",
+  "angles": [
+   "Eklem açısının küçülmesi",
+   "dirsek ve dizin bükülmesi",
+   "durdurulmuş görüntüde açı takibi"
+  ],
+  "source_note": "",
+  "long_topic": "T03",
+  "status": "todo"
+ },
+ {
+  "id": "Q003",
+  "aha": "AHA-0003",
+  "concept": "Abdüksiyon ve vücudun orta çizgisi",
+  "angles": [
+   "Orta çizgiyi bulma",
+   "kol ve uyluğun orta çizgiden uzaklaşması",
+   "yana açışın çıkış ve dönüş evreleri"
+  ],
+  "source_note": "Soru kökünde «adam kaçırma» yazıyor. Seçenekler ve anahtar abdüksiyonu işaret ediyor.",
+  "long_topic": "T04",
+  "status": "todo"
+ },
+ {
+  "id": "Q004",
+  "aha": "AHA-0004",
+  "concept": "Günlük hayatta ve salonda addüksiyon",
+  "angles": [
+   "Uzvun orta çizgiye yaklaşması",
+   "iç bacak makinesi ve yana açılmış kolun indirilmesi",
+   "iç rotasyondan ayrımı"
+  ],
+  "source_note": "",
+  "long_topic": "T04",
+  "status": "todo"
+ },
+ {
+  "id": "Q005",
+  "aha": "AHA-0005",
+  "concept": "Omuz silkmede skapula elevasyonu",
+  "angles": [
+   "Kürek kemiğinin yukarı hareketi",
+   "arkadan omuz silkme çekimi",
+   "skapula elevasyonu ile kol kaldırmanın ayrımı"
+  ],
+  "source_note": "Hareket türünü soran ifade bozuk.",
+  "long_topic": "T05",
+  "status": "todo"
+ },
+ {
+  "id": "Q006",
+  "aha": "AHA-0006",
+  "concept": "Skapula depresyonu ve anatomide aşağı hareket",
+  "angles": [
+   "Skapulanın aşağı hareketi",
+   "omuz silkmeden dönüş",
+   "alt çenenin alçalması"
+  ],
+  "source_note": "Soru kökü bozuk. Anahtardaki ifade D seçeneğinden daha kısa.",
+  "long_topic": "T05",
+  "status": "todo"
+ },
+ {
+  "id": "Q007",
+  "aha": "AHA-0007",
+  "concept": "Transvers düzlemi hayali bir kesitle anlamak",
+  "angles": [
+   "Modelde üst ve alt bölümler",
+   "diğer iki düzlemle karşılaştırma",
+   "hareket düzlemi ve dönme ekseni"
+  ],
+  "source_note": "Soru kökünün bir bölümü bozuk.",
+  "long_topic": "T01",
+  "status": "todo"
+ },
+ {
+  "id": "Q008",
+  "aha": "AHA-0008",
+  "concept": "Gövde rotasyonuna yukarıdan bakış",
+  "angles": [
+   "Üstten çekimde gövdenin dönüşü",
+   "transvers düzlemin tanınması",
+   "gövde ve pelvisin birlikte dönüşüyle karşılaştırma"
+  ],
+  "source_note": "",
+  "long_topic": "T02",
+  "status": "todo"
+ },
+ {
+  "id": "Q009",
+  "aha": "AHA-0009",
+  "concept": "Biceps curl hareketine yandan bakış",
+  "angles": [
+   "Dirsek fleksiyonunu izleme",
+   "tipik uygulamada sagittal düzlem",
+   "dirsek hareketini ön kol rotasyonundan ayırma"
+  ],
+  "source_note": "",
+  "long_topic": "T01",
+  "status": "todo"
+ },
+ {
+  "id": "Q010",
+  "aha": "AHA-0010",
+  "concept": "Yana lunge hangi düzlemde gerçekleşir?",
+  "angles": [
+   "Önden çekimde yana yer değiştirme",
+   "baskın frontal düzlem",
+   "ikinci açıdan diz fleksiyonu"
+  ],
+  "source_note": "Transvers ve yatay seçenekleri aynı düzlemi ifade ediyor.",
+  "long_topic": "T01",
+  "status": "todo"
+ },
+ {
+  "id": "Q011",
+  "aha": "AHA-0011",
+  "concept": "Eklem nerede bulunur ve hareketi nasıl sağlar?",
+  "angles": [
+   "Kemiklerin birleştiği yer",
+   "dirsek ile kafatası sütürünün karşılaştırılması",
+   "eklem yapısı ve hareket açıklığı"
+  ],
+  "source_note": "Soru kökü ve bir çeldirici bozuk.",
+  "long_topic": "T07",
+  "status": "todo"
+ },
+ {
+  "id": "Q012",
+  "aha": "AHA-0012",
+  "concept": "Bağlar eklemi nasıl dengede tutar?",
+  "angles": [
+   "Diz modelinde bağların konumu",
+   "aşırı hareketi sınırlama",
+   "tendon ve eklem kapsülüyle karşılaştırma"
+  ],
+  "source_note": "Soru kökü ve C seçeneği bozuk.",
+  "long_topic": "T08",
+  "status": "todo"
+ },
+ {
+  "id": "Q013",
+  "aha": "AHA-0013",
+  "concept": "Tendon kuvveti kastan kemiğe nasıl iletir?",
+  "angles": [
+   "Kas ve kemik arasındaki kuvvet yolu",
+   "modelde Aşil tendonunu izleme",
+   "bağ ile karşılaştırma"
+  ],
+  "source_note": "Soru kökü ve D seçeneği bozuk.",
+  "long_topic": "T08",
+  "status": "todo"
+ },
+ {
+  "id": "Q014",
+  "aha": "AHA-0014",
+  "concept": "Sinovyal eklemin içinde neler var?",
+  "angles": [
+   "Eklem kesitini inceleme",
+   "kapsül ve eklem boşluğu",
+   "sinovyal sıvının işlevi"
+  ],
+  "source_note": "Soru kökü ve cevap ifadesi bozuk.",
+  "long_topic": "T07",
+  "status": "todo"
+ },
+ {
+  "id": "Q015",
+  "aha": "AHA-0015",
+  "concept": "Göğüs kafesi kalbi ve akciğerleri nasıl korur?",
+  "angles": [
+   "Kaburgaların arkasındaki organlar",
+   "sternum ve kaburgaların rolü",
+   "solunumda göğüs hacminin değişmesi"
+  ],
+  "source_note": "",
+  "long_topic": "T09",
+  "status": "todo"
+ },
+ {
+  "id": "Q016",
+  "aha": "AHA-0016",
+  "concept": "Kafatası beyni nasıl korur?",
+  "angles": [
+   "Beyni çevreleyen kemik yapı",
+   "beyin ve yüz bölümlerini ayırma",
+   "kemik ve diğer koruyucu yapıların iş birliği"
+  ],
+  "source_note": "Soru köküne ilgisiz bir kelime karışmış.",
+  "long_topic": "T09",
+  "status": "todo"
+ },
+ {
+  "id": "Q017",
+  "aha": "AHA-0017",
+  "concept": "Miyoloji ile kas yapısından harekete",
+  "angles": [
+   "Kas biliminin konusu",
+   "osteolojiyle karşılaştırma",
+   "kas görsellerinden yapı ve işlevi okuma"
+  ],
+  "source_note": "",
+  "long_topic": "T10",
+  "status": "todo"
+ },
+ {
+  "id": "Q018",
+  "aha": "AHA-0018",
+  "concept": "Anatomi atlasında Musculus ne anlama gelir?",
+  "angles": [
+   "Latince kelimenin anlamı",
+   "iki kas adında kullanımı",
+   "tam kas adını okuma"
+  ],
+  "source_note": "Soru kökündeki fiil bozuk.",
+  "long_topic": "T10",
+  "status": "todo"
+ },
+ {
+  "id": "Q019",
+  "aha": "AHA-0019",
+  "concept": "Kas neden hareket sisteminin aktif parçasıdır?",
+  "angles": [
+   "Kasılmayla kuvvet üretme",
+   "kuvvetin kemiğe aktarılması",
+   "hareket ve pozisyonu koruma örnekleri"
+  ],
+  "source_note": "Soru kökü ve C seçeneği bozuk.",
+  "long_topic": "T09",
+  "status": "todo"
+ },
+ {
+  "id": "Q020",
+  "aha": "AHA-0020",
+  "concept": "Bir harekette kemik eklem ve kasın görevleri",
+  "angles": [
+   "Sandalyeden kalkmayı inceleme",
+   "kaldıraç ve eklem ve kuvvet üreticisi",
+   "üç yapının birlikte çalışması"
+  ],
+  "source_note": "",
+  "long_topic": "T09",
+  "status": "todo"
+ },
+ {
+  "id": "Q021",
+  "aha": "AHA-0021",
+  "concept": "Squattan kalkarken dizde ne olur?",
+  "angles": [
+   "Kalkışı yandan izleme",
+   "diz açısının büyümesi",
+   "diz ekstansiyonu ve kasların görevleri"
+  ],
+  "source_note": "Soru kökünün bir bölümü bozuk.",
+  "long_topic": "T03",
+  "status": "todo"
+ },
+ {
+  "id": "Q022",
+  "aha": "AHA-0022",
+  "concept": "Squatın inişinde kalça fleksiyonu",
+  "angles": [
+   "Üç yükseklikte görüntüyü durdurma",
+   "uyluk ve gövdenin açısını izleme",
+   "kalça ve diz fleksiyonunu karşılaştırma"
+  ],
+  "source_note": "A seçeneği bükülmeyi söylerken anahtarda ilgisiz «çekim» kelimesi yazıyor.",
+  "long_topic": "T03",
+  "status": "todo"
+ },
+ {
+  "id": "Q023",
+  "aha": "AHA-0023",
+  "concept": "Squatı sagittal düzlemde incelemek",
+  "angles": [
+   "Yandan kalça ve diz hareketi",
+   "baskın hareket düzlemi",
+   "önden çekimde yana doğru kontrol"
+  ],
+  "source_note": "Kök pozisyon ve ağır ağırlıkla ilgili görünüyor. Seçenekler ve anahtar hareket düzlemini soruyor.",
+  "long_topic": "T01",
+  "status": "todo"
+ },
+ {
+  "id": "Q024",
+  "aha": "AHA-0024",
+  "concept": "Kabloyla dönüşte tutacaktan gövdeye hareket",
+  "angles": [
+   "Kablonun çekiş yönü",
+   "üstten çekimde transvers düzlem",
+   "gövde rotasyonu ile elin yer değiştirmesi"
+  ],
+  "source_note": "Hareket adı kökte bozuk. Koronal ve frontal aynı düzlemi ifade ediyor.",
+  "long_topic": "T02",
+  "status": "todo"
+ },
+ {
+  "id": "Q025",
+  "aha": "AHA-0025",
+  "concept": "Omurganın yana eğilmesine önden bakış",
+  "angles": [
+   "Bir yanda kaburga ve pelvisin yaklaşması",
+   "frontal düzlemi tanıma",
+   "yana eğilme ile rotasyonu karşılaştırma"
+  ],
+  "source_note": "Transvers ve yatay aynı düzlemi ifade ediyor.",
+  "long_topic": "T01",
+  "status": "todo"
+ },
+ {
+  "id": "Q026",
+  "aha": "AHA-0026",
+  "concept": "Kapalı zincir squatta kaç eklem birlikte çalışır?",
+  "angles": [
+   "Ayağın zeminde sabit kalması",
+   "ayak bileği ve diz ve kalçanın izlenmesi",
+   "oturarak diz açmayla karşılaştırma"
+  ],
+  "source_note": "Soru kökü bozuk. Anahtar birden fazla bölümün katılımını gösteriyor.",
+  "long_topic": "T11",
+  "status": "todo"
+ },
+ {
+  "id": "Q027",
+  "aha": "AHA-0027",
+  "concept": "Diz ekstansiyon makinesi neden açık zincir örneğidir?",
+  "angles": [
+   "Uzvun uç bölümünün serbestliği",
+   "diz hareketine odaklanma",
+   "çok eklemli açık zincir örneği"
+  ],
+  "source_note": "Soru kökü bozuk. Tek eklem hareketi yaygın bir örnektir.",
+  "long_topic": "T11",
+  "status": "todo"
+ },
+ {
+  "id": "Q028",
+  "aha": "AHA-0028",
+  "concept": "Postür değerlendirmesinde yer çekimi çizgisi",
+  "angles": [
+   "Şakülle dikey referans oluşturma",
+   "yandan çekimde vücut noktalarını karşılaştırma",
+   "tek bir görüntünün sınırları"
+  ],
+  "source_note": "Soru kökü bozuk.",
+  "long_topic": "T12",
+  "status": "todo"
+ },
+ {
+  "id": "Q029",
+  "aha": "AHA-0029",
+  "concept": "Manuel kas testinde sıfır puan",
+  "angles": [
+   "Saptanabilir kasılmanın olmaması",
+   "hafif kasılmadan ayrımı",
+   "kas adı ve test tarafını kaydetme"
+  ],
+  "source_note": "Anahtardaki «kas gücü yok» ifadesi geniştir. Ölçüt saptanabilir kasılmanın olmamasıdır.",
+  "long_topic": "T14",
+  "status": "todo"
+ },
+ {
+  "id": "Q030",
+  "aha": "AHA-0030",
+  "concept": "Eklem hareket etmediğinde kas testinde bir puan",
+  "angles": [
+   "Hafif kasılma ile eklem hareketinin ayrımı",
+   "kasılmayı gözlemleme veya hissetme",
+   "sıfır puanla karşılaştırma"
+  ],
+  "source_note": "Anahtar yalnız görünür kasılmayı anıyor. Hissedilebilen kasılmayı ve eklem hareketinin yokluğunu belirtmiyor.",
+  "long_topic": "T14",
+  "status": "todo"
+ },
+ {
+  "id": "Q031",
+  "aha": "AHA-0031",
+  "concept": "Kas testinde iki puan ve yer çekimi etkisinin kaldırılması",
+  "angles": [
+   "Uzvun konumunu değiştirme",
+   "destekle hareket açıklığını gösterme",
+   "yer çekimine karşı hareketle karşılaştırma"
+  ],
+  "source_note": "Soru kökü, seçenek ve anahtar metni bozuk.",
+  "long_topic": "T14",
+  "status": "todo"
+ },
+ {
+  "id": "Q032",
+  "aha": "AHA-0032",
+  "concept": "Kas testinde üç puan ve yer çekimine karşı tam hareket",
+  "angles": [
+   "Yer çekimine karşı tam hareket açıklığı",
+   "ek direnç olmadan gözlem",
+   "iki ve dört puanla karşılaştırma"
+  ],
+  "source_note": "Soru kökü, seçenek ve anahtar metni bozuk.",
+  "long_topic": "T14",
+  "status": "todo"
+ },
+ {
+  "id": "Q033",
+  "aha": "AHA-0033",
+  "concept": "Kas testinde dört puan ve direncin rolü",
+  "angles": [
+   "Yer çekimine ve dirence karşı hareket",
+   "üç ve beş puanla karşılaştırma",
+   "uzvu sabitlemenin sonuca etkisi"
+  ],
+  "source_note": "Soru kökü bozuk. Anahtar direnci yalnız kısmen tarif ediyor.",
+  "long_topic": "T14",
+  "status": "todo"
+ },
+ {
+  "id": "Q034",
+  "aha": "AHA-0034",
+  "concept": "Fitness eğitmeni insanların daha aktif olmasına nasıl yardım eder?",
+  "angles": [
+   "Günlük aktivite üzerine görüşme",
+   "uygulanabilir hedef belirleme",
+   "örnek haftayla ilerlemeyi gözden geçirme"
+  ],
+  "source_note": "Soru kökü ve anahtar bozuk. Konu C seçeneğinden çıkarıldı.",
+  "long_topic": "T15",
+  "status": "todo"
+ },
+ {
+  "id": "Q035",
+  "aha": "AHA-0035",
+  "concept": "Egzersize başlama kararını hangi engeller geciktirir?",
+  "angles": [
+   "Zaman ve erişim engellerini belirleme",
+   "bireyin tercihlerini dinleme",
+   "engele uygun küçük bir başlangıç tasarlama"
+  ],
+  "source_note": "Kök, C seçeneği ve anahtar ciddi ölçüde bozuk. Katılım konusu okunabilen bölümlerden çıkarıldı.",
+  "long_topic": "T16",
+  "status": "todo"
+ },
+ {
+  "id": "Q036",
+  "aha": "AHA-0036",
+  "concept": "Spor salonundaki ilk görüşmede eğitmenin iletişimi",
+  "angles": [
+   "Açık uçlu soru ve dinleme",
+   "hareket öğretirken açık geri bildirim",
+   "yetki sınırları ve uygun yönlendirme"
+  ],
+  "source_note": "Eğitmenin beceri alanını soran ifade bozuk.",
+  "long_topic": "T15",
+  "status": "todo"
+ },
+ {
+  "id": "Q037",
+  "aha": "AHA-0037",
+  "concept": "Egzersiz programı sağlığı korumaya ve geliştirmeye nasıl yardım eder?",
+  "angles": [
+   "Sağlık hedefini takip edilebilir aktiviteye dönüştürme",
+   "yük ve toparlanmayı dengeleme",
+   "geri bildirimle programı gözden geçirme"
+  ],
+  "source_note": "Anahtar metni bozuk. B seçeneği amacı açıkça veriyor.",
+  "long_topic": "T17",
+  "status": "todo"
+ },
+ {
+  "id": "Q038",
+  "aha": "AHA-0038",
+  "concept": "Fizyoloji vücudun işleyişini nasıl açıklar?",
+  "angles": [
+   "Yapı ve işlev arasındaki ayrım",
+   "kalp ve solunum ve kas örnekleri",
+   "tek bir yanıtı birden fazla sistemde izleme"
+  ],
+  "source_note": "",
+  "long_topic": "T18",
+  "status": "todo"
+ },
+ {
+  "id": "Q039",
+  "aha": "AHA-0039",
+  "concept": "Egzersiz fizyolojisi hareket sırasında neleri ölçer?",
+  "angles": [
+   "Nabız ve solunumdaki değişimler",
+   "kısa vadeli yanıt ve tekrarla gelişen uyum",
+   "gözlemi ölçülebilir soruya dönüştürme"
+  ],
+  "source_note": "Alan adı, B seçeneği ve anahtar metni bozuk.",
+  "long_topic": "T18",
+  "status": "todo"
+ },
+ {
+  "id": "Q040",
+  "aha": "AHA-0040",
+  "concept": "Egzersizin başlangıcından soğumaya kadar anlık yanıtlar",
+  "angles": [
+   "Tek seansta değişimi izleme",
+   "başlangıç ve zirve ve toparlanmayı karşılaştırma",
+   "akut yanıt ve kalıcı değişim"
+  ],
+  "source_note": "Zaman ölçeğini soran ifade bozuk.",
+  "long_topic": "T19",
+  "status": "todo"
+ },
+ {
+  "id": "Q041",
+  "aha": "AHA-0041",
+  "concept": "El dinamometresi neyi ölçer?",
+  "angles": [
+   "Cihaz ve tutacağı tanıtma",
+   "tek denemenin sonucunu okuma",
+   "kavrama kuvveti ve kavrama dayanıklılığı"
+  ],
+  "source_note": "Ölçülen özelliğin adı soru kökünde bozuk.",
+  "long_topic": "T20",
+  "status": "todo"
+ },
+ {
+  "id": "Q042",
+  "aha": "AHA-0042",
+  "concept": "Statik squat testi bacakların performansı hakkında ne söyler?",
+  "angles": [
+   "Duvara dayanarak pozisyonu koruma",
+   "tutuş süresini statik dayanıklılık göstergesi olarak yorumlama",
+   "azami kuvvet ölçümüyle karşılaştırma"
+  ],
+  "source_note": "Anahtarda kuvvet ve dayanıklılık birlikte geçiyor. Tutuş süresi azami kuvveti doğrudan ölçmez.",
+  "long_topic": "T21",
+  "status": "todo"
+ },
+ {
+  "id": "Q043",
+  "aha": "AHA-0043",
+  "concept": "Plank testi gövde performansı hakkında ne gösterir?",
+  "angles": [
+   "Pozisyonu korumak için statik çalışma",
+   "geçerli sürenin yorumu",
+   "omuzların ve formun sonuca etkisi"
+  ],
+  "source_note": "Anahtar kuvveti ve dayanıklılığı birlikte veriyor. Süre, ilgili pozisyondaki dayanıklılığı gösterir.",
+  "long_topic": "T22",
+  "status": "todo"
+ },
+ {
+  "id": "Q044",
+  "aha": "AHA-0044",
+  "concept": "El boyutuna göre dinamometre tutacağını ayarlamak",
+  "angles": [
+   "Tutacak açıklığı ve parmak pozisyonu",
+   "cihaz ayarını kaydetme",
+   "sonraki ölçümlerde aynı ayarı kullanma"
+  ],
+  "source_note": "",
+  "long_topic": "T20",
+  "status": "todo"
+ },
+ {
+  "id": "Q045",
+  "aha": "AHA-0045",
+  "concept": "Kavrama testinde hangi puan raporlanmalı?",
+  "angles": [
+   "Ham denemeleri her el için ayrı kaydetme",
+   "her elin en iyisi ve genel en iyi sonuç",
+   "dört değerle örnek"
+  ],
+  "source_note": "B seçeneği her elin en iyi derecesini, anahtar iki el arasındaki en iyi dereceyi söylüyor.",
+  "long_topic": "T20",
+  "status": "todo"
+ },
+ {
+  "id": "Q046",
+  "aha": "AHA-0046",
+  "concept": "Yeni denemeden önce dinamometreyi sıfırlamak",
+  "angles": [
+   "Başlangıç göstergesini kontrol etme",
+   "analog ibre ile dijital ekran",
+   "önceki değerin kayda yansıması"
+  ],
+  "source_note": "Soru kökü bozuk. Sıfırlama ayrıntıları cihaz modeline bağlı.",
+  "long_topic": "T20",
+  "status": "todo"
+ },
+ {
+  "id": "Q047",
+  "aha": "AHA-0047",
+  "concept": "Aerobik dayanıklılıkta kalp ve akciğerler nasıl birlikte çalışır?",
+  "angles": [
+   "Oksijenin akciğerlere girişi",
+   "dolaşımla taşınması",
+   "aktif kaslara kadar izlenen yol"
+  ],
+  "source_note": "",
+  "long_topic": "T23",
+  "status": "todo"
+ },
+ {
+  "id": "Q048",
+  "aha": "AHA-0048",
+  "concept": "Plank testinde hangi süre kaydedilir?",
+  "angles": [
+   "Geçerli pozisyonu tanımlama",
+   "zamanlamanın başlangıcı ve bitişi",
+   "toplam süre ile doğru form süresini ayırma"
+  ],
+  "source_note": "Soru kökü bozuk. Seçenek ve anahtar doğru pozisyonun süresini işaret ediyor.",
+  "long_topic": "T22",
+  "status": "todo"
+ },
+ {
+  "id": "Q049",
+  "aha": "AHA-0049",
+  "concept": "Duvar squatında diz açısı nasıl kontrol edilir?",
+  "angles": [
+   "Açıyı yandan çekimde bulma",
+   "kaynak protokolündeki 90 derece hedefi",
+   "açı değişiminin sonuçları karşılaştırmaya etkisi"
+  ],
+  "source_note": "",
+  "long_topic": "T21",
+  "status": "todo"
+ },
+ {
+  "id": "Q050",
+  "aha": "AHA-0050",
+  "concept": "Statik squatta sırtın ve kalçanın duvarla teması",
+  "angles": [
+   "Duvara yaslanma pozisyonu",
+   "temas noktalarını görüntüde işaretleme",
+   "test sırasında temas değişimini kaydetme"
+  ],
+  "source_note": "Kalçayla birlikte anılan vücut bölümü bozuk. «Sırt» testin yapısından çıkarıldı.",
+  "long_topic": "T21",
+  "status": "todo"
+ },
+ {
+  "id": "Q051",
+  "aha": "AHA-0051",
+  "concept": "Plankta vücut çizgisi nasıl görünür?",
+  "angles": [
+   "Baş ve gövde ve kalçayı yandan izleme",
+   "kalçanın düşmesi veya yükselmesi",
+   "durdurulmuş görüntüde form kontrolü"
+  ],
+  "source_note": "",
+  "long_topic": "T22",
+  "status": "todo"
+ },
+ {
+  "id": "Q052",
+  "aha": "AHA-0052",
+  "concept": "Kronometreyle plank süresini tutarlı ölçmek",
+  "angles": [
+   "Belirgin bir başlangıç noktası seçme",
+   "önceden tanımlanan ölçütle süreyi durdurma",
+   "saniye kaydı ve video kontrolü"
+  ],
+  "source_note": "",
+  "long_topic": "T22",
+  "status": "todo"
+ },
+ {
+  "id": "Q053",
+  "aha": "AHA-0053",
+  "concept": "Statik squat puanı doğru formdan süre kaydına",
+  "angles": [
+   "Geçerli pozisyonu tanımlama",
+   "tutuş süresini kaydetme",
+   "süre puanı ile tekrar sayısı arasındaki fark"
+  ],
+  "source_note": "A seçeneğinde yalnız doğru duruş yazıyor. Anahtar süreye işaret ediyor.",
+  "long_topic": "T21",
+  "status": "todo"
+ },
+ {
+  "id": "Q054",
+  "aha": "AHA-0054",
+  "concept": "Plank testinde tek deneme sonucu nasıl etkiler?",
+  "angles": [
+   "Kaynak protokolünde tek deneme kuralı",
+   "harekete alışma ile resmi ölçümü ayırma",
+   "deneme sayısını raporlama"
+  ],
+  "source_note": "",
+  "long_topic": "T22",
+  "status": "todo"
+ },
+ {
+  "id": "Q055",
+  "aha": "AHA-0055",
+  "concept": "Statik squat protokolünde neden ikinci deneme kaydedilmiyor?",
+  "angles": [
+   "Kaynaktaki tek deneme kuralı",
+   "tekrar denemesinde yorgunluk ve alışma",
+   "eksik veya geçersiz uygulamayı kaydetme"
+  ],
+  "source_note": "Squat sözcüğü kökte bozuk. Cevap kaynakta aktarılan protokole ait.",
+  "long_topic": "T21",
+  "status": "todo"
+ },
+ {
+  "id": "Q056",
+  "aha": "AHA-0056",
+  "concept": "Dinamometrede kilogram olarak görünen sayı neyi ifade eder?",
+  "angles": [
+   "Ekrandaki ve tablodaki birimi okuma",
+   "kg veya kgf olarak verilen kuvvet ile kütle arasındaki fark",
+   "aynı birime sahip sonuçları karşılaştırma"
+  ],
+  "source_note": "",
+  "long_topic": "T20",
+  "status": "todo"
+ },
+ {
+  "id": "Q057",
+  "aha": "AHA-0057",
+  "concept": "Kavrama kuvvetini neden iki elde ölçeriz?",
+  "angles": [
+   "Sağ ve sol eli ayrı kaydetme",
+   "baskın eli belirtme",
+   "aynı uygulama koşullarında sonuçları karşılaştırma"
+  ],
+  "source_note": "",
+  "long_topic": "T20",
+  "status": "todo"
+ },
+ {
+  "id": "Q058",
+  "aha": "AHA-0058",
+  "concept": "Ön kol plankında hangi bölümler yere temas eder?",
+  "angles": [
+   "Ön kol plankındaki temas noktaları",
+   "eller üzerinde ve uyarlanmış plankla karşılaştırma",
+   "tipik formda yere değmeyen bölümler"
+  ],
+  "source_note": "Kök yere değmeyen bölümü soruyor ve anahtar «ön kol» diyor. Ön kol plankında ön kol bir destek noktasıdır. Diğer seçeneklerden birkaçı yere değmez.",
+  "long_topic": "T22",
+  "status": "todo"
+ },
+ {
+  "id": "Q059",
+  "aha": "AHA-0059",
+  "concept": "Duvar squatında ayak yerleşimi nasıl tekrarlanır?",
+  "angles": [
+   "Önden ayak açıklığını izleme",
+   "yandan duvara göre ayak mesafesi",
+   "sonraki ölçüm için yer işaretleme"
+  ],
+  "source_note": "A seçeneğinin etiketi yok ve metni eksik. 1970 kaynak numarası 1979 ile 1981 arasında verilmiş ve korunmuştur.",
+  "long_topic": "T21",
+  "status": "todo"
+ },
+ {
+  "id": "Q060",
+  "aha": "AHA-0060",
+  "concept": "Kalp çalışan kasa oksijeni nasıl ulaştırır?",
+  "angles": [
+   "Kalbin kanı pompalaması",
+   "kan akımı ve oksijen içeriği",
+   "aktif kasa kadar dolaşım yolu"
+  ],
+  "source_note": "Anahtar metni bozuk. Oksijen taşıma konusu B seçeneğinden çıkarıldı.",
+  "long_topic": "T23",
+  "status": "todo"
+ },
+ {
+  "id": "Q061",
+  "aha": "AHA-0061",
+  "concept": "Kalp atım hızı rezervinde orta şiddet aralığı",
+  "angles": [
+   "Kalp atım hızı rezervinin tanımı",
+   "kaynak tablosunda yüzde 40–59 aralığı",
+   "örnek dinlenik nabızla hesap"
+  ],
+  "source_note": "İkinci seçenek bozuk ve etiketsiz. Aralık kaynak tablosuna aittir.",
+  "long_topic": "T24",
+  "status": "todo"
+ },
+ {
+  "id": "Q062",
+  "aha": "AHA-0062",
+  "concept": "Kalp atım hızı rezervi tablosunda düşük şiddet",
+  "angles": [
+   "Tabloda yüzde 20–39 aralığı",
+   "kurgusal verilerle hedef nabız hesabı",
+   "düşük ve orta şiddetin sınırı"
+  ],
+  "source_note": "",
+  "long_topic": "T24",
+  "status": "todo"
+ },
+ {
+  "id": "Q063",
+  "aha": "AHA-0063",
+  "concept": "Kalp atım hızı rezervi tablosunda yüksek şiddet",
+  "angles": [
+   "Tabloda yüzde 60–84 aralığı",
+   "aralığı grafikte gösterme",
+   "tablo sınıflandırması ile bireysel antrenman planı arasındaki fark"
+  ],
+  "source_note": "",
+  "long_topic": "T24",
+  "status": "todo"
+ },
+ {
+  "id": "Q064",
+  "aha": "AHA-0064",
+  "concept": "Kalp atım hızı rezervinin yüzde 20’sinden azı ne demek?",
+  "angles": [
+   "Çok düşük şiddeti çizgi üzerinde gösterme",
+   "komşu düşük şiddet aralığı",
+   "sınırda yuvarlamanın etkisi"
+  ],
+  "source_note": "",
+  "long_topic": "T24",
+  "status": "todo"
+ },
+ {
+  "id": "Q065",
+  "aha": "AHA-0065",
+  "concept": "Maksimum kalp atım hızına göre orta şiddet",
+  "angles": [
+   "Kaynak tablosunda yüzde 55–69 aralığı",
+   "varsayımsal maksimum nabızla hesap",
+   "aynı kişi için rezerv yüzdesiyle karşılaştırma"
+  ],
+  "source_note": "",
+  "long_topic": "T25",
+  "status": "todo"
+ },
+ {
+  "id": "Q066",
+  "aha": "AHA-0066",
+  "concept": "Maksimum kalp atım hızı ölçeğinde düşük şiddet",
+  "angles": [
+   "Tabloda yüzde 35–54 aralığı",
+   "orta şiddetle sınırı çizme",
+   "maksimum nabız tahmin hatasının etkisi"
+  ],
+  "source_note": "",
+  "long_topic": "T25",
+  "status": "todo"
+ },
+ {
+  "id": "Q067",
+  "aha": "AHA-0067",
+  "concept": "Maksimum kalp atım hızına göre yüksek şiddet",
+  "angles": [
+   "Kaynak tablosunda yüzde 70–89 aralığı",
+   "grafikte sayısal örnek",
+   "ölçülen ve tahmin edilen maksimum nabız"
+  ],
+  "source_note": "",
+  "long_topic": "T25",
+  "status": "todo"
+ },
+ {
+  "id": "Q068",
+  "aha": "AHA-0068",
+  "concept": "Algılanan efor ve orta şiddetin belirsiz sınırı",
+  "angles": [
+   "Algılanan efor ölçeğinin tanımı",
+   "kaynakta orta verilen 6–7 aralığı",
+   "ölçeği belirtilen bir kılavuzla karşılaştırma"
+  ],
+  "source_note": "7 puan AHA-0069’daki yüksek şiddet aralığıyla çakışıyor. Ölçeğin adı ve sınırları belirtilmemiş.",
+  "long_topic": "T26",
+  "status": "todo"
+ },
+ {
+  "id": "Q069",
+  "aha": "AHA-0069",
+  "concept": "Algılanan eforda 7 puan orta mı yüksek mi?",
+  "angles": [
+   "Kaynakta yüksek verilen 7–8 aralığı",
+   "7 puanın iki sınıfa girmesi",
+   "kayıt sırasında ölçeğin adını belirtme"
+  ],
+  "source_note": "7 puan AHA-0068’de orta şiddette de yer alıyor. Ölçeğin adı ve sınırları belirsiz.",
+  "long_topic": "T26",
+  "status": "todo"
+ },
+ {
+  "id": "Q070",
+  "aha": "AHA-0070",
+  "concept": "Oksijen kullanma kapasitesi aerobik dayanıklılığı nasıl etkiler?",
+  "angles": [
+   "Havadan kasa oksijenin yolu",
+   "egzersizde oksijen alımı",
+   "aerobik kapasite ile dayanıklılık performansı"
+  ],
+  "source_note": "Soru kökü bozuk. Konu B seçeneği ve anahtardan çıkarıldı.",
+  "long_topic": "T23",
+  "status": "todo"
+ },
+ {
+  "id": "Q071",
+  "aha": "AHA-0071",
+  "concept": "Aerobik antrenmanda aşırı yüklenme ilkesi",
+  "angles": [
+   "Antrenman uyaranı ve uyum ilişkisi",
+   "yürüyüş örneğinde süreyi veya şiddeti kademeli değiştirme",
+   "yanıtı ve toparlanmayı izleme"
+  ],
+  "source_note": "",
+  "long_topic": "T27",
+  "status": "todo"
+ },
+ {
+  "id": "Q072",
+  "aha": "AHA-0072",
+  "concept": "Ön kol rotasyonu pronasyon ve supinasyon",
+  "angles": [
+   "Avuç yönünün değişmesi",
+   "radius ve ulnanın konumu",
+   "ön kolun uzun ekseni etrafında dönüş"
+  ],
+  "source_note": "Soruda eklem belirtilmemiş. Konu ön kol rotasyonu üzerinden ele alındı.",
+  "long_topic": "T02",
+  "status": "todo"
+ },
+ {
+  "id": "Q073",
+  "aha": "AHA-0073",
+  "concept": "Omuzda ve kalçada iç rotasyon nasıl tanınır?",
+  "angles": [
+   "Anatomik pozisyonda gösterim",
+   "uyluk ve üst kol örnekleri",
+   "referans konumda uzunlamasına eksen ve transvers düzlem"
+  ],
+  "source_note": "Frontal ve koronal aynı düzlemi ifade ediyor.",
+  "long_topic": "T02",
+  "status": "todo"
+ },
+ {
+  "id": "Q074",
+  "aha": "AHA-0074",
+  "concept": "Öne lunge hareketini yandan incelemek",
+  "angles": [
+   "Öne atılan adımın yolu",
+   "kalça ve dizin bükülüp açılması",
+   "yana lunge ile baskın düzlemin karşılaştırılması"
+  ],
+  "source_note": "Transvers ve yatay aynı düzlemi ifade ediyor.",
+  "long_topic": "T01",
+  "status": "todo"
+ },
+ {
+  "id": "Q075",
+  "aha": "AHA-0075",
+  "concept": "Sağlık topuyla rotasyonlu atışa üstten bakış",
+  "angles": [
+   "Pelvis ve gövde rotasyonunu izleme",
+   "top yolunu transvers düzlemde inceleme",
+   "baskın hareket ve eşlik eden hareketler"
+  ],
+  "source_note": "Koronal ve frontal aynı düzlemi ifade ediyor.",
+  "long_topic": "T02",
+  "status": "todo"
+ },
+ {
+  "id": "Q076",
+  "aha": "AHA-0076",
+  "concept": "Ayak tabanı içe ve dışa döndüğünde ne olur?",
+  "angles": [
+   "Modelde inversiyon ve eversiyon",
+   "frontal bileşeni gösterme",
+   "modeldeki tek yönlü hareket ile ayağın birleşik hareketi"
+  ],
+  "source_note": "Anahtar frontal düzlemi basitleştirilmiş biçimde veriyor. Transvers ve yatay aynı düzlemdir.",
+  "long_topic": "T06",
+  "status": "todo"
+ },
+ {
+  "id": "Q077",
+  "aha": "AHA-0077",
+  "concept": "Sirkümdüksiyon nasıl koni biçimli bir yol oluşturur?",
+  "angles": [
+   "Omuzda kolun dairesel yolu",
+   "fleksiyon, abdüksiyon, ekstansiyon ve addüksiyon",
+   "eksen etrafında rotasyonla karşılaştırma"
+  ],
+  "source_note": "D seçeneğinin metni eksik ve anahtar bozuk.",
+  "long_topic": "T06",
+  "status": "todo"
+ },
+ {
+  "id": "Q078",
+  "aha": "AHA-0078",
+  "concept": "Ekstansiyon diz ve dirsekte nasıl görünür?",
+  "angles": [
+   "Eklem açısının büyümesi",
+   "aynı eklemde fleksiyonla karşılaştırma",
+   "günlük hareket ve egzersiz örneği"
+  ],
+  "source_note": "",
+  "long_topic": "T03",
+  "status": "todo"
+ },
+ {
+  "id": "Q079",
+  "aha": "AHA-0079",
+  "concept": "Sinovyal sıvı eklemin tam olarak neresinde bulunur?",
+  "angles": [
+   "Modelde eklem boşluğunu bulma",
+   "zar ve sıvı ilişkisi",
+   "eklem içi ve dışındaki yapıların karşılaştırılması"
+  ],
+  "source_note": "",
+  "long_topic": "T07",
+  "status": "todo"
+ },
+ {
+  "id": "Q080",
+  "aha": "AHA-0080",
+  "concept": "Eklem yapısını bilmek egzersiz seçiminde ne sağlar?",
+  "angles": [
+   "Diz ile omuzun hareket olanakları",
+   "egzersizin gerektirdiği yön ve açıklık",
+   "kontrol edilebilir hareket açıklığına sahip bir örnek"
+  ],
+  "source_note": "Kökteki anahtar sözcük ve cevap metni bozuk. Konu B seçeneğinden çıkarıldı.",
+  "long_topic": "T07",
+  "status": "todo"
+ },
+ {
+  "id": "Q081",
+  "aha": "AHA-0081",
+  "concept": "Kafatası sütürleri neden dirsek gibi hareket etmez?",
+  "angles": [
+   "Modelde sütürleri bulma",
+   "fibröz bağlantı ile hareketli eklemin karşılaştırılması",
+   "büyüme sürecindeki değişimler ve çene eklemi"
+  ],
+  "source_note": "«Hareketsiz» cevabı sütürleri anlatır. Baş bölgesindeki tüm eklemlere genellenmez.",
+  "long_topic": "T07",
+  "status": "todo"
+ },
+ {
+  "id": "Q082",
+  "aha": "AHA-0082",
+  "concept": "Bir kasın temel işlevini hareketten okumak",
+  "angles": [
+   "Modelde çekiş hattını takip etme",
+   "belirli bir pozisyondaki temel eylem",
+   "birincil kas ve yardımcı kasın rolleri"
+  ],
+  "source_note": "Soru kökü bozuk. Konu A seçeneği ve anahtarından çıkarıldı.",
+  "long_topic": "T10",
+  "status": "todo"
+ },
+ {
+  "id": "Q083",
+  "aha": "AHA-0083",
+  "concept": "Anatomik adlarda M. kısaltması ne anlama gelir?",
+  "angles": [
+   "Atlas örneğinde kısaltmayı açma",
+   "çoğul Mm. biçimiyle karşılaştırma",
+   "kas adını videoda açık biçimde söyleme"
+  ],
+  "source_note": "Soru kökü kısaltmanın yerini belirsiz ifade ediyor.",
+  "long_topic": "T10",
+  "status": "todo"
+ },
+ {
+  "id": "Q084",
+  "aha": "AHA-0084",
+  "concept": "Kalça fleksörü kısalığı ve kas uzunluğu testinin mantığı",
+  "angles": [
+   "Kalça fleksörü grubunu tanıtma",
+   "test gösteriminde uyluk ve pelvisi izleme",
+   "pelvis stabilizasyonunun yoruma etkisi"
+  ],
+  "source_note": "C seçeneği gerginlikten, anahtar kısalıktan söz ediyor. Bu kavramlar ayrı ele alınmalı.",
+  "long_topic": "T13",
+  "status": "todo"
+ },
+ {
+  "id": "Q085",
+  "aha": "AHA-0085",
+  "concept": "Postür analizinde baştan ayağa neye bakılır?",
+  "angles": [
+   "Üst ve alt ekstremiteleri değerlendirmeye katma",
+   "sabit açılardan gözlem kaydı",
+   "duruşu tarif etme ile neden çıkarma arasındaki fark"
+  ],
+  "source_note": "",
+  "long_topic": "T12",
+  "status": "todo"
+ },
+ {
+  "id": "Q086",
+  "aha": "AHA-0086",
+  "concept": "Hamstring kısalığı ile belin telafi hareketi nasıl ayrılır?",
+  "angles": [
+   "Uyluk ve pelvis hareketini izleme",
+   "stabilizasyonla ve stabilizasyonsuz gözlemi karşılaştırma",
+   "bel görünümünden tek başına kas uzunluğu çıkarımının sınırları"
+  ],
+  "source_note": "Soru kökü bozuk. Anahtar yalnız «bel bölgesi» diyor. Ölçüm yöntemi veya ölçütü dosyada açık değil.",
+  "long_topic": "T13",
+  "status": "todo"
+ },
+ {
+  "id": "Q087",
+  "aha": "AHA-0087",
+  "concept": "Kapalı zincirde kaslar nasıl eş zamanlı kasılır?",
+  "angles": [
+   "Squat sırasında diz çevresindeki kuvvetleri gösterme",
+   "stabilizasyonun rolü",
+   "görsel gözlem ve kas aktivitesi ölçümü"
+  ],
+  "source_note": "Soru kökü bozuk. Konu B seçeneği ve anahtarından çıkarıldı.",
+  "long_topic": "T11",
+  "status": "todo"
+ },
+ {
+  "id": "Q088",
+  "aha": "AHA-0088",
+  "concept": "Açık zincirde uzvun hangi bölümü serbesttir?",
+  "angles": [
+   "Diz ekstansiyonunda distal segmenti izleme",
+   "destekli ve serbest bölümün ayrımı",
+   "çok eklemli açık zincir örneği"
+  ],
+  "source_note": "Anahtar «biri sabit, diğeri hareketli» diyor. Tanımlayıcı özellik distal ucun serbestliğidir.",
+  "long_topic": "T11",
+  "status": "todo"
+ },
+ {
+  "id": "Q089",
+  "aha": "AHA-0089",
+  "concept": "Kapalı zincir egzersizi birden fazla düzlemi nasıl içerir?",
+  "angles": [
+   "Squat ve ağırlık aktarımını görüntüde çözümleme",
+   "baskın düzlem ve diğer düzlemlerde kontrol",
+   "zinciri uzvun uç bölümüne göre tanımlama"
+  ],
+  "source_note": "Çok düzlemli hareket bazı uygulamaları tarif eder. Kapalı zincirin tanım koşulu değildir.",
+  "long_topic": "T11",
+  "status": "todo"
+ },
+ {
+  "id": "Q090",
+  "aha": "AHA-0090",
+  "concept": "Eğitmen aktif yaşam konusunda nasıl örnek olur?",
+  "angles": [
+   "Günlük hayata uyarlanabilir davranışlar",
+   "izleyiciye uygun örnek",
+   "eğitmen ve sporcu arasında örnek görüşme"
+  ],
+  "source_note": "",
+  "long_topic": "T15",
+  "status": "todo"
+ },
+ {
+  "id": "Q091",
+  "aha": "AHA-0091",
+  "concept": "Egzersizi haftaya sığdırmak için yaşam tarzı yönetimi",
+  "angles": [
+   "Gerçekçi haftalık takvim çizme",
+   "aktiviteyi iş ve uyku ve ulaşımla uyumlama",
+   "yoğun güne alternatif hazırlama"
+  ],
+  "source_note": "Soru kökü bozuk. Konu B seçeneği ve anahtarından çıkarıldı.",
+  "long_topic": "T16",
+  "status": "todo"
+ },
+ {
+  "id": "Q092",
+  "aha": "AHA-0092",
+  "concept": "Bir engel egzersizi sürdürmeyi zorlaştırdığında ne yapılabilir?",
+  "angles": [
+   "Zaman veya olanak eksikliği senaryosu",
+   "asıl engeli görüşmeyle belirleme",
+   "kişiyle birlikte çözüm geliştirip gözden geçirme"
+  ],
+  "source_note": "Kök ve anahtar bozuk, D seçeneğinin metni eksik. Konu okunabilen kısımlardan çıkarıldı.",
+  "long_topic": "T16",
+  "status": "todo"
+ },
+ {
+  "id": "Q093",
+  "aha": "AHA-0093",
+  "concept": "Düzenli egzersiz vücudu zamanla nasıl değiştirir?",
+  "angles": [
+   "Kronik uyumu tanımlama",
+   "birkaç haftalık örnek seyir",
+   "günlük dalgalanma ile kalıcı eğilim arasındaki fark"
+  ],
+  "source_note": "Kök ve anahtarın bir bölümü bozuk. C seçeneği tekrarlanan egzersize işaret ediyor.",
+  "long_topic": "T17",
+  "status": "todo"
+ },
+ {
+  "id": "Q094",
+  "aha": "AHA-0094",
+  "concept": "Kavrama kuvveti testinde oturma pozisyonu",
+  "angles": [
+   "Oturma pozisyonunun bileşenleri",
+   "gövde ve omuz ve dirsek konumunu kaydetme",
+   "pozisyon değişikliğinin karşılaştırmaya etkisi"
+  ],
+  "source_note": "Dosyada yalnız oturma durumu açık. Eklem açıları seçilen protokolden alınmalı.",
+  "long_topic": "T20",
+  "status": "todo"
+ },
+ {
+  "id": "Q095",
+  "aha": "AHA-0095",
+  "concept": "Dinamometre testinde el ve dirsek nasıl konumlandırılır?",
+  "angles": [
+   "Kaynaktaki kol yanda konumu",
+   "seçilen protokolde dirsek açısı ve el yönü",
+   "her denemede konumu koruma"
+  ],
+  "source_note": "Anahtar «düz ve yanda» diyor. Yönü ve açıları ayrıntılandırmıyor. Uygulama protokole göre değişebilir.",
+  "long_topic": "T20",
+  "status": "todo"
+ },
+ {
+  "id": "Q096",
+  "aha": "AHA-0096",
+  "concept": "Kavrama testinde her el için dört deneme",
+  "angles": [
+   "Dosyada verilen deneme sayısı",
+   "her el için dört değerlik kayıt formu",
+   "sıralama ve dinlenmeyi tam protokolden belirleme"
+  ],
+  "source_note": "Son seçenek bozuk ve etiketsiz. Dört deneme bu dosyada aktarılan uygulamaya aittir.",
+  "long_topic": "T20",
+  "status": "todo"
+ },
+ {
+  "id": "Q097",
+  "aha": "AHA-0097",
+  "concept": "Plankta gövdeyi hangi kaslar dengede tutar?",
+  "angles": [
+   "Gövde kas grupları",
+   "gövdenin düşmesine karşı çalışma",
+   "omuz ve kalçanın katkısı"
+  ],
+  "source_note": "Soru kökü bozuk. Anahtardaki «merkez» işlevsel bir grubu anlatıyor.",
+  "long_topic": "T22",
+  "status": "todo"
+ },
+ {
+  "id": "Q098",
+  "aha": "AHA-0098",
+  "concept": "Statik squatta baş ve bakış nereye yönelir?",
+  "angles": [
+   "Yandan baş ve boyun görünümü",
+   "ileri bakış ile başı çevirme veya eğme",
+   "konumu genel formla birlikte kaydetme"
+  ],
+  "source_note": "",
+  "long_topic": "T21",
+  "status": "todo"
+ },
+ {
+  "id": "Q099",
+  "aha": "AHA-0099",
+  "concept": "Egzersiz şiddetini kalp atım hızı ve oksijen tüketimi rezerviyle sınıflandırmak",
+  "angles": [
+   "HRR ve VO₂R tanımları",
+   "iki grafikte göreli şiddet",
+   "raporda göstergeyi ve tabloyu belirtme"
+  ],
+  "source_note": "2010 kaynak numarası AHA-0089 ile tekrar ediyor ve izlenebilirlik için korunmuştur.",
+  "long_topic": "T24",
+  "status": "todo"
+ },
+ {
+  "id": "Q100",
+  "aha": "AHA-0100",
+  "concept": "Bir antrenman hikâyesinde akut yanıt ve kronik uyum",
+  "angles": [
+   "Tek seans ile birkaç haftayı karşılaştırma",
+   "aynı gün nabız ve zaman içinde bir performans göstergesi",
+   "iki senaryoda değişim türünü tanıma"
+  ],
+  "source_note": "Soru kökü bozuk. Seçenek ve anahtar akut ve kronik süreçleri işaret ediyor.",
+  "long_topic": "T19",
+  "status": "todo"
+ }
+]

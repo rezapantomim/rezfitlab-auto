@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rezfitlab/episode.schema.json",
+  "title": "Rez Fitlab episode (contract between the weekly writer and the GitHub Actions publisher)",
+  "type": "object",
+  "required": ["id", "kind", "topic_id", "publish_at", "upload", "scenes", "critic"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^(L|S)-[0-9]{8}-[a-z0-9-]{3,60}$", "description": "L-YYYYMMDD-slug (long) or S-YYYYMMDD-slug (short); YYYYMMDD = publish date in Istanbul" },
+    "kind": { "enum": ["long", "short"] },
+    "short_type": { "enum": ["quiz", "gym"], "description": "required when kind = short" },
+    "topic_id": { "type": "string", "description": "id in data/topics.json (T01..) or G-<slug> for gym Shorts" },
+    "related_long_topic": { "type": "string", "description": "for quiz Shorts: the long-video topic id it points to" },
+    "publish_at": { "type": "string", "format": "date-time", "description": "UTC, e.g. 2026-12-01T17:00:00Z" },
+    "playlist": { "enum": ["exam", "long", "quiz", "gym"] },
+    "thumb_text": { "type": "string", "maxLength": 40, "description": "long videos: 2-4 word Turkish thumbnail headline; the word to colour goes in thumb_highlight" },
+    "thumb_highlight": { "type": "string", "maxLength": 20 },
+    "voice": {
+      "type": "object",
+      "properties": { "voice": { "type": "string" }, "rate": { "type": "string" } },
+      "additionalProperties": false
+    },
+    "upload": {
+      "type": "object",
+      "required": ["title", "description", "tags", "pinned_comment"],
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string", "minLength": 10, "maxLength": 95 },
+        "description": { "type": "string", "minLength": 80, "maxLength": 4500, "description": "may contain {CHAPTERS} and {LONG_URL}; the disclaimer is appended by the publisher" },
+        "tags": { "type": "array", "items": { "type": "string", "maxLength": 60 }, "minItems": 5, "maxItems": 25 },
+        "hashtags": { "type": "array", "items": { "type": "string", "pattern": "^#[^\\s#]+$" }, "maxItems": 3 },
+        "pinned_comment": { "type": "string", "maxLength": 500 }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["title", "url"], "additionalProperties": false,
+        "properties": { "title": { "type": "string" }, "url": { "type": "string", "pattern": "^https?://" } }
+      }
+    },
+    "quiz": {
+      "type": "object",
+      "description": "required when short_type = quiz",
+      "required": ["question", "options", "answer", "explanation"],
+      "additionalProperties": false,
+      "properties": {
+        "question": { "type": "string", "maxLength": 120 },
+        "options": { "type": "array", "items": { "type": "string", "maxLength": 40 }, "minItems": 4, "maxItems": 4 },
+        "answer": { "type": "integer", "minimum": 0, "maximum": 3 },
+        "explanation": { "type": "string", "maxLength": 160 },
+        "countdown_s": { "type": "integer", "minimum": 3, "maximum": 8 }
+      }
+    },
+    "scenes": {
+      "type": "array", "minItems": 1, "maxItems": 12,
+      "items": {
+        "type": "object", "required": ["title", "beats"], "additionalProperties": false,
+        "properties": {
+          "title": { "type": "string", "maxLength": 60, "description": "chapter title (long videos)" },
+          "layer": { "enum": ["hook", "exam", "gym", "summary", "cta"] },
+          "beats": {
+            "type": "array", "minItems": 1,
+            "items": {
+              "type": "object", "required": ["text", "visual"], "additionalProperties": false,
+              "properties": {
+                "text": { "type": "string", "minLength": 2, "maxLength": 260, "description": "narration (Turkish), one idea" },
+                "say": { "type": "string", "description": "optional TTS-only spelling (pronunciation fixes); defaults to text" },
+                "sfx": { "enum": ["none", "whoosh", "pop", "impact", "tick", "reveal", "riser"] },
+                "visual": { "$ref": "#/$defs/visual" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "critic": {
+      "type": "object", "required": ["passed", "score"], "additionalProperties": false,
+      "properties": {
+        "passed": { "type": "boolean" },
+        "score": { "type": "number", "minimum": 0, "maximum": 10 },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  },
+  "$defs": {
+    "visual": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": { "enum": ["stock", "keyword", "title", "list", "stat", "compare", "diagram", "exercise_card", "quote", "image", "collage"] },
+        "images": {
+          "type": "array", "minItems": 1, "maxItems": 4,
+          "description": "image: 1 picture (optionally labelled); collage: 2-4 pictures. Every picture was looked at by the writer.",
+          "items": {
+            "type": "object", "required": ["provider", "id", "url", "checked"], "additionalProperties": false,
+            "properties": {
+              "provider": { "enum": ["pixabay", "wikimedia"] },
+              "id": { "type": "string" },
+              "url": { "type": "string", "pattern": "^https://" },
+              "checked": { "type": "string", "description": "what the writer saw in the picture" },
+              "license": { "type": "string" },
+              "credit": { "type": "string", "description": "attribution line, required when the licence asks for it (CC BY)" },
+              "page": { "type": "string" },
+              "cutout": { "type": "boolean", "description": "remove the background (objects / people on plain backgrounds)" },
+              "caption": { "type": "string", "maxLength": 30, "description": "sticker text on the picture (collage)" }
+            }
+          }
+        },
+        "labels": {
+          "type": "array", "maxItems": 4,
+          "description": "image: arrows + text pointing at parts of the picture; x/y = 0-100 % of the picture",
+          "items": {
+            "type": "object", "required": ["text", "x", "y"], "additionalProperties": false,
+            "properties": { "text": { "type": "string", "maxLength": 28 }, "x": { "type": "number", "minimum": 0, "maximum": 100 }, "y": { "type": "number", "minimum": 0, "maximum": 100 } }
+          }
+        },
+        "text": { "type": "string", "maxLength": 80 },
+        "highlight": { "type": "string", "maxLength": 40 },
+        "items": { "type": "array", "items": { "type": "string", "maxLength": 50 }, "maxItems": 6 },
+        "value": { "type": "string", "maxLength": 14 },
+        "label": { "type": "string", "maxLength": 50 },
+        "left": { "type": "string", "maxLength": 40 },
+        "right": { "type": "string", "maxLength": 40 },
+        "verdict": { "enum": ["left", "right", "both", "none"] },
+        "name": { "enum": ["planes", "joint_action", "hr_zones", "rpe_scale", "mmt_grades", "kinetic_chain", "body_map", "timeline", "bar"] },
+        "params": { "type": "object" },
+        "muscles": { "type": "array", "items": { "type": "string" }, "maxItems": 5 },
+        "cues": { "type": "array", "items": { "type": "string", "maxLength": 50 }, "maxItems": 4 },
+        "clip": {
+          "type": "object",
+          "description": "stock clip chosen and visually checked by the weekly writer",
+          "required": ["provider", "id", "url"],
+          "additionalProperties": false,
+          "properties": {
+            "provider": { "enum": ["pexels", "pixabay"] },
+            "id": { "type": "string" },
+            "url": { "type": "string", "pattern": "^https://" },
+            "start": { "type": "number", "minimum": 0 },
+            "checked": { "type": "string", "description": "what the writer verified it shows" }
+          }
+        },
+        "overlay": { "type": "string", "maxLength": 50, "description": "short Turkish caption over a stock clip" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

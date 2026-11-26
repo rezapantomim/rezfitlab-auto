@@ -1,0 +1,16 @@
+# secrets
+.env
+client_secret*.json
+token*.json
+
+# local working files
+work/
+render/node_modules/
+render/public/clips/
+render/public/img/
+render/out/
+__pycache__/
+*.pyc
+
+# private source material (book-derived question bank) - never publish
+data/source/

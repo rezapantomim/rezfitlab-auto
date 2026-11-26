@@ -1,0 +1,345 @@
+[
+ {
+  "id": "T24",
+  "title": "Kalp atım hızı rezervi (HRR) ile şiddet bölgeleri",
+  "aha_items": [
+   61,
+   62,
+   63,
+   64,
+   99
+  ],
+  "gym_angle": "yağ yakımı ve kondisyon için doğru nabız",
+  "order": 1,
+  "status": "todo"
+ },
+ {
+  "id": "T01",
+  "title": "Hareket düzlemleri: vücudun 3 haritası (sagittal, frontal, transvers)",
+  "aha_items": [
+   7,
+   9,
+   10,
+   23,
+   25,
+   74
+  ],
+  "gym_angle": "dengeli program: sadece sagittal hareketler yetmez",
+  "order": 2,
+  "status": "todo"
+ },
+ {
+  "id": "T22",
+  "title": "Plank testi: doğru form ve süre ölçümü",
+  "aha_items": [
+   43,
+   48,
+   51,
+   52,
+   54,
+   58,
+   97
+  ],
+  "gym_angle": "core dayanıklılığı, en sık plank hataları",
+  "order": 3,
+  "status": "todo"
+ },
+ {
+  "id": "T11",
+  "title": "Açık zincir vs kapalı zincir egzersiz",
+  "aha_items": [
+   26,
+   27,
+   87,
+   88,
+   89
+  ],
+  "gym_angle": "leg extension mı squat mı, rehabilitasyon ve performans",
+  "order": 4,
+  "status": "todo"
+ },
+ {
+  "id": "T03",
+  "title": "Fleksiyon ve ekstansiyon: squatın gizli anatomisi",
+  "aha_items": [
+   2,
+   21,
+   22,
+   78
+  ],
+  "gym_angle": "squat ve curl tekniğini eklem açısıyla okumak",
+  "order": 5,
+  "status": "todo"
+ },
+ {
+  "id": "T26",
+  "title": "RPE: algılanan efor ölçeği",
+  "aha_items": [
+   68,
+   69
+  ],
+  "gym_angle": "nabız saati olmadan şiddeti ayarlamak",
+  "order": 6,
+  "status": "todo"
+ },
+ {
+  "id": "T21",
+  "title": "Statik squat (duvar squatı) testi",
+  "aha_items": [
+   42,
+   49,
+   50,
+   53,
+   55,
+   59,
+   98
+  ],
+  "gym_angle": "bacak dayanıklılığını evde ölçmek",
+  "order": 7,
+  "status": "todo"
+ },
+ {
+  "id": "T27",
+  "title": "Aerobik antrenmanda aşırı yüklenme ilkesi",
+  "aha_items": [
+   71
+  ],
+  "gym_angle": "kardiyoda ilerleme planı",
+  "order": 8,
+  "status": "todo"
+ },
+ {
+  "id": "T19",
+  "title": "Akut yanıt ve kronik uyum: tek seans vs haftalar",
+  "aha_items": [
+   40,
+   100
+  ],
+  "gym_angle": "ilerleme neden hemen görünmez",
+  "order": 9,
+  "status": "todo"
+ },
+ {
+  "id": "T14",
+  "title": "Manuel kas testi: 0’dan 5’e kas gücü puanlama",
+  "aha_items": [
+   29,
+   30,
+   31,
+   32,
+   33
+  ],
+  "gym_angle": "güç seviyesini doğru okumak",
+  "order": 10,
+  "status": "todo"
+ },
+ {
+  "id": "T20",
+  "title": "Kavrama kuvveti testi: dinamometre protokolü",
+  "aha_items": [
+   41,
+   44,
+   45,
+   46,
+   56,
+   57,
+   94,
+   95,
+   96
+  ],
+  "gym_angle": "kavrama gücü genel sağlığın göstergesi",
+  "order": 11,
+  "status": "todo"
+ },
+ {
+  "id": "T13",
+  "title": "Kas kısalığı testleri: kalça fleksörü ve hamstring",
+  "aha_items": [
+   84,
+   86
+  ],
+  "gym_angle": "bel ağrısı ilişkisi, esneme seçimi",
+  "order": 12,
+  "status": "todo"
+ },
+ {
+  "id": "T12",
+  "title": "Postür analizi: yer çekimi çizgisi ve baştan ayağa kontrol",
+  "aha_items": [
+   28,
+   85
+  ],
+  "gym_angle": "masa başı postürü, omuz ve kalça dizilimi",
+  "order": 13,
+  "status": "todo"
+ },
+ {
+  "id": "T04",
+  "title": "Abdüksiyon ve addüksiyon: yana açış hareketleri",
+  "aha_items": [
+   1,
+   3,
+   4
+  ],
+  "gym_angle": "lateral raise, hip abduction makinesi doğru kullanım",
+  "order": 14,
+  "status": "todo"
+ },
+ {
+  "id": "T02",
+  "title": "Transvers düzlem ve rotasyon: dönen her hareket",
+  "aha_items": [
+   8,
+   24,
+   72,
+   73,
+   75
+  ],
+  "gym_angle": "core rotasyonu, cable woodchop, sakatlık önleme",
+  "order": 15,
+  "status": "todo"
+ },
+ {
+  "id": "T25",
+  "title": "Maksimum nabza (HRmax) göre şiddet",
+  "aha_items": [
+   65,
+   66,
+   67
+  ],
+  "gym_angle": "basit nabız hesabı ve sınırları",
+  "order": 16,
+  "status": "todo"
+ },
+ {
+  "id": "T08",
+  "title": "Bağ mı tendon mu? Farkı ve sakatlık riski",
+  "aha_items": [
+   12,
+   13
+  ],
+  "gym_angle": "tendon zorlanması ve kademeli yüklenme",
+  "order": 17,
+  "status": "todo"
+ },
+ {
+  "id": "T23",
+  "title": "Kalp, akciğer ve oksijen: aerobik dayanıklılık",
+  "aha_items": [
+   47,
+   60,
+   70
+  ],
+  "gym_angle": "kardiyo kapasitesi nasıl gelişir",
+  "order": 18,
+  "status": "todo"
+ },
+ {
+  "id": "T07",
+  "title": "Eklemler ve sinovyal eklemin içi",
+  "aha_items": [
+   11,
+   14,
+   79,
+   80,
+   81
+  ],
+  "gym_angle": "ısınmanın eklem sıvısına etkisi, egzersiz seçimi",
+  "order": 19,
+  "status": "todo"
+ },
+ {
+  "id": "T16",
+  "title": "Egzersiz engelleri ve alışkanlığı sürdürmek",
+  "aha_items": [
+   35,
+   91,
+   92
+  ],
+  "gym_angle": "yoğun haftada antrenmanı bırakmamak",
+  "order": 20,
+  "status": "todo"
+ },
+ {
+  "id": "T17",
+  "title": "Düzenli egzersiz vücudu nasıl değiştirir?",
+  "aha_items": [
+   37,
+   93
+  ],
+  "gym_angle": "sağlık için minimum doz",
+  "order": 21,
+  "status": "todo"
+ },
+ {
+  "id": "T05",
+  "title": "Kürek kemiği: elevasyon ve depresyon",
+  "aha_items": [
+   5,
+   6
+  ],
+  "gym_angle": "shrug, lat pulldown ve omuz sağlığı",
+  "order": 22,
+  "status": "todo"
+ },
+ {
+  "id": "T06",
+  "title": "Özel eklem hareketleri: inversiyon, eversiyon, sirkümdüksiyon",
+  "aha_items": [
+   76,
+   77
+  ],
+  "gym_angle": "ayak bileği stabilitesi ve omuz ısınması",
+  "order": 23,
+  "status": "todo"
+ },
+ {
+  "id": "T09",
+  "title": "Hareket sistemi: kemik, eklem ve kas birlikte",
+  "aha_items": [
+   15,
+   16,
+   19,
+   20
+  ],
+  "gym_angle": "sandalyeden kalkıştan squata kaldıraç mantığı",
+  "order": 24,
+  "status": "todo"
+ },
+ {
+  "id": "T10",
+  "title": "Kas anatomisini okumak: Musculus, M. ve kas işlevi",
+  "aha_items": [
+   17,
+   18,
+   82,
+   83
+  ],
+  "gym_angle": "hangi hareket hangi kası çalıştırır",
+  "order": 25,
+  "status": "todo"
+ },
+ {
+  "id": "T15",
+  "title": "Fitness eğitmeninin rolü ve ilk görüşme",
+  "aha_items": [
+   34,
+   36,
+   90
+  ],
+  "gym_angle": "iyi koç nasıl seçilir",
+  "order": 26,
+  "status": "todo"
+ },
+ {
+  "id": "T18",
+  "title": "Fizyoloji ve egzersiz fizyolojisi neyi ölçer?",
+  "aha_items": [
+   38,
+   39
+  ],
+  "gym_angle": "nabız, oksijen, laktat: salonda ne anlama gelir",
+  "order": 27,
+  "status": "todo"
+ }
+]

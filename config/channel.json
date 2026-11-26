@@ -1,0 +1,51 @@
+{
+  "channel": {
+    "name": "Rez Fitlab",
+    "handle": "@RezFitlab",
+    "language": "tr",
+    "region": "TR",
+    "category_id": "26",
+    "playlists": {
+      "exam": "Fitness Eğitmenliği Sınavına Hazırlık",
+      "long": "Antrenman Bilimi — Uzun Videolar",
+      "quiz": "Fitness Quiz",
+      "gym": "Salon İpuçları"
+    }
+  },
+  "schedule": {
+    "timezone": "Europe/Istanbul",
+    "long_days": ["TUE", "SAT"],
+    "long_time_local": "20:00",
+    "short_time_local": "18:00",
+    "shorts_per_week": 7,
+    "short_mix": ["quiz", "gym"],
+    "weekly_writer_local": "SUN 10:00",
+    "build_ahead_hours": 40,
+    "max_uploads_per_day": 3,
+    "paused": false
+  },
+  "long_video": { "width": 1920, "height": 1080, "fps": 30, "min_seconds": 480, "target_seconds": 540, "max_seconds": 630, "words_min": 1250, "words_max": 1500 },
+  "short": { "width": 1080, "height": 1920, "fps": 30, "min_seconds": 20, "max_seconds": 45, "words_min": 45, "words_max": 95 },
+  "voice": {
+    "engine": "edge",
+    "edge": { "voice": "tr-TR-AhmetNeural", "rate": "+6%", "pitch": "+0Hz" },
+    "fallback": { "engine": "piper", "model": "tr_TR-fahrettin-medium" },
+    "words_per_second_target": 2.6
+  },
+  "audio": { "target_lufs": -14, "music_gain_db": -20, "duck_db": -10, "sfx_gain_db": -12 },
+  "style": {
+    "theme": "dark-sport",
+    "bg": "#0E1116",
+    "panel": "#1A1F27",
+    "text": "#F4F6F8",
+    "accent": "#FF5A1F",
+    "accent2": "#FFC233",
+    "good": "#2BD67B",
+    "bad": "#FF3B4E",
+    "font_head": "Anton",
+    "font_body": "Inter"
+  },
+  "disclaimer": "Bu video yalnızca eğitim amaçlıdır; tıbbi tavsiye yerine geçmez. Yeni bir egzersiz programına başlamadan önce bir sağlık uzmanına danışın.",
+  "ai_disclosure": true,
+  "notify": { "telegram": true }
+}
