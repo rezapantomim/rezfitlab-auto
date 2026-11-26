@@ -15,7 +15,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 SCOPES = ['https://www.googleapis.com/auth/youtube.upload', 'https://www.googleapis.com/auth/youtube.force-ssl']
 
 flow = InstalledAppFlow.from_client_secrets_file(str(ROOT / 'client_secret.json'), SCOPES)
-creds = flow.run_local_server(port=0, prompt='consent', access_type='offline')
+creds = flow.run_local_server(port=0, prompt='select_account consent', access_type='offline')
 tok = {'client_id': creds.client_id, 'client_secret': creds.client_secret, 'refresh_token': creds.refresh_token,
        'token_uri': creds.token_uri}
 (ROOT / 'token.json').write_text(json.dumps(tok), encoding='utf8')
