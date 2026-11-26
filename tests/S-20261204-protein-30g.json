@@ -1,0 +1,169 @@
+{
+ "id": "S-20261204-protein-30g",
+ "kind": "short",
+ "short_type": "gym",
+ "topic_id": "G-protein-30g",
+ "publish_at": "2026-12-04T15:00:00Z",
+ "playlist": "gym",
+ "scenes": [
+  {
+   "title": "Protein",
+   "beats": [
+    {
+     "text": "Bir öğünde otuz gramdan fazla protein boşa mı gider?",
+     "visual": {
+      "type": "keyword",
+      "text": "30 gram sınırı?",
+      "highlight": "30 gram"
+     },
+     "sfx": "riser"
+    },
+    {
+     "text": "Tavuk, yumurta, yoğurt… Çoğumuz proteini gün içine eşit bölmeye çalışıyoruz.",
+     "visual": {
+      "type": "collage",
+      "text": "Protein kaynakları",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "123668",
+        "url": "https://pixabay.com/get/g5884f2653331a19c829635c28caf143db32aa526f19114e1fc565ddd3cc73fdbb0546091de9ae007da20bdc5021cfa9d5d5dc1dd2d119435d4fdab0928ea2122_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/meat-barbecue-grill-bbq-barbeque-123668/",
+        "checked": "grilled chicken breast on a grill",
+        "caption": "Tavuk"
+       },
+       {
+        "provider": "pixabay",
+        "id": "6035549",
+        "url": "https://pixabay.com/get/ga0c4b6c6890d8cf1e974ea373899180d709e47fa6b76676c572c30ea43ee745dfddd5a51afae5e230f1ea14b527f0fc7b2023911b14073c55f9a5c8b474acba1_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/easter-eggs-eggs-easter-food-6035549/",
+        "checked": "brown and white eggs in a carton",
+        "caption": "Yumurta"
+       },
+       {
+        "provider": "pixabay",
+        "id": "4873885",
+        "url": "https://pixabay.com/get/gbcc73ba4d470a56fd7b317dd475f573e386595cde901fbe4a436f94e2e32c60f9f32a47beac74f85afab794d150b4aed87c7976fd93ce912e6bc8b41fe8af80d_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/boiled-eggs-eggs-gym-food-4873885/",
+        "checked": "halved boiled eggs on bread",
+        "caption": "Haşlanmış"
+       }
+      ]
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Ama araştırmalar, büyük bir öğündeki proteinin de kas onarımında kullanılmaya devam ettiğini gösteriyor.",
+     "visual": {
+      "type": "image",
+      "text": "Boşa gitmiyor",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "2243146",
+        "url": "https://pixabay.com/get/g8a4076e5f097e554e69cd4f8e8c92f9dcd2905b8a69157023e92e16b6586e7706fd4f8110726baa348eb9b460db9da213de1c1887e48bc9cad7c9b429557eb2c_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/dumbbells-weights-exercises-2243146/",
+        "checked": "two red dumbbells on a plain white background",
+        "cutout": true
+       }
+      ]
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "Üstelik protein sadece kas için değil; tendon ve bağların toparlanmasında da rol oynar.",
+     "visual": {
+      "type": "image",
+      "images": [
+       {
+        "provider": "wikimedia",
+        "id": "Gray348-2.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Gray348-2.png",
+        "license": "Public domain",
+        "credit": "",
+        "page": "https://commons.wikimedia.org/wiki/File:Gray348-2.png",
+        "checked": "Gray's Anatomy knee joint, anterior view, femur above, tibia and fibula below"
+       }
+      ],
+      "labels": [
+       {
+        "text": "Femur",
+        "x": 50,
+        "y": 14
+       },
+       {
+        "text": "Diz eklemi",
+        "x": 50,
+        "y": 52
+       },
+       {
+        "text": "Tibia",
+        "x": 52,
+        "y": 86
+       }
+      ]
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Asıl önemli olan günlük toplam protein miktarı ve düzenli antrenman.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Günlük toplam",
+       "Düzenli antrenman",
+       "Yeterli uyku"
+      ]
+     }
+    },
+    {
+     "text": "Sen günde kaç öğünde protein alıyorsun? Yorumlara yaz!",
+     "visual": {
+      "type": "title",
+      "text": "Kaç öğün?",
+      "highlight": "öğün"
+     },
+     "sfx": "pop"
+    }
+   ]
+  }
+ ],
+ "upload": {
+  "title": "Bir öğünde 30 gramdan fazla protein boşa mı gider?",
+  "description": "Bir öğünde 30 gramdan fazla protein boşa mı gider? Protein ve kas gelişimi hakkında yaygın bir efsaneyi 30 saniyede inceliyoruz.",
+  "tags": [
+   "protein",
+   "kas gelişimi",
+   "beslenme",
+   "fitness",
+   "spor"
+  ],
+  "hashtags": [
+   "#fitnesstürkiye",
+   "#protein",
+   "#shorts"
+  ],
+  "pinned_comment": "Günde kaç öğünde protein alıyorsun?"
+ },
+ "sources": [
+  {
+   "title": "Trommelen et al., 2023 — Cell Reports Medicine",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38118410/"
+  }
+ ],
+ "critic": {
+  "passed": true,
+  "score": 8.0,
+  "notes": [
+   "local picture test"
+  ]
+ }
+}

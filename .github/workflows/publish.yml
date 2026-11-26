@@ -13,6 +13,9 @@ on:
       id:
         description: 'Optional: one episode id from queue/ (built even if not due yet)'
         required: false
+      file:
+        description: 'Optional: build this one file only, never uploads (e.g. tests/S-20261204-protein-30g.json)'
+        required: false
 
 permissions:
   contents: write
@@ -57,6 +60,7 @@ jobs:
           ARGS=""
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="--dry-run"; fi
           if [ -n "${{ inputs.id }}" ]; then ARGS="$ARGS --id ${{ inputs.id }}"; fi
+          if [ -n "${{ inputs.file }}" ]; then ARGS="--file ${{ inputs.file }}"; fi
           if [ -z "$ARGS" ] && [ -z "$YT_TOKEN_JSON" ]; then echo "YT_TOKEN_JSON secret missing -> nothing uploaded"; exit 1; fi
           python -m pipeline.run $ARGS
 
