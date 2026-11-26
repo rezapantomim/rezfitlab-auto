@@ -1,5 +1,5 @@
 """Download the stock clips and pictures the writer chose and normalise them into render/public/ (clips/, img/)."""
-import io, pathlib, sys, time, urllib.error, urllib.request
+import io, json, os, pathlib, sys, time, urllib.error, urllib.parse, urllib.request
 from PIL import Image
 from .common import PUBLIC, CFG, sh, duration
 
@@ -17,6 +17,22 @@ def _get(url, tries=4):
             if e.code != 429 or i == tries - 1:
                 raise
             time.sleep(5 * (i + 1))
+
+
+def _picture(pic):
+    """Download a chosen picture. Pixabay image links expire after about a day: on failure ask the API for a fresh link by id."""
+    try:
+        return _get(pic['url'])
+    except Exception as e:
+        key = os.environ.get('PIXABAY_API_KEY')
+        if pic.get('provider') != 'pixabay' or not key:
+            raise
+        print(f'pixabay {pic["id"]}: stored link failed ({e}), asking the API for a fresh one', file=sys.stderr)
+        q = urllib.parse.urlencode({'key': key, 'id': pic['id']})
+        hits = json.loads(_get(f'https://pixabay.com/api/?{q}')).get('hits') or []
+        if not hits:
+            raise
+        return _get(hits[0]['largeImageURL'])
 
 
 _REMBG = None
@@ -65,7 +81,7 @@ def fetch_images(ep):
             continue
         lst = []
         for k, pic in enumerate(v.get('images', [])):
-            im = Image.open(io.BytesIO(_get(pic['url'])))
+            im = Image.open(io.BytesIO(_picture(pic)))
             im = im.convert('RGBA') if im.mode in ('RGBA', 'LA', 'P') else im.convert('RGB')
             im.thumbnail((1600, 1600))
             if pic.get('cutout'):

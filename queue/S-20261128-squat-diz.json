@@ -1,0 +1,144 @@
+{
+ "id": "S-20261128-squat-diz",
+ "kind": "short",
+ "short_type": "gym",
+ "topic_id": "G-squat-diz",
+ "publish_at": "2026-11-28T15:00:00Z",
+ "playlist": "gym",
+ "upload": {
+  "title": "Squatta dizler parmak ucunu geçebilir mi?",
+  "description": "Squatta dizlerin parmak ucunu geçmesi gerçekten zararlı mı? Dizleri zorla geride tutmak yükü dizden alıp kalçaya bindirir. Ağrın yoksa dizlerin biraz öne gidebilir; ayak yönüyle aynı hizada olsun yeter.\n\nKaynak: Fry, Smith & Schilling (2003), Journal of Strength and Conditioning Research — https://pubmed.ncbi.nlm.nih.gov/14636100/",
+  "tags": [
+   "squat",
+   "squat diz",
+   "squat nasıl yapılır",
+   "diz ağrısı squat",
+   "squat tekniği",
+   "bacak antrenmanı",
+   "fitness",
+   "spor salonu",
+   "antrenman",
+   "fitness ipuçları",
+   "squat hataları",
+   "knees over toes"
+  ],
+  "hashtags": [
+   "#squat",
+   "#fitness",
+   "#shorts"
+  ],
+  "pinned_comment": "Sana da \"dizler parmak ucunu geçmesin\" dendi mi? Yorumlara yaz!"
+ },
+ "sources": [
+  {
+   "title": "Fry, Smith & Schilling (2003) — Effect of knee position on hip and knee torques during the barbell squat",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14636100/"
+  }
+ ],
+ "scenes": [
+  {
+   "title": "Squat ve diz",
+   "layer": "gym",
+   "beats": [
+    {
+     "text": "Squatta dizlerin parmak ucunu geçerse sakatlanırsın. Bunu kaç kez duydun?",
+     "visual": {
+      "type": "keyword",
+      "text": "Diz parmak ucunu geçmesin?",
+      "highlight": "geçmesin"
+     },
+     "sfx": "impact"
+    },
+    {
+     "text": "Bu yüzden salonda çoğu kişi dizlerini zorla geride tutmaya çalışır.",
+     "visual": {
+      "type": "image",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "1282232",
+        "url": "https://pixabay.com/get/g71277f19bcb6964062e261bdd94a5bfb4ee7492314aeb73b07c255712823e979f088baf63c676d57dc59fdc4fe663f58ba79a949aae62fa10cc7892841f7cc12_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/man-person-power-strength-strong-1282232/",
+        "checked": "man doing a deep barbell back squat, front view, dark gym, knees travel forward over the feet"
+       }
+      ],
+      "labels": [
+       {
+        "text": "Diz",
+        "x": 44,
+        "y": 72
+       }
+      ]
+     }
+    },
+    {
+     "text": "Ama o zaman gövde daha çok öne eğilir ve hareket zorlaşır.",
+     "visual": {
+      "type": "compare",
+      "left": "Dizler zorla geride",
+      "right": "Gövde öne eğilir",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Bir araştırmada dizleri geride tutmak, yükü dizden alıp büyük ölçüde kalçaya bindirdi.",
+     "visual": {
+      "type": "compare",
+      "left": "Diz yükü azalır",
+      "right": "Kalça yükü artar",
+      "verdict": "none"
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "Yani dizlerin biraz öne gitmesi, çoğu insan için normal bir hareket.",
+     "visual": {
+      "type": "keyword",
+      "text": "Normal bir hareket",
+      "highlight": "Normal"
+     }
+    },
+    {
+     "text": "İpucu: ağırlığı tüm ayağına yay, dizlerin ayak parmaklarınla aynı yönü göstersin.",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Squat ipucu",
+      "cues": [
+       "Ağırlık tüm ayakta",
+       "Diz = ayak yönü",
+       "Kontrollü in"
+      ]
+     }
+    },
+    {
+     "text": "Dizinde ağrı varsa bir sağlık uzmanına danış.",
+     "visual": {
+      "type": "keyword",
+      "text": "Ağrı varsa uzmana danış",
+      "highlight": "uzmana"
+     }
+    },
+    {
+     "text": "Peki squatta dizlerin parmak ucunu geçebilir mi? Evet, geçebilir.",
+     "visual": {
+      "type": "title",
+      "text": "Evet, geçebilir",
+      "highlight": "geçebilir"
+     },
+     "sfx": "reveal"
+    }
+   ]
+  }
+ ],
+ "critic": {
+  "passed": true,
+  "score": 8.0,
+  "notes": [
+   "Claim checked: Fry et al. 2003 (PMID 14636100) restricting forward knee travel lowered knee torque and sharply raised hip torque, with more forward trunk lean.",
+   "Cue is standard (whole foot, knees track toes, controlled descent); pain → professional.",
+   "No clip: Pixabay portrait search showed no clear squat, used a checked photo + cards."
+  ]
+ }
+}

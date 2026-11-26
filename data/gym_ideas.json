@@ -1,32 +1,154 @@
 [
- {"id": "G-squat-diz", "idea": "Squatta dizler parmak ucunu geçebilir mi? Yaygın efsane ve gerçek", "status": "todo"},
- {"id": "G-deadlift-bel", "idea": "Deadliftte beli yuvarlamanın riski ve nötr omurga ipucu", "status": "todo"},
- {"id": "G-bench-omuz", "idea": "Bench pressde omuzları korumak: kürek kemiklerini sabitle", "status": "todo"},
- {"id": "G-latpull-tutus", "idea": "Lat pulldownda tutuş genişliği neyi değiştirir?", "status": "todo"},
- {"id": "G-hipthrust-cene", "idea": "Hip thrustta çene ve kaburga pozisyonu kalçayı nasıl etkiler?", "status": "todo"},
- {"id": "G-plank-kalca", "idea": "Plankta kalça düşüyorsa ne yapmalı?", "status": "todo"},
- {"id": "G-isinma-5dk", "idea": "Bacak gününden önce 5 dakikalık ısınma mantığı", "status": "todo"},
- {"id": "G-kardiyo-once-sonra", "idea": "Kardiyo ağırlıktan önce mi sonra mı?", "status": "todo"},
- {"id": "G-bolgesel-yag", "idea": "Bölgesel yağ yakımı efsanesi: mekik göbek yağını eritir mi?", "status": "todo"},
- {"id": "G-protein-30g", "idea": "Bir öğünde 30 gramdan fazla protein boşa mı gider?", "status": "todo"},
- {"id": "G-kas-agrisi", "idea": "Ertesi gün kas ağrısı olmadıysa antrenman işe yaramadı mı?", "status": "todo"},
- {"id": "G-dinlenme-set", "idea": "Setler arası ne kadar dinlenmeli? Hedefe göre süre", "status": "todo"},
- {"id": "G-tempo", "idea": "Tekrar hızı (tempo) kas gelişimini etkiler mi?", "status": "todo"},
- {"id": "G-failure", "idea": "Her seti tükenişe kadar götürmek gerekir mi?", "status": "todo"},
- {"id": "G-adim-sayisi", "idea": "Günde 10.000 adım şart mı? Bilim ne diyor", "status": "todo"},
- {"id": "G-uyku-kas", "idea": "Uyku eksikliği kas gelişimini nasıl yavaşlatır?", "status": "todo"},
- {"id": "G-su", "idea": "Antrenmanda su içmek performansı nasıl etkiler?", "status": "todo"},
- {"id": "G-kadin-agirlik", "idea": "Kadınlar ağırlık çalışınca iri mi görünür?", "status": "todo"},
- {"id": "G-esneme-once", "idea": "Antrenman öncesi statik esneme mi dinamik ısınma mı?", "status": "todo"},
- {"id": "G-farmer-walk", "idea": "Farmer's walk: sadece yürümek değil, tüm vücut kuvveti", "status": "todo"},
- {"id": "G-leg-ext-aci", "idea": "Leg extensionda hareket açıklığı ve diz sağlığı", "status": "todo"},
- {"id": "G-hack-squat-ayak", "idea": "Hack squatta ayak pozisyonu hangi kası öne çıkarır?", "status": "todo"},
- {"id": "G-triceps-overhead", "idea": "Baş üstü triceps hareketinin uzun başa etkisi", "status": "todo"},
- {"id": "G-superset-dropset", "idea": "Süper set mi drop set mi? Hangisi ne zaman", "status": "todo"},
- {"id": "G-kalori-acigi", "idea": "Kalori açığı ile kas kaybetmeden yağ yakmak", "status": "todo"},
- {"id": "G-bir-gun-kacirma", "idea": "Bir antrenmanı kaçırırsan ne olur? (mizah + gerçek)", "status": "todo"},
- {"id": "G-bacak-gunu-mizah", "idea": "Bacak gününden sonraki merdiven (mizah) + toparlanma ipucu", "status": "todo"},
- {"id": "G-sigara-kondisyon", "idea": "Sigara kondisyonu nasıl etkiler? Oksijen taşıma kapasitesi", "status": "todo"},
- {"id": "G-yuruyus-vs-kosu", "idea": "Yürüyüş mü koşu mu? Kalori ve sürdürülebilirlik", "status": "todo"},
- {"id": "G-nefes-bench", "idea": "Ağır kaldırırken nefes: ne zaman al, ne zaman ver?", "status": "todo"}
+ {
+  "id": "G-squat-diz",
+  "idea": "Squatta dizler parmak ucunu geçebilir mi? Yaygın efsane ve gerçek",
+  "status": "queued",
+  "episode": "S-20261128-squat-diz"
+ },
+ {
+  "id": "G-deadlift-bel",
+  "idea": "Deadliftte beli yuvarlamanın riski ve nötr omurga ipucu",
+  "status": "todo"
+ },
+ {
+  "id": "G-bench-omuz",
+  "idea": "Bench pressde omuzları korumak: kürek kemiklerini sabitle",
+  "status": "todo"
+ },
+ {
+  "id": "G-latpull-tutus",
+  "idea": "Lat pulldownda tutuş genişliği neyi değiştirir?",
+  "status": "todo"
+ },
+ {
+  "id": "G-hipthrust-cene",
+  "idea": "Hip thrustta çene ve kaburga pozisyonu kalçayı nasıl etkiler?",
+  "status": "todo"
+ },
+ {
+  "id": "G-plank-kalca",
+  "idea": "Plankta kalça düşüyorsa ne yapmalı?",
+  "status": "todo"
+ },
+ {
+  "id": "G-isinma-5dk",
+  "idea": "Bacak gününden önce 5 dakikalık ısınma mantığı",
+  "status": "todo"
+ },
+ {
+  "id": "G-kardiyo-once-sonra",
+  "idea": "Kardiyo ağırlıktan önce mi sonra mı?",
+  "status": "todo"
+ },
+ {
+  "id": "G-bolgesel-yag",
+  "idea": "Bölgesel yağ yakımı efsanesi: mekik göbek yağını eritir mi?",
+  "status": "todo"
+ },
+ {
+  "id": "G-protein-30g",
+  "idea": "Bir öğünde 30 gramdan fazla protein boşa mı gider?",
+  "status": "queued",
+  "episode": "S-20261130-protein-30g"
+ },
+ {
+  "id": "G-kas-agrisi",
+  "idea": "Ertesi gün kas ağrısı olmadıysa antrenman işe yaramadı mı?",
+  "status": "todo"
+ },
+ {
+  "id": "G-dinlenme-set",
+  "idea": "Setler arası ne kadar dinlenmeli? Hedefe göre süre",
+  "status": "todo"
+ },
+ {
+  "id": "G-tempo",
+  "idea": "Tekrar hızı (tempo) kas gelişimini etkiler mi?",
+  "status": "todo"
+ },
+ {
+  "id": "G-failure",
+  "idea": "Her seti tükenişe kadar götürmek gerekir mi?",
+  "status": "todo"
+ },
+ {
+  "id": "G-adim-sayisi",
+  "idea": "Günde 10.000 adım şart mı? Bilim ne diyor",
+  "status": "todo"
+ },
+ {
+  "id": "G-uyku-kas",
+  "idea": "Uyku eksikliği kas gelişimini nasıl yavaşlatır?",
+  "status": "todo"
+ },
+ {
+  "id": "G-su",
+  "idea": "Antrenmanda su içmek performansı nasıl etkiler?",
+  "status": "todo"
+ },
+ {
+  "id": "G-kadin-agirlik",
+  "idea": "Kadınlar ağırlık çalışınca iri mi görünür?",
+  "status": "todo"
+ },
+ {
+  "id": "G-esneme-once",
+  "idea": "Antrenman öncesi statik esneme mi dinamik ısınma mı?",
+  "status": "todo"
+ },
+ {
+  "id": "G-farmer-walk",
+  "idea": "Farmer's walk: sadece yürümek değil, tüm vücut kuvveti",
+  "status": "todo"
+ },
+ {
+  "id": "G-leg-ext-aci",
+  "idea": "Leg extensionda hareket açıklığı ve diz sağlığı",
+  "status": "todo"
+ },
+ {
+  "id": "G-hack-squat-ayak",
+  "idea": "Hack squatta ayak pozisyonu hangi kası öne çıkarır?",
+  "status": "todo"
+ },
+ {
+  "id": "G-triceps-overhead",
+  "idea": "Baş üstü triceps hareketinin uzun başa etkisi",
+  "status": "todo"
+ },
+ {
+  "id": "G-superset-dropset",
+  "idea": "Süper set mi drop set mi? Hangisi ne zaman",
+  "status": "todo"
+ },
+ {
+  "id": "G-kalori-acigi",
+  "idea": "Kalori açığı ile kas kaybetmeden yağ yakmak",
+  "status": "todo"
+ },
+ {
+  "id": "G-bir-gun-kacirma",
+  "idea": "Bir antrenmanı kaçırırsan ne olur? (mizah + gerçek)",
+  "status": "todo"
+ },
+ {
+  "id": "G-bacak-gunu-mizah",
+  "idea": "Bacak gününden sonraki merdiven (mizah) + toparlanma ipucu",
+  "status": "todo"
+ },
+ {
+  "id": "G-sigara-kondisyon",
+  "idea": "Sigara kondisyonu nasıl etkiler? Oksijen taşıma kapasitesi",
+  "status": "todo"
+ },
+ {
+  "id": "G-yuruyus-vs-kosu",
+  "idea": "Yürüyüş mü koşu mu? Kalori ve sürdürülebilirlik",
+  "status": "todo"
+ },
+ {
+  "id": "G-nefes-bench",
+  "idea": "Ağır kaldırırken nefes: ne zaman al, ne zaman ver?",
+  "status": "todo"
+ }
 ]

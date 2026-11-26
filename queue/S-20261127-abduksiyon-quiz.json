@@ -1,0 +1,128 @@
+{
+ "id": "S-20261127-abduksiyon-quiz",
+ "kind": "short",
+ "short_type": "quiz",
+ "topic_id": "Q003",
+ "related_long_topic": "T04",
+ "publish_at": "2026-11-27T15:00:00Z",
+ "playlist": "quiz",
+ "quiz": {
+  "question": "Abdüksiyon ne demektir?",
+  "options": [
+   "Orta hatta yaklaşma",
+   "Orta hattan uzaklaşma",
+   "Eklemin bükülmesi",
+   "İçe doğru dönme"
+  ],
+  "answer": 1,
+  "explanation": "Uzvun vücudun orta hattından uzaklaşması",
+  "countdown_s": 4
+ },
+ "scenes": [
+  {
+   "title": "Soru",
+   "beats": [
+    {
+     "text": "Abdüksiyon ne demektir? Dört seçenek var, süren başladı!",
+     "sfx": "riser",
+     "visual": {
+      "type": "keyword",
+      "text": "Abdüksiyon",
+      "highlight": "Abdüksiyon"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Cevap",
+   "beats": [
+    {
+     "text": "Doğru cevap B: uzvun vücudun orta hattından uzaklaşması.",
+     "sfx": "reveal",
+     "visual": {
+      "type": "keyword",
+      "text": "Orta hattan uzaklaşma",
+      "highlight": "uzaklaşma"
+     }
+    },
+    {
+     "text": "Kolunu yana kaldırdığın lateral raise, omuzda abdüksiyondur.",
+     "sfx": "pop",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Lateral raise",
+      "muscles": [
+       "Orta deltoid"
+      ],
+      "cues": [
+       "Kollar yana",
+       "Omuz hizasına kadar",
+       "Kontrollü iniş"
+      ]
+     }
+    },
+    {
+     "text": "Tersi addüksiyon: uzvun orta hatta yaklaşması.",
+     "sfx": "whoosh",
+     "visual": {
+      "type": "compare",
+      "left": "Abdüksiyon",
+      "right": "Addüksiyon",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Sınavda bu ikisi çok karışır. Ab uzaklaştırır, ad yaklaştırır.",
+     "visual": {
+      "type": "keyword",
+      "text": "Ab uzaklaştırır, ad yaklaştırır",
+      "highlight": "uzaklaştırır"
+     }
+    },
+    {
+     "text": "Detaylı anlatım kanalda. Sen kaç saniyede bildin? Yorumlara yaz!",
+     "visual": {
+      "type": "title",
+      "text": "Kaç saniyede bildin?",
+      "highlight": "saniyede"
+     }
+    }
+   ]
+  }
+ ],
+ "upload": {
+  "title": "Abdüksiyon ne demektir? 4 saniyen var!",
+  "description": "Abdüksiyon ve addüksiyon farkını 30 saniyede öğren. Fitness eğitmenliği sınavında en çok karıştırılan iki kavram.\n\nDetaylı anlatım: {LONG_URL}",
+  "tags": [
+   "abdüksiyon",
+   "addüksiyon",
+   "anatomi",
+   "fitness eğitmenliği",
+   "fitness sınavı",
+   "EREPS",
+   "hareket anatomisi",
+   "lateral raise",
+   "antrenman bilimi",
+   "fitness quiz"
+  ],
+  "hashtags": [
+   "#fitnesstürkiye",
+   "#anatomi",
+   "#shorts"
+  ],
+  "pinned_comment": "Sen kaç saniyede bildin? Detaylı anlatım: {LONG_URL}"
+ },
+ "sources": [
+  {
+   "title": "OpenStax Anatomy and Physiology 2e — 9.5 Types of Body Movements",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements"
+  }
+ ],
+ "critic": {
+  "passed": true,
+  "score": 8.5,
+  "notes": [
+   "local pipeline test episode"
+  ]
+ }
+}

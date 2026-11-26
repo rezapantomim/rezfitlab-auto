@@ -1,0 +1,1243 @@
+{
+ "id": "L-20261128-hr-zones",
+ "kind": "long",
+ "topic_id": "T24",
+ "publish_at": "2026-11-28T17:00:00Z",
+ "playlist": "exam",
+ "thumb_text": "Yağ yakım bölgesi yalan mı?",
+ "thumb_highlight": "yalan",
+ "scenes": [
+  {
+   "title": "Yağ yakım bölgesi efsanesi",
+   "layer": "hook",
+   "beats": [
+    {
+     "text": "Koşu bandındaki o turuncu yazıyı mutlaka görmüşsündür: yağ yakım bölgesi.",
+     "visual": {
+      "type": "stock",
+      "clip": {
+       "provider": "pixabay",
+       "id": "77903",
+       "url": "https://cdn.pixabay.com/video/2021/06/16/77903-563974343_large.mp4",
+       "start": 0,
+       "checked": "3D-rendered woman running on a treadmill, side view, white background"
+      },
+      "overlay": "Yağ yakım bölgesi"
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "Peki o bölgede kalırsan gerçekten daha fazla yağ mı yakarsın, yoksa sadece zamanını mı harcarsın?",
+     "visual": {
+      "type": "title",
+      "text": "Gerçekten mi?"
+     },
+     "sfx": "riser"
+    },
+    {
+     "text": "Bir de şunu düşün: aynı süre boyunca biri yürüyor, biri koşuyor. Sence hangisi daha çok yağ kaybeder?",
+     "visual": {
+      "type": "collage",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "7308033",
+        "url": "https://pixabay.com/get/g72da3dbf25dce87af495f92ec75ed211107f275e0ae32fb0bb5a1cfd93f6236059be23d762193dfa7b2c6be779f55a4e00a149b90bf4e6f607d5f95fd742444f_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-dog-walk-pooch-dog-leash-7308033/",
+        "checked": "woman walking calmly on a park path, seen from behind",
+        "caption": "Yürüyüş"
+       },
+       {
+        "provider": "pixabay",
+        "id": "2589176",
+        "url": "https://pixabay.com/get/ga9ba5b2a0322f6644c0862a0fe4eb6a2ce1ad5c63ce1d4e34b4581dc1312f248f403c2716217aa129dd24e8010d970e62e7a59ee481ce7d6b8df8770bb80b18d_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/people-man-exercise-jogging-sport-2589176/",
+        "checked": "man jogging on a country road, blue sky",
+        "caption": "Koşu"
+       }
+      ]
+     }
+    },
+    {
+     "text": "Bu videonun sonunda kendi hedef nabız aralığını iki dakikada hesaplayabileceksin.",
+     "visual": {
+      "type": "stat",
+      "value": "2 dk",
+      "label": "kendi nabız aralığın"
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Üstelik fitness eğitmenliği sınavında en sık sorulan tabloyu ezberlemeden, mantığıyla anlayacaksın.",
+     "visual": {
+      "type": "compare",
+      "left": "Salon",
+      "right": "Sınav",
+      "verdict": "both"
+     }
+    },
+    {
+     "text": "Rez Fitlab’e hoş geldin. Kalemini al, çünkü birkaç basit hesap yapacağız.",
+     "visual": {
+      "type": "keyword",
+      "text": "Rez Fitlab",
+      "highlight": "Rez"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Nabız neden şiddeti gösterir?",
+   "layer": "exam",
+   "beats": [
+    {
+     "text": "Önce temel fikir: egzersizin şiddeti arttıkça kalbin daha hızlı atar.",
+     "visual": {
+      "type": "keyword",
+      "text": "Şiddet artar, nabız artar",
+      "highlight": "nabız"
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "Çünkü çalışan kasların daha fazla oksijene ihtiyacı vardır ve bu oksijeni kan taşır.",
+     "visual": {
+      "type": "image",
+      "images": [
+       {
+        "provider": "wikimedia",
+        "id": "Gray490blanco.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Gray490blanco.png",
+        "license": "Public domain",
+        "credit": "",
+        "page": "https://commons.wikimedia.org/wiki/File:Gray490blanco.png",
+        "checked": "Gray's Anatomy plate: heart between the two lungs, front view, no text labels"
+       }
+      ],
+      "labels": [
+       {
+        "text": "Kalp",
+        "x": 52,
+        "y": 66
+       },
+       {
+        "text": "Akciğer",
+        "x": 16,
+        "y": 45
+       }
+      ]
+     }
+    },
+    {
+     "text": "Oksijen ihtiyacı arttıkça kalp hem daha sık atar hem de her atımda daha fazla kan pompalamaya çalışır.",
+     "visual": {
+      "type": "keyword",
+      "text": "Daha sık, daha güçlü",
+      "highlight": "güçlü"
+     }
+    },
+    {
+     "text": "Dinlenirken nabzın düşüktür, merdiven çıkarken yükselir, sprint atarken zirveye yaklaşır.",
+     "visual": {
+      "type": "diagram",
+      "name": "timeline",
+      "text": "Aynı gün, farklı nabız",
+      "params": {
+       "points": [
+        {
+         "t": "Dinlenme",
+         "label": "düşük"
+        },
+        {
+         "t": "Merdiven",
+         "label": "orta"
+        },
+        {
+         "t": "Sprint",
+         "label": "zirveye yakın"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "text": "Bu yüzden nabız, ne kadar zorlandığını gösteren en pratik ölçülerden biridir.",
+     "visual": {
+      "type": "keyword",
+      "text": "Nabız: pratik bir şiddet ölçüsü",
+      "highlight": "pratik"
+     }
+    },
+    {
+     "text": "Eskiden antrenörler nabzı bilekten on beş saniye sayıp dörtle çarpardı; bugün bunu saatler yapıyor ama mantık aynı.",
+     "visual": {
+      "type": "image",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "818378",
+        "url": "https://pixabay.com/get/ga1a535d1375aa3ca3133f84f0628164c243e77ebbc4e5eb6e53f1a74286b76e333fe699bc52350031db23bc4f97dc59bb33ec91a59d78287c4e41f2e34897099_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/pulse-hand-health-care-workers-818378/",
+        "checked": "two fingers on the inside of a wrist taking a pulse, plain light background"
+       }
+      ]
+     }
+    },
+    {
+     "text": "Ama herkesin kalbi farklıdır. Yirmi yaşındaki biriyle elli yaşındaki birinin maksimum nabzı aynı değildir.",
+     "visual": {
+      "type": "compare",
+      "left": "20 yaş",
+      "right": "50 yaş",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Antrenman bilimi bu ilişkiyi kullanarak egzersiz şiddetini sayılarla ifade eder; sınav tablolarının mantığı da buradan gelir.",
+     "visual": {
+      "type": "title",
+      "text": "Şiddet = sayı",
+      "highlight": "sayı"
+     }
+    },
+    {
+     "text": "Bu yüzden şiddeti sabit bir sayıyla değil, kişinin kendi kapasitesinin yüzdesiyle ifade ederiz.",
+     "visual": {
+      "type": "keyword",
+      "text": "Kapasitenin yüzdesi",
+      "highlight": "yüzdesi"
+     }
+    },
+    {
+     "text": "Sınavda karşına iki yöntem çıkar: maksimum nabız yüzdesi ve kalp atım hızı rezervi yüzdesi.",
+     "visual": {
+      "type": "compare",
+      "left": "% HRmax",
+      "right": "% HRR",
+      "verdict": "none"
+     },
+     "sfx": "pop"
+    }
+   ]
+  },
+  {
+   "title": "Maksimum nabız (HRmax)",
+   "layer": "exam",
+   "beats": [
+    {
+     "text": "Maksimum nabız, kalbinin bir dakikada atabileceği en yüksek sayıdır.",
+     "visual": {
+      "type": "stat",
+      "value": "HRmax",
+      "label": "dakikadaki en yüksek nabız"
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "Bunu laboratuvarda ölçmek zordur, o yüzden genellikle bir formülle tahmin ederiz.",
+     "visual": {
+      "type": "keyword",
+      "text": "Ölçmek zor, tahmin ederiz",
+      "highlight": "tahmin"
+     }
+    },
+    {
+     "text": "En bilinen formül çok basittir: iki yüz yirmiden yaşını çıkar.",
+     "visual": {
+      "type": "keyword",
+      "text": "220 − yaş",
+      "highlight": "220"
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Otuz yaşındaysan tahmini maksimum nabzın dakikada yüz doksan atımdır.",
+     "visual": {
+      "type": "stat",
+      "value": "190",
+      "label": "30 yaş için tahmini HRmax"
+     }
+    },
+    {
+     "text": "Ama unutma, bu sadece bir tahmindir ve gerçek değer kişiden kişiye belirgin şekilde sapabilir.",
+     "visual": {
+      "type": "keyword",
+      "text": "Sadece bir tahmin",
+      "highlight": "tahmin"
+     }
+    },
+    {
+     "text": "Formülün hatası bazı kişilerde büyüyebilir; o yüzden sonucu kesin bir duvar gibi değil, kaba bir rehber gibi gör.",
+     "visual": {
+      "type": "compare",
+      "left": "Formül",
+      "right": "Gerçek değer",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Daha yeni bir formül olan Tanaka formülü ise iki yüz sekizden yaşın yüzde yetmişini çıkarır.",
+     "visual": {
+      "type": "keyword",
+      "text": "208 − 0,7 × yaş",
+      "highlight": "208"
+     }
+    },
+    {
+     "text": "Gerçek maksimum nabız ancak kontrollü bir efor testiyle ve uzman gözetiminde ölçülür. Bunu kendi başına denemeye çalışma.",
+     "visual": {
+      "type": "title",
+      "text": "Efor testi = uzman işi",
+      "highlight": "uzman"
+     },
+     "sfx": "impact"
+    },
+    {
+     "text": "Kısacası, iki formül de sana bir başlangıç noktası verir; asıl ayarı vücudunun tepkisine bakarak yaparsın.",
+     "visual": {
+      "type": "compare",
+      "left": "220 − yaş",
+      "right": "208 − 0,7 × yaş",
+      "verdict": "both"
+     }
+    },
+    {
+     "text": "Sınav tablosunda maksimum nabza göre orta şiddet, yüzde elli beş ile altmış dokuz arasıdır.",
+     "visual": {
+      "type": "diagram",
+      "name": "hr_zones",
+      "text": "HRmax’e göre şiddet",
+      "params": {
+       "zones": [
+        {
+         "label": "Çok hafif",
+         "from": 0,
+         "to": 35
+        },
+        {
+         "label": "Hafif",
+         "from": 35,
+         "to": 55
+        },
+        {
+         "label": "Orta",
+         "from": 55,
+         "to": 70
+        },
+        {
+         "label": "Yüksek",
+         "from": 70,
+         "to": 90
+        },
+        {
+         "label": "Maksimale yakın",
+         "from": 90,
+         "to": 100
+        }
+       ],
+       "highlight": 2,
+       "unit": "Maksimum nabız (HRmax) %"
+      }
+     },
+     "sfx": "reveal"
+    },
+    {
+     "text": "Yüzde otuz beş ile elli dört hafif, yüzde yetmiş ile seksen dokuz ise yüksek şiddet olarak geçer.",
+     "visual": {
+      "type": "diagram",
+      "name": "hr_zones",
+      "text": "HRmax’e göre şiddet",
+      "params": {
+       "zones": [
+        {
+         "label": "Çok hafif",
+         "from": 0,
+         "to": 35
+        },
+        {
+         "label": "Hafif",
+         "from": 35,
+         "to": 55
+        },
+        {
+         "label": "Orta",
+         "from": 55,
+         "to": 70
+        },
+        {
+         "label": "Yüksek",
+         "from": 70,
+         "to": 90
+        },
+        {
+         "label": "Maksimale yakın",
+         "from": 90,
+         "to": 100
+        }
+       ],
+       "highlight": 3,
+       "unit": "Maksimum nabız (HRmax) %"
+      }
+     }
+    },
+    {
+     "text": "Yani otuz yaşındaki biri için orta şiddet, dakikada yaklaşık yüz beş ile yüz otuz bir atım arasıdır.",
+     "visual": {
+      "type": "stat",
+      "value": "105–131",
+      "label": "atım/dk · 30 yaş · orta şiddet"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Kalp atım hızı rezervi (HRR)",
+   "layer": "exam",
+   "beats": [
+    {
+     "text": "Şimdi sınavın asıl favorisine geçelim: kalp atım hızı rezervi, kısaca HRR.",
+     "visual": {
+      "type": "title",
+      "text": "HRR",
+      "highlight": "HRR"
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "Rezerv, maksimum nabzınla dinlenme nabzın arasındaki farktır.",
+     "visual": {
+      "type": "keyword",
+      "text": "HRR = HRmax − dinlenme nabzı",
+      "highlight": "HRR"
+     }
+    },
+    {
+     "text": "Dinlenme nabzını sabah uyandığında, yataktan kalkmadan önce tam bir dakika sayarak ölçebilirsin.",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Dinlenme nabzı",
+      "cues": [
+       "Sabah uyanınca",
+       "Yataktan kalkmadan",
+       "60 saniye say",
+       "3 gün ortalaması al"
+      ]
+     }
+    },
+    {
+     "text": "Kahve, kötü bir uyku ya da stres dinlenme nabzını geçici olarak yükseltebilir; ölçerken bunlara dikkat et.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Kahve",
+       "Kötü uyku",
+       "Stres"
+      ],
+      "text": "Nabzı yükseltir"
+     }
+    },
+    {
+     "text": "Üç gün üst üste ölçüp ortalamasını almak çok daha güvenilir bir sonuç verir.",
+     "visual": {
+      "type": "stat",
+      "value": "3 gün",
+      "label": "ölç, ortalamasını al"
+     }
+    },
+    {
+     "text": "Örneğin maksimum nabzın yüz doksan, dinlenme nabzın altmışsa, rezervin yüz otuzdur.",
+     "visual": {
+      "type": "diagram",
+      "name": "bar",
+      "text": "Örnek hesap",
+      "params": {
+       "items": [
+        {
+         "label": "HRmax",
+         "value": 190
+        },
+        {
+         "label": "Dinlenme",
+         "value": 60
+        },
+        {
+         "label": "Rezerv",
+         "value": 130
+        }
+       ]
+      }
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Hedef nabzı bulmak için Karvonen formülünü kullanırız.",
+     "visual": {
+      "type": "keyword",
+      "text": "Karvonen formülü",
+      "highlight": "Karvonen"
+     }
+    },
+    {
+     "text": "Rezervi istediğin yüzdeyle çarp, sonra dinlenme nabzını geri ekle. Hepsi bu kadar.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Rezerv × yüzde",
+       "+ dinlenme nabzı",
+       "= hedef nabız"
+      ],
+      "text": "Karvonen"
+     }
+    },
+    {
+     "text": "Yüzde kırk için: yüz otuz çarpı sıfır virgül dört, elli iki eder; altmış eklersen yüz on iki.",
+     "visual": {
+      "type": "stat",
+      "value": "112",
+      "label": "atım/dk · %40 HRR"
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Yüzde elli dokuz için: yüz otuz çarpı sıfır virgül elli dokuz, yaklaşık yetmiş yedi; altmış eklersen yüz otuz yedi.",
+     "visual": {
+      "type": "stat",
+      "value": "137",
+      "label": "atım/dk · %59 HRR"
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Formülü bir kez anladıktan sonra her yüzde için aynı iki adımı tekrarlaman yeterli.",
+     "visual": {
+      "type": "keyword",
+      "text": "İki adım, her yüzde",
+      "highlight": "İki adım"
+     }
+    },
+    {
+     "text": "Yani bu kişinin orta şiddet aralığı, dakikada yüz on iki ile yüz otuz yedi atım arasıdır.",
+     "visual": {
+      "type": "stat",
+      "value": "112–137",
+      "label": "atım/dk · orta şiddet (HRR)"
+     },
+     "sfx": "reveal"
+    },
+    {
+     "text": "Peki bu yöntem neden daha iyi? Çünkü dinlenme nabzını, yani kondisyonunu da hesaba katar.",
+     "visual": {
+      "type": "keyword",
+      "text": "Kondisyonunu da hesaba katar",
+      "highlight": "kondisyonunu"
+     }
+    },
+    {
+     "text": "Kondisyonun geliştikçe dinlenme nabzın düşer ve aynı yüzde sana yeni bir hedef verir.",
+     "visual": {
+      "type": "compare",
+      "left": "Başlangıç",
+      "right": "3 ay sonra",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Yani üç ay düzenli çalışan biri, aynı yüzdede biraz daha farklı bir hedefle antrenman yapar; bu, gelişimin doğal bir sonucudur.",
+     "visual": {
+      "type": "keyword",
+      "text": "Gelişim = yeni hedef",
+      "highlight": "yeni hedef"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Sınav tablosu: HRR şiddet sınıfları",
+   "layer": "exam",
+   "beats": [
+    {
+     "text": "Şimdi sınavda karşına çıkan tabloya adım adım bakalım.",
+     "visual": {
+      "type": "title",
+      "text": "Sınav tablosu",
+      "highlight": "tablosu"
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "Rezervin yüzde yirmisinin altı çok hafif şiddettir.",
+     "visual": {
+      "type": "diagram",
+      "name": "hr_zones",
+      "text": "HRR şiddet sınıfları",
+      "params": {
+       "zones": [
+        {
+         "label": "Çok hafif",
+         "from": 0,
+         "to": 20
+        },
+        {
+         "label": "Hafif",
+         "from": 20,
+         "to": 40
+        },
+        {
+         "label": "Orta",
+         "from": 40,
+         "to": 60
+        },
+        {
+         "label": "Yüksek",
+         "from": 60,
+         "to": 85
+        },
+        {
+         "label": "Maksimale yakın",
+         "from": 85,
+         "to": 100
+        }
+       ],
+       "highlight": 0
+      }
+     }
+    },
+    {
+     "text": "Yüzde yirmi ile otuz dokuz arası hafif şiddettir.",
+     "visual": {
+      "type": "diagram",
+      "name": "hr_zones",
+      "text": "HRR şiddet sınıfları",
+      "params": {
+       "zones": [
+        {
+         "label": "Çok hafif",
+         "from": 0,
+         "to": 20
+        },
+        {
+         "label": "Hafif",
+         "from": 20,
+         "to": 40
+        },
+        {
+         "label": "Orta",
+         "from": 40,
+         "to": 60
+        },
+        {
+         "label": "Yüksek",
+         "from": 60,
+         "to": 85
+        },
+        {
+         "label": "Maksimale yakın",
+         "from": 85,
+         "to": 100
+        }
+       ],
+       "highlight": 1
+      }
+     }
+    },
+    {
+     "text": "Yüzde kırk ile elli dokuz arası orta şiddettir. Sınavda en çok sorulan aralık budur.",
+     "visual": {
+      "type": "keyword",
+      "text": "Yüzde 40–59: Orta",
+      "highlight": "Orta"
+     },
+     "sfx": "reveal"
+    },
+    {
+     "text": "Yüzde altmış ile seksen dört arası yüksek, seksen beş ve üstü ise maksimale yakın şiddettir.",
+     "visual": {
+      "type": "diagram",
+      "name": "hr_zones",
+      "text": "HRR şiddet sınıfları",
+      "params": {
+       "zones": [
+        {
+         "label": "Çok hafif",
+         "from": 0,
+         "to": 20
+        },
+        {
+         "label": "Hafif",
+         "from": 20,
+         "to": 40
+        },
+        {
+         "label": "Orta",
+         "from": 40,
+         "to": 60
+        },
+        {
+         "label": "Yüksek",
+         "from": 60,
+         "to": 85
+        },
+        {
+         "label": "Maksimale yakın",
+         "from": 85,
+         "to": 100
+        }
+       ],
+       "highlight": 3
+      }
+     }
+    },
+    {
+     "text": "Dikkat: güncel ACSM kılavuzunda sınırlar biraz farklıdır; hafif şiddet yüzde otuzdan başlar, yüksek şiddet seksen dokuza kadar uzanır.",
+     "visual": {
+      "type": "keyword",
+      "text": "Güncel ACSM: sınırlar biraz farklı",
+      "highlight": "ACSM"
+     }
+    },
+    {
+     "text": "Sınavda hangi tablo soruluyorsa onu kullan; kendi kitabındaki tabloyu esas al.",
+     "visual": {
+      "type": "compare",
+      "left": "Kitabın tablosu",
+      "right": "Başka tablo",
+      "verdict": "left"
+     }
+    },
+    {
+     "text": "Ya da tersini sorarlar: yüksek şiddet hangi aralıktır? Kitap tablosuna göre cevap yüzde altmış ile seksen dört.",
+     "visual": {
+      "type": "stat",
+      "value": "%60–84",
+      "label": "HRR · yüksek şiddet (kitap tablosu)"
+     }
+    },
+    {
+     "text": "Örneğin: rezervin yüzde elli beşi hangi şiddettir? Doğru cevap: orta şiddet.",
+     "visual": {
+      "type": "compare",
+      "left": "%55 HRR",
+      "right": "Orta şiddet",
+      "verdict": "right"
+     },
+     "sfx": "reveal"
+    },
+    {
+     "text": "Mesela yüzde otuz beş HRR sorulursa, kitap tablosuna göre cevap hafif şiddettir.",
+     "visual": {
+      "type": "compare",
+      "left": "%35 HRR",
+      "right": "Hafif şiddet",
+      "verdict": "right"
+     }
+    },
+    {
+     "text": "Sınav sorularında genellikle bir yüzde verilir ve bunun hangi sınıfa girdiğini sorarlar.",
+     "visual": {
+      "type": "title",
+      "text": "Tipik sınav sorusu",
+      "highlight": "sınav"
+     }
+    },
+    {
+     "text": "Bir tuzak daha: maksimum nabız yüzdesi ile rezerv yüzdesi aynı şey değildir.",
+     "visual": {
+      "type": "keyword",
+      "text": "% HRmax ≠ % HRR",
+      "highlight": "≠"
+     },
+     "sfx": "impact"
+    },
+    {
+     "text": "Aynı kişi için yüzde altmış HRmax yüz on dört atım verirken, yüzde altmış HRR yüz otuz sekiz atım verir.",
+     "visual": {
+      "type": "compare",
+      "left": "%60 HRmax = 114",
+      "right": "%60 HRR = 138",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Bu tuzağa düşmemek için soruda HRmax mı yoksa HRR mı yazdığını her zaman iki kez oku.",
+     "visual": {
+      "type": "keyword",
+      "text": "Soruyu iki kez oku",
+      "highlight": "iki kez"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Salonda: yağ yakım bölgesi gerçeği",
+   "layer": "gym",
+   "beats": [
+    {
+     "text": "Gelelim koşu bandındaki yağ yakım bölgesine.",
+     "visual": {
+      "type": "title",
+      "text": "Yağ yakım bölgesi",
+      "highlight": "yağ"
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "Düşük şiddette vücut, harcadığı enerjinin daha büyük bir kısmını yağdan karşılar. Bu kısım doğru.",
+     "visual": {
+      "type": "keyword",
+      "text": "Düşük şiddet: yağın payı büyük",
+      "highlight": "yağın"
+     }
+    },
+    {
+     "text": "Ama yüksek şiddette dakikada harcadığın toplam enerji çok daha fazladır.",
+     "visual": {
+      "type": "compare",
+      "left": "Yağın payı yüksek",
+      "right": "Toplam enerji yüksek",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Tempolu bir koşuda ise karbonhidratın payı artar, ama aynı sürede harcanan toplam enerji çok daha yüksektir.",
+     "visual": {
+      "type": "stock",
+      "clip": {
+       "provider": "pixabay",
+       "id": "27539",
+       "url": "https://cdn.pixabay.com/video/2019/10/04/27539-364430966_small.mp4",
+       "start": 0,
+       "checked": "real runner, legs and torso, running towards camera on a path, low angle"
+      },
+      "overlay": "Tempolu koşu"
+     }
+    },
+    {
+     "text": "Örneğin sakin bir yürüyüşte enerjinin büyük bölümü yağdan gelir, ama bir saatte harcanan toplam enerji düşük kalır.",
+     "visual": {
+      "type": "keyword",
+      "text": "Yürüyüş: oran yüksek, toplam düşük",
+      "highlight": "toplam"
+     }
+    },
+    {
+     "text": "Yağ kaybını belirleyen asıl şey, haftalar boyunca oluşan toplam enerji dengesidir.",
+     "visual": {
+      "type": "keyword",
+      "text": "Toplam enerji dengesi",
+      "highlight": "enerji dengesi"
+     },
+     "sfx": "impact"
+    },
+    {
+     "text": "Beslenmeni hiç değiştirmeden sadece bu bölgeye güvenmek, çoğu zaman hayal kırıklığıyla biter.",
+     "visual": {
+      "type": "keyword",
+      "text": "Bölge tek başına yetmez",
+      "highlight": "yetmez"
+     }
+    },
+    {
+     "text": "Yani tek bir bölgeye takılmak yerine haftanı farklı şiddetlerle planla.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Çoğu gün: orta şiddet",
+       "1–2 gün: yüksek şiddet",
+       "Arada aktif dinlenme"
+      ],
+      "text": "Haftalık plan"
+     }
+    },
+    {
+     "text": "Orta şiddet ise uzun süre sürdürülebilir ve kalp sağlığı için güçlü bir temel oluşturur.",
+     "visual": {
+      "type": "keyword",
+      "text": "Orta şiddet: güçlü temel",
+      "highlight": "temel"
+     }
+    },
+    {
+     "text": "Öte yandan yüksek şiddet her gün yapılamaz; toparlanma ister ve fazlası sakatlık riskini artırabilir.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Toparlanma ister",
+       "Her gün olmaz",
+       "Fazlası risk"
+      ],
+      "text": "Yüksek şiddet"
+     }
+    },
+    {
+     "text": "Dünya Sağlık Örgütü yetişkinler için haftada yüz elli ile üç yüz dakika orta şiddetli aktivite öneriyor.",
+     "visual": {
+      "type": "stat",
+      "value": "150–300",
+      "label": "dk/hafta orta şiddet (WHO)"
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Ya da haftada yetmiş beş ile yüz elli dakika yüksek şiddetli aktivite.",
+     "visual": {
+      "type": "stat",
+      "value": "75–150",
+      "label": "dk/hafta yüksek şiddet (WHO)"
+     }
+    },
+    {
+     "text": "İkisini karıştırmak da olur. Önemli olan haftalık toplam hacim ve bunu aylarca sürdürebilmen.",
+     "visual": {
+      "type": "keyword",
+      "text": "Sürdürülebilir hacim",
+      "highlight": "Sürdürülebilir"
+     }
+    },
+    {
+     "text": "Merdiven çıkmak, tempolu yürüyüş ve bisiklet de bu dakikalara dahildir; illa salonda olman gerekmez.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Merdiven çıkmak",
+       "Tempolu yürüyüş",
+       "Bisiklet"
+      ],
+      "text": "Bunlar da sayılır"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Salonda: saat olmadan şiddet",
+   "layer": "gym",
+   "beats": [
+    {
+     "text": "Peki nabız saatin yoksa ne yapacaksın?",
+     "visual": {
+      "type": "title",
+      "text": "Nabız saati yok mu?",
+      "highlight": "saati"
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "İlk yöntem konuşma testi: orta şiddette konuşabilirsin ama şarkı söyleyemezsin.",
+     "visual": {
+      "type": "compare",
+      "left": "Orta: konuşursun",
+      "right": "Şarkı: söyleyemezsin",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Yüksek şiddette ise nefes almadan birkaç kelimeden fazlasını söyleyemezsin.",
+     "visual": {
+      "type": "keyword",
+      "text": "Sadece birkaç kelime",
+      "highlight": "birkaç kelime"
+     }
+    },
+    {
+     "text": "Koşu bandında bir dakika konuşmayı dene: rahatça cümle kurabiliyorsan orta, zorlanıyorsan yüksek şiddettesin.",
+     "visual": {
+      "type": "title",
+      "text": "Bir dakika konuş",
+      "highlight": "konuş"
+     }
+    },
+    {
+     "text": "Kulaklıkla müzik dinliyorsan şarkıya eşlik etmeyi dene: rahatça söyleyebiliyorsan tempo henüz hafif seviyededir.",
+     "visual": {
+      "type": "compare",
+      "left": "Şarkı söyleyebiliyorsan",
+      "right": "Hafif şiddet",
+      "verdict": "right"
+     }
+    },
+    {
+     "text": "İkinci yöntem algılanan efor, yani RPE: sıfırdan ona kadar ne kadar zorlandığını kendin puanlarsın.",
+     "visual": {
+      "type": "diagram",
+      "name": "rpe_scale",
+      "text": "RPE 0–10",
+      "params": {}
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Bu ölçekte beş ile altı orta, yedi ile sekiz ise yüksek şiddet kabul edilir.",
+     "visual": {
+      "type": "diagram",
+      "name": "rpe_scale",
+      "text": "RPE 0–10",
+      "params": {
+       "highlight": [
+        5,
+        6,
+        7,
+        8
+       ]
+      }
+     }
+    },
+    {
+     "text": "Yani RPE’de altı hissettiğin bir tempo, kabaca orta şiddetin üst sınırına denk gelir.",
+     "visual": {
+      "type": "stat",
+      "value": "RPE 6",
+      "label": "orta şiddetin üst sınırı"
+     }
+    },
+    {
+     "text": "Nabız saatin olsa bile RPE’yi bırakma; uykusuz ve stresli günlerde aynı nabız çok daha zor hissettirebilir.",
+     "visual": {
+      "type": "keyword",
+      "text": "Nabız + his",
+      "highlight": "his"
+     }
+    },
+    {
+     "text": "Saat ve his birbirini tutmuyorsa, o gün hissine öncelik ver ve şiddeti biraz düşür.",
+     "visual": {
+      "type": "keyword",
+      "text": "Hissine öncelik ver",
+      "highlight": "Hissine"
+     }
+    },
+    {
+     "text": "Yeni başlıyorsan ilk haftalarda orta şiddette kal ve önce süreyi, sonra şiddeti yavaşça artır.",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Yeni başlıyorsan",
+      "cues": [
+       "Orta şiddette kal",
+       "Önce süreyi artır",
+       "Sonra şiddeti artır"
+      ]
+     }
+    },
+    {
+     "text": "Kalp rahatsızlığın, tansiyon sorunun ya da düzenli kullandığın bir ilaç varsa hedef nabzını mutlaka doktorunla belirle.",
+     "visual": {
+      "type": "keyword",
+      "text": "Önce doktoruna danış",
+      "highlight": "doktoruna"
+     },
+     "sfx": "impact"
+    },
+    {
+     "text": "Bazı tansiyon ilaçları nabzı düşürür; böyle bir durumda RPE daha güvenilir bir rehber olabilir.",
+     "visual": {
+      "type": "compare",
+      "left": "Nabız",
+      "right": "RPE",
+      "verdict": "right"
+     }
+    },
+    {
+     "text": "Hamilelikte ya da bir sakatlık sonrası antrenmana dönerken de aynı kural geçerli: planı bir uzmanla birlikte yap.",
+     "visual": {
+      "type": "keyword",
+      "text": "Uzmanla planla",
+      "highlight": "Uzmanla"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Özet",
+   "layer": "summary",
+   "beats": [
+    {
+     "text": "Toparlayalım.",
+     "visual": {
+      "type": "title",
+      "text": "Özet"
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "Sınavda hatırla: rezerv, maksimum nabız eksi dinlenme nabzıdır; rezerve göre orta şiddet yüzde kırk ile elli dokuz arasıdır.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "HRR = HRmax − dinlenme",
+       "Orta: %40–59 HRR",
+       "Orta: %55–69 HRmax"
+      ],
+      "text": "Sınavda hatırla"
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Salonda uygula: hedef nabzını Karvonen ile hesapla; saatin yoksa konuşma testini ve RPE’yi kullan.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Karvonen ile hesapla",
+       "Konuşma testi",
+       "RPE 5–6 = orta"
+      ],
+      "text": "Salonda uygula"
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Ve bir sınav tuzağını da unutma: yüzde HRmax ile yüzde HRR aynı şey değildir.",
+     "visual": {
+      "type": "compare",
+      "left": "% HRmax",
+      "right": "% HRR",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Ve unutma: yağ kaybını tek bir bölge değil, haftalar boyunca gösterdiğin toplam emek belirler.",
+     "visual": {
+      "type": "keyword",
+      "text": "Haftalık toplam emek",
+      "highlight": "emek"
+     }
+    },
+    {
+     "text": "Seans bitince RPE’ni de not et; nabız ile hissin birbirini tutuyor mu, kendi gözünle görürsün.",
+     "visual": {
+      "type": "keyword",
+      "text": "Nabız ve his: not al",
+      "highlight": "not al"
+     }
+    },
+    {
+     "text": "Bu hafta bir deneme yap: dinlenme nabzını üç sabah ölç, Karvonen ile aralığını hesapla ve bir kardiyo seansını bu aralıkta tamamla.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "3 sabah ölç",
+       "Aralığını hesapla",
+       "Bir seansı dene"
+      ],
+      "text": "Bu haftaki görevin"
+     },
+     "sfx": "pop"
+    }
+   ]
+  },
+  {
+   "title": "Sıra sende",
+   "layer": "cta",
+   "beats": [
+    {
+     "text": "Şimdi sıra sende: dinlenme nabzın kaç? Yorumlara yaz, hedef aralığını birlikte hesaplayalım.",
+     "visual": {
+      "type": "title",
+      "text": "Dinlenme nabzın kaç?",
+      "highlight": "kaç"
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Hesapladığın sayıyı yazarsan, aralığının doğru olup olmadığını yorumlarda birlikte kontrol edelim.",
+     "visual": {
+      "type": "keyword",
+      "text": "Yorumlarda kontrol",
+      "highlight": "kontrol"
+     }
+    },
+    {
+     "text": "Sınava hazırlanıyorsan, Fitness Eğitmenliği Sınavına Hazırlık listesindeki diğer videolara da göz at.",
+     "visual": {
+      "type": "keyword",
+      "text": "Sınav hazırlık listesi",
+      "highlight": "Sınav"
+     }
+    },
+    {
+     "text": "Videoyu faydalı bulduysan kaydet; sınavdan önce bu tabloya tekrar bakmak isteyeceksin.",
+     "visual": {
+      "type": "title",
+      "text": "Kaydet, sonra tekrar bak",
+      "highlight": "Kaydet"
+     }
+    },
+    {
+     "text": "Bir sonraki videoda vücudun üç haritasını, yani hareket düzlemlerini anlatıyorum. Görüşmek üzere!",
+     "visual": {
+      "type": "diagram",
+      "name": "planes",
+      "text": "Sıradaki video",
+      "params": {
+       "highlight": "all"
+      }
+     },
+     "sfx": "whoosh"
+    }
+   ]
+  }
+ ],
+ "upload": {
+  "title": "Yağ Yakım Bölgesi Gerçek mi? Hedef Nabız Hesaplama (Karvonen)",
+  "description": "Hedef nabız nasıl hesaplanır, yağ yakım bölgesi gerçekten işe yarar mı? Bu videoda kalp atım hızı rezervi (HRR), maksimum nabız ve Karvonen formülüyle kendi nabız aralığını hesaplamayı öğreniyorsun. Fitness eğitmenliği sınavındaki şiddet tablosunu da adım adım anlatıyorum.\n\n{CHAPTERS}",
+  "tags": [
+   "hedef nabız",
+   "nabız hesaplama",
+   "karvonen formülü",
+   "yağ yakım bölgesi",
+   "kalp atım hızı rezervi",
+   "maksimum nabız",
+   "HRR",
+   "egzersiz şiddeti",
+   "kardiyo",
+   "yağ yakımı",
+   "fitness eğitmenliği",
+   "fitness sınavı",
+   "EREPS",
+   "RPE",
+   "konuşma testi",
+   "antrenman bilimi",
+   "heart rate zones"
+  ],
+  "hashtags": [
+   "#fitnesstürkiye",
+   "#kardiyo",
+   "#antrenman"
+  ],
+  "pinned_comment": "Dinlenme nabzın kaç? Yaz, hedef aralığını birlikte hesaplayalım 👇"
+ },
+ "sources": [
+  {
+   "title": "ACSM Position Stand (Garber et al., 2011) — Quantity and quality of exercise",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21694556/"
+  },
+  {
+   "title": "ACSM Position Stand (Pollock et al., 1998) — Recommended quantity and quality of exercise",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9624661/"
+  },
+  {
+   "title": "Tanaka et al., 2001 — Age-predicted maximal heart rate revisited",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11153730/"
+  },
+  {
+   "title": "WHO Guidelines on Physical Activity and Sedentary Behaviour (2020)",
+   "url": "https://www.who.int/publications/i/item/9789240015128"
+  },
+  {
+   "title": "CDC — Measuring Physical Activity Intensity",
+   "url": "https://www.cdc.gov/physical-activity-basics/measuring/index.html"
+  }
+ ],
+ "critic": {
+  "passed": true,
+  "score": 8.2,
+  "notes": [
+   "local pipeline test episode; numbers checked by hand: 190*0.55=104.5, 190*0.69=131.1, 130*0.4+60=112, 130*0.59+60=136.7, 190*0.6=114, 130*0.6+60=138",
+   "Round 2 (2026-11-26): +8 beats to reach the length limit; new claims checked: 15-s count ×4 pulse method, Tanaka vs 220-age as estimates, %35 HRR = light in the book table, CDC talk/sing test, pregnancy/injury → professional. Added 2 stock clips (checked), heart plate (public domain), pulse photo, walk/run collage. Pose portrait-gym for a myth topic."
+  ]
+ },
+ "thumb_pose": "portrait-gym"
+}

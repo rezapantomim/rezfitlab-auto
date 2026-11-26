@@ -11,7 +11,8 @@
   ],
   "gym_angle": "yağ yakımı ve kondisyon için doğru nabız",
   "order": 1,
-  "status": "todo"
+  "status": "queued",
+  "episode": "L-20261128-hr-zones"
  },
  {
   "id": "T01",
