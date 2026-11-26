@@ -61,9 +61,14 @@ the same steps work for both. If nothing is missing, report "queue full" and sto
    from the JSON into `visual.images[]`, add `checked` (what you saw), optional `cutout` / `caption`; for anatomy pictures add
    Turkish `labels` with x/y in % of the picture where the arrow should point (judge the position from the sheet image).
    Mix it in: roughly one picture visual every 20–30 s, never two collages in a row.
-6. **Upload package** (`upload`): title, description with `{CHAPTERS}` placeholder and sources, 12–20 tags, ≤ 3 hashtags, pinned
+6. **Thumbnail:** `thumb_text` (2–4 Turkish words, a curiosity gap), `thumb_highlight` (the one word to colour) and `thumb_pose`
+   (the coach photo, gym-scene photos only — see the schema list): myth / surprise / general → `portrait-gym` or `portrait-red`,
+   exam topics → `arms-folded`, a specific exercise → its exercise pose (`lateral-raise`, `lat-pulldown`, `incline-press`,
+   `dumbbell-curl`), effort / motivation → `after-set`. The thumbnail must feel like an energetic sports cover, never a
+   passport or studio head shot. Do not use the same pose on two consecutive long videos.
+7. **Upload package** (`upload`): title, description with `{CHAPTERS}` placeholder and sources, 12–20 tags, ≤ 3 hashtags, pinned
    comment question. Playlist: `exam`.
-7. Fill `id` = slot from the plan (`L-YYYYMMDD-<short-english-slug>`), `kind`, `topic_id`, `publish_at`, `sources`.
+8. Fill `id` = slot from the plan (`L-YYYYMMDD-<short-english-slug>`), `kind`, `topic_id`, `publish_at`, `sources`.
 
 ## 3. For each Short
 - `quiz`: write ONE clear question about the concept (never copy the AHA wording), 4 short options (one correct, three plausible),

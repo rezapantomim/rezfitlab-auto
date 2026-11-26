@@ -14,3 +14,6 @@ __pycache__/
 
 # private source material (book-derived question bank) - never publish
 data/source/
+
+# coach: original character sheets stay local, the cut poses are published
+assets/coach/file_*

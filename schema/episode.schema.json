@@ -15,6 +15,10 @@
     "playlist": { "enum": ["exam", "long", "quiz", "gym"] },
     "thumb_text": { "type": "string", "maxLength": 40, "description": "long videos: 2-4 word Turkish thumbnail headline; the word to colour goes in thumb_highlight" },
     "thumb_highlight": { "type": "string", "maxLength": 20 },
+    "thumb_pose": {
+      "enum": ["portrait-gym", "portrait-red", "arms-folded", "dumbbell-curl", "lateral-raise", "lat-pulldown", "incline-press", "after-set"],
+      "description": "coach photo on the thumbnail (assets/coach/poses/<name>.png). Only gym-scene photos: the grey studio head shots looked like a police photo on a thumbnail (owner rejected them)"
+    },
     "voice": {
       "type": "object",
       "properties": { "voice": { "type": "string" }, "rate": { "type": "string" } },

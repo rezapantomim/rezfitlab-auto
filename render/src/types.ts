@@ -22,6 +22,7 @@ export type Props = {
   id: string; kind: 'long' | 'short'; fps: number; width: number; height: number; durationInFrames: number;
   style: Style; handle: string; scenes: Scene[]; beats: Beat[]; quiz?: Quiz | null;
   thumbText: string; thumbHighlight: string; thumbClip?: string | null; thumbImg?: string | null;
+  coachImg?: string | null; coachCut?: boolean;
 };
 
 export const trUpper = (s: string) => s.toLocaleUpperCase('tr-TR');

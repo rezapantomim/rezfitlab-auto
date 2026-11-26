@@ -36,6 +36,24 @@ def _cutout(im):
         return None
 
 
+def coach_photo(ep):
+    """Copy the chosen coach pose to render/public/coach/ (background removed when rembg is available). Returns (src, cut) or (None, False)."""
+    from .common import ROOT
+    pose = ep.get('thumb_pose') or 'portrait-gym'
+    src = ROOT / 'assets/coach/poses' / f'{pose}.png'
+    if not src.exists():
+        return None, False
+    out = PUBLIC / 'coach'; out.mkdir(parents=True, exist_ok=True)
+    im = Image.open(src).convert('RGB')
+    if im.height < 1000:                                   # small panels: upscale once so the thumbnail stays sharp enough
+        im = im.resize((im.width * 2, im.height * 2), Image.LANCZOS)
+    cut = _cutout(im)
+    if cut is not None:
+        cut = cut.crop(cut.getbbox() or (0, 0, cut.width, cut.height))
+        cut.save(out / f'{pose}-cut.png'); return f'coach/{pose}-cut.png', True
+    im.save(out / f'{pose}.jpg', quality=92); return f'coach/{pose}.jpg', False
+
+
 def fetch_images(ep):
     """visual.images[k] -> render/public/img/<id>_<beat>_<k>.(jpg|png); returns {beat_index: [{src, w, h, cut}, ...]}."""
     out = PUBLIC / 'img'; out.mkdir(parents=True, exist_ok=True)

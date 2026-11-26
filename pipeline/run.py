@@ -87,6 +87,8 @@ def build(ep, out):
     clips = media.fetch_clips(ep, timeline)
     imgs = media.fetch_images(ep)
     p = props(ep, timeline, clips, total, imgs)
+    if ep['kind'] == 'long':
+        p['coachImg'], p['coachCut'] = media.coach_photo(ep)
     save(out / 'props.json', p)
     comp = 'Long' if ep['kind'] == 'long' else 'Short'
     silent = out / 'silent.mp4'
