@@ -21,9 +21,15 @@
 - Start 2 long (Tue/Sat 20:00 TRT) + 7 Shorts (daily 18:00 TRT); ramp later (see `schedule.ramp_note`). Voice tr-TR-AhmetNeural.
 - AHA source files are book-derived: kept local in `data/source/` (git-ignored). Coach poses are public in the repo (owner OK).
 
+- First week queued 2026-11-26 (Fri 27 Nov – Thu 3 Dec: 2 long + 7 Shorts). First upload OK: S-20261127 -> youtu.be/TPK6pqt-kUg.
+  `.claude/settings.json` is in place (owner copied it).
+- Publisher fixes 2026-11-26: expired Pixabay image links are refreshed through the API by id (secret PIXABAY_API_KEY);
+  the state-save step no longer drops everything when `failed/` does not exist.
+
 ## Next
-- Owner adds `.claude/settings.json` (permission allow-list for the headless writer; Claude may not write it).
-- Write + queue the first week with the skill; then `scripts/install-schedule.ps1` (weekly, Sundays 10:00).
+- Weekly writer registered 2026-11-26 (Task Scheduler 'RezFitlab Writer', Sundays 10:00; first run 2026-11-29).
+  Check its first Telegram report: the headless run only has the allow-list in `.claude/settings.json`.
+- Note: workflow_dispatch defaults to dry_run=true; pass `-f dry_run=false` for a real manual upload.
 
 ## Open issues
 - Local Python 3.15: no rembg wheels (cutouts only on Actions); needs `tzdata`. Local renders: REMOTION_BROWSER = installed Chrome.
