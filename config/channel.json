@@ -16,10 +16,10 @@
     "timezone": "Europe/Istanbul",
     "long_days": ["TUE", "SAT"],
     "long_time_local": "20:00",
-    "short_time_local": "18:00",
-    "shorts_per_week": 7,
+    "short_times_local": ["18:00"],
     "short_mix": ["quiz", "gym"],
-    "weekly_writer_local": "SUN 10:00",
+    "plan_days_ahead": 7,
+    "ramp_note": "Start: 2 long + 7 Shorts a week. Later: long_days = all 7 days, short_times_local = [\"12:00\", \"18:00\"] (14 Shorts), plan_days_ahead = 3 and run the writer daily (scripts/install-schedule.ps1 -Daily).",
     "build_ahead_hours": 40,
     "max_uploads_per_day": 3,
     "paused": false

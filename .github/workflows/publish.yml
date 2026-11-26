@@ -29,13 +29,13 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 330
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with: { python-version: '3.12', cache: 'pip' }
 
-      - uses: actions/setup-node@v4
-        with: { node-version: '20', cache: 'npm', cache-dependency-path: render/package-lock.json }
+      - uses: actions/setup-node@v5
+        with: { node-version: '22', cache: 'npm', cache-dependency-path: render/package-lock.json }
 
       - name: System packages
         run: |
@@ -61,12 +61,12 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="--dry-run"; fi
           if [ -n "${{ inputs.id }}" ]; then ARGS="$ARGS --id ${{ inputs.id }}"; fi
           if [ -n "${{ inputs.file }}" ]; then ARGS="--file ${{ inputs.file }}"; fi
-          if [ -z "$ARGS" ] && [ -z "$YT_TOKEN_JSON" ]; then echo "YT_TOKEN_JSON secret missing -> nothing uploaded"; exit 1; fi
+          if [ -z "$ARGS" ] && [ -z "$YT_TOKEN_JSON" ]; then echo "::notice::YouTube is not connected yet (secret YT_TOKEN_JSON missing) -> nothing to do"; exit 0; fi
           python -m pipeline.run $ARGS
 
       - name: Preview files (dry runs)
         if: always() && github.event_name == 'workflow_dispatch' && inputs.dry_run
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: preview-${{ github.run_number }}
           path: |

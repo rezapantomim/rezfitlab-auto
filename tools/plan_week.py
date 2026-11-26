@@ -28,27 +28,32 @@ def utc(day, hhmm, tz):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--start', help='first day of the week to plan (default: tomorrow, Istanbul time)')
+    ap.add_argument('--start', help='first day to plan (default: tomorrow, Istanbul time)')
+    ap.add_argument('--days', type=int, help='how many days to plan (default: schedule.plan_days_ahead)')
     ap.add_argument('--write', action='store_true')
     a = ap.parse_args()
     sc = CFG['schedule']; tz = ZoneInfo(sc['timezone'])
     start = dt.date.fromisoformat(a.start) if a.start else (dt.datetime.now(tz) + dt.timedelta(days=1)).date()
+    days = a.days or int(sc.get('plan_days_ahead', 7))
+    short_times = sc.get('short_times_local') or [sc.get('short_time_local', '18:00')]
     used = taken()
-    used_dates = {i.split('-')[1] + i[0] for i in used}           # e.g. '20261201L' -> a slot is filled
+    count = {}                                                     # 'YYYYMMDDL' / 'YYYYMMDDS' -> episodes already made
+    for i in used:
+        k = i.split('-')[1] + i[0]; count[k] = count.get(k, 0) + 1
     topics = [t for t in load('data/topics.json') if t['status'] == 'todo']
     quiz = [q for q in load('data/quiz.json') if q['status'] == 'todo']
     gym = [g for g in load('data/gym_ideas.json') if g['status'] == 'todo']
     published_longs = {t['id'] for t in load('data/topics.json') if t['status'] in ('queued', 'done')}
     plan, last_cluster = [], None
     mix = sc['short_mix']; k = len(used) % len(mix)
-    for i in range(7):
+    for i in range(days):
         day = start + dt.timedelta(days=i); ds = day.strftime('%Y%m%d')
-        if DAYS[day.weekday()] in sc['long_days'] and ds + 'L' not in used_dates and topics:
+        if DAYS[day.weekday()] in sc['long_days'] and not count.get(ds + 'L') and topics:
             t = topics.pop(0)
-            plan.append({'slot': 'L-' + ds, 'kind': 'long', 'topic_id': t['id'], 'title': t['title'], 'aha_items': t['aha_items'],
-                         'gym_angle': t['gym_angle'], 'publish_at': utc(day, sc['long_time_local'], tz)})
+            plan.append({'slot': 'L-' + ds, 'kind': 'long', 'topic_id': t['id'], 'title': t['title'], 'aha_items': t.get('aha_items', []),
+                         'gym_angle': t.get('gym_angle', ''), 'brief': t.get('brief', ''), 'publish_at': utc(day, sc['long_time_local'], tz)})
             published_longs.add(t['id'])
-        if ds + 'S' not in used_dates:
+        for slot_time in short_times[count.get(ds + 'S', 0):]:
             kind = mix[k % len(mix)]; k += 1
             item = None
             if kind == 'quiz':
@@ -61,10 +66,12 @@ def main():
                 plan.append({'slot': 'S-' + ds, 'kind': 'short', 'short_type': kind, 'topic_id': item['id'],
                              'concept': item.get('concept') or item.get('idea'), 'angles': item.get('angles', []),
                              'related_long_topic': item.get('long_topic'), 'source_note': item.get('source_note', ''),
-                             'publish_at': utc(day, sc['short_time_local'], tz)})
-    out = {'week_start': start.isoformat(), 'items': plan,
+                             'publish_at': utc(day, slot_time, tz)})
+    longs_per_week = len(sc['long_days'])
+    out = {'week_start': start.isoformat(), 'days': days, 'items': plan,
            'warnings': [w for w in [
-               'fewer than 4 long topics left' if len(topics) < 4 else '',
+               f'only {len(topics)} long topics left - add new ones (skill step "Topic discovery")' if len(topics) < 2 * longs_per_week else '',
+               f'only {len(quiz)} quiz items left' if len(quiz) < 10 else '',
                'fewer than 10 gym ideas left - add more to data/gym_ideas.json' if len(gym) < 10 else '']
                if w]}
     print(json.dumps(out, ensure_ascii=False, indent=1))

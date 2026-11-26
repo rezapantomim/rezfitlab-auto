@@ -21,8 +21,21 @@ Run everything from the project root. Python tools live in `tools/` (run as `pyt
 ## 1. Plan
 `git pull --rebase` first (Actions moves files from queue/ to archive/). Then `python tools/plan_week.py --write`.
 It prints the slots: long videos (topic + AHA item numbers + gym angle) and Shorts (quiz item or gym idea), each with `publish_at`.
-If it prints warnings about running out of topics/ideas, add new gym ideas to `data/gym_ideas.json` (research trending Turkish
-fitness questions; same format, status "todo") and mention it in the final report.
+The number of days comes from `schedule.plan_days_ahead` (7 = weekly run, 3 = daily run); slots already queued are skipped, so
+the same steps work for both. If nothing is missing, report "queue full" and stop.
+
+### Topic discovery (when the planner warns that topics run low)
+- **Long topics** → append 4–8 new entries to `data/topics.json`:
+  `{"id": "T<next number>", "title": "<Turkish working title>", "aha_items": [], "gym_angle": "<what changes in the gym>",
+  "brief": "<2-3 sentences: the question the video answers, exam angle, gym angle>", "order": <next>, "status": "todo"}`.
+  Find them by research: what Turkish gym-goers search and ask (YouTube search suggestions, popular Turkish fitness videos and
+  their comments, Google "insanlar bunu da soruyor"), plus instructor-exam subjects not covered yet (training principles,
+  periodisation, flexibility, nutrition basics, special populations, first aid basics for trainers). Each must allow the two-layer
+  rule, be evergreen, and not repeat an existing title (check data/topics.json and data/history.json).
+- **Gym Shorts** → append 10–20 ideas to `data/gym_ideas.json` (`{"id": "G-<slug>", "idea": "...", "status": "todo"}`).
+- **Quiz Shorts** → when quiz items run out, write new quiz items from finished long videos into `data/quiz.json`
+  (`{"id": "Q<next>", "concept": "...", "angles": [], "long_topic": "T..", "status": "todo"}`).
+- Commit these bank changes together with the queued episodes.
 
 ## 2. For each long video
 1. **Research.** Read the AHA items it covers in `data/source/aha_topics_tr.txt` (the concept + suggested angles) — the original

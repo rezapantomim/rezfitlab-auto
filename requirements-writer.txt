@@ -1,0 +1,4 @@
+requests
+Pillow
+jsonschema>=4.20
+tzdata
