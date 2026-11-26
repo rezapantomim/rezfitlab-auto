@@ -1,0 +1,121 @@
+{
+ "id": "S-20261201-transvers-duzlem",
+ "kind": "short",
+ "short_type": "quiz",
+ "topic_id": "Q007",
+ "related_long_topic": "T01",
+ "publish_at": "2026-12-01T15:00:00Z",
+ "playlist": "quiz",
+ "quiz": {
+  "question": "Vücudu üst ve alt olarak ikiye ayıran düzlem hangisidir?",
+  "options": [
+   "Sagittal düzlem",
+   "Frontal düzlem",
+   "Transvers düzlem",
+   "Oblik düzlem"
+  ],
+  "answer": 2,
+  "explanation": "Transvers (yatay) düzlem vücudu üst ve alt parçalara ayırır.",
+  "countdown_s": 4
+ },
+ "upload": {
+  "title": "Vücudu üst ve alt diye ayıran düzlem hangisi?",
+  "description": "Hareket düzlemleri sınav sorusu: vücudu üst ve alt olarak ayıran düzlem hangisidir? Cevap ve bu düzlemdeki hareketler 30 saniyede.\n\nDetaylı anlatım: {LONG_URL}",
+  "tags": [
+   "hareket düzlemleri",
+   "transvers düzlem",
+   "sagittal düzlem",
+   "frontal düzlem",
+   "anatomi",
+   "fitness eğitmenliği",
+   "fitness sınavı",
+   "EREPS",
+   "hareket anatomisi",
+   "fitness quiz"
+  ],
+  "hashtags": [
+   "#anatomi",
+   "#fitnesseğitmeni",
+   "#shorts"
+  ],
+  "pinned_comment": "Sen kaç saniyede bildin? Detaylı anlatım: {LONG_URL}"
+ },
+ "sources": [
+  {
+   "title": "OpenStax Anatomy and Physiology 2e — 1.6 Anatomical Terminology (body planes)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology"
+  }
+ ],
+ "scenes": [
+  {
+   "title": "Soru",
+   "beats": [
+    {
+     "text": "Vücudu üst ve alt olarak ikiye ayıran düzlem hangisidir? Süren başladı!",
+     "visual": {
+      "type": "keyword",
+      "text": "Üst / alt?",
+      "highlight": "alt"
+     },
+     "sfx": "riser"
+    }
+   ]
+  },
+  {
+   "title": "Cevap",
+   "beats": [
+    {
+     "text": "Doğru cevap C: transvers düzlem, yani yatay düzlem.",
+     "visual": {
+      "type": "diagram",
+      "name": "planes",
+      "text": "Transvers düzlem",
+      "params": {
+       "highlight": "transverse"
+      }
+     },
+     "sfx": "reveal"
+    },
+    {
+     "text": "Sagittal düzlem sağ ve sol, frontal düzlem ise ön ve arka olarak ayırır.",
+     "visual": {
+      "type": "compare",
+      "left": "Sagittal: sağ / sol",
+      "right": "Frontal: ön / arka",
+      "verdict": "none"
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "Bu düzlemdeki hareketler genelde dönmedir; örneğin gövdeni sağa sola çevirmek.",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Gövde rotasyonu",
+      "cues": [
+       "Kalça sabit",
+       "Gövde döner",
+       "Kontrollü tempo"
+      ]
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Detaylı anlatım kanalda. Sen kaç saniyede bildin? Yorumlara yaz!",
+     "visual": {
+      "type": "title",
+      "text": "Kaç saniyede bildin?",
+      "highlight": "saniyede"
+     }
+    }
+   ]
+  }
+ ],
+ "critic": {
+  "passed": true,
+  "score": 8.2,
+  "notes": [
+   "OpenStax 1.6: transverse (horizontal) plane divides superior/inferior; sagittal R/L; frontal anterior/posterior. Rotation occurs in the transverse plane.",
+   "Oblique is a real but non-cardinal plane -> plausible distractor, not correct."
+  ]
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "id": "S-20261203-biceps-curl-duzlem",
+ "kind": "short",
+ "short_type": "quiz",
+ "topic_id": "Q009",
+ "related_long_topic": "T01",
+ "publish_at": "2026-12-03T15:00:00Z",
+ "playlist": "quiz",
+ "quiz": {
+  "question": "Biceps curl hangi hareket düzleminde yapılır?",
+  "options": [
+   "Sagittal düzlem",
+   "Frontal düzlem",
+   "Transvers düzlem",
+   "Oblik düzlem"
+  ],
+  "answer": 0,
+  "explanation": "Dirsek fleksiyonu sağ ve sol ayıran sagittal düzlemde olur.",
+  "countdown_s": 4
+ },
+ "upload": {
+  "title": "Biceps curl hangi düzlemde yapılır?",
+  "description": "Hareket düzlemleri sınav sorusu: biceps curl hangi düzlemde yapılır? Cevap, dirsek fleksiyonu ve sık yapılan karışıklık 30 saniyede.\n\nDetaylı anlatım: {LONG_URL}",
+  "tags": [
+   "biceps curl",
+   "hareket düzlemleri",
+   "sagittal düzlem",
+   "dirsek fleksiyonu",
+   "anatomi",
+   "fitness eğitmenliği",
+   "fitness sınavı",
+   "kol antrenmanı",
+   "hareket anatomisi",
+   "fitness quiz"
+  ],
+  "hashtags": [
+   "#bicepscurl",
+   "#anatomi",
+   "#shorts"
+  ],
+  "pinned_comment": "Sen kaç saniyede bildin? Detaylı anlatım: {LONG_URL}"
+ },
+ "sources": [
+  {
+   "title": "OpenStax Anatomy and Physiology 2e — 1.6 Anatomical Terminology (body planes)",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e — 9.5 Types of Body Movements",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements"
+  }
+ ],
+ "scenes": [
+  {
+   "title": "Soru",
+   "beats": [
+    {
+     "text": "Biceps curl hangi hareket düzleminde yapılır? Süren başladı!",
+     "visual": {
+      "type": "keyword",
+      "text": "Biceps curl: hangi düzlem?",
+      "highlight": "düzlem"
+     },
+     "sfx": "riser"
+    }
+   ]
+  },
+  {
+   "title": "Cevap",
+   "beats": [
+    {
+     "text": "Doğru cevap A: sagittal düzlem.",
+     "visual": {
+      "type": "diagram",
+      "name": "planes",
+      "text": "Sagittal düzlem",
+      "params": {
+       "highlight": "sagittal"
+      }
+     },
+     "sfx": "reveal"
+    },
+    {
+     "text": "Yandan bak: ön kol öne ve yukarı kalkar, dirseğin açısı küçülür. Buna dirsek fleksiyonu denir.",
+     "visual": {
+      "type": "diagram",
+      "name": "joint_action",
+      "text": "Dirsek fleksiyonu",
+      "params": {
+       "from": 170,
+       "to": 45,
+       "label": "Dirsek açısı küçülür"
+      }
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Avucunu yukarı çevirmek ise supinasyondur; bu ayrı bir ön kol hareketidir.",
+     "visual": {
+      "type": "compare",
+      "left": "Fleksiyon: dirsek",
+      "right": "Supinasyon: ön kol",
+      "verdict": "none"
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "Detaylı anlatım kanalda. Sen kaç saniyede bildin? Yorumlara yaz!",
+     "visual": {
+      "type": "title",
+      "text": "Kaç saniyede bildin?",
+      "highlight": "saniyede"
+     }
+    }
+   ]
+  }
+ ],
+ "critic": {
+  "passed": true,
+  "score": 8.1,
+  "notes": [
+   "Standard curl = elbow flexion in the sagittal plane about a frontal (mediolateral) axis — OpenStax 9.5.",
+   "Supination is forearm rotation (transverse plane), correctly kept separate."
+  ]
+ }
+}

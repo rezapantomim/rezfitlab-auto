@@ -1,0 +1,122 @@
+{
+ "id": "S-20261202-bench-omuz",
+ "kind": "short",
+ "short_type": "gym",
+ "topic_id": "G-bench-omuz",
+ "publish_at": "2026-12-02T15:00:00Z",
+ "playlist": "gym",
+ "upload": {
+  "title": "Bench presste göğüs değil omuz mu yoruluyor?",
+  "description": "Bench presste göğüs yerine hep omzun mu yoruluyor? Kürek kemiklerini geriye ve aşağı toplamak, göğsü öne çıkarmak ve barı kontrollü indirmek için kısa bir teknik ipucu.",
+  "tags": [
+   "bench press",
+   "bench press teknik",
+   "göğüs antrenmanı",
+   "omuz",
+   "kürek kemiği",
+   "bench press hataları",
+   "spor salonu",
+   "fitness",
+   "antrenman",
+   "fitness ipuçları",
+   "göğüs egzersizi",
+   "bench press tips"
+  ],
+  "hashtags": [
+   "#benchpress",
+   "#fitness",
+   "#shorts"
+  ],
+  "pinned_comment": "Bench presste en çok nereni hissediyorsun: göğüs, omuz, triceps? Yorumlara yaz!"
+ },
+ "scenes": [
+  {
+   "title": "Bench press ve omuz",
+   "layer": "gym",
+   "beats": [
+    {
+     "text": "Bench presste göğsün değil de hep omzun mu yoruluyor?",
+     "visual": {
+      "type": "keyword",
+      "text": "Göğüs mü, omuz mu?",
+      "highlight": "omuz"
+     },
+     "sfx": "impact"
+    },
+    {
+     "text": "Çoğu kişi barı indirirken omuzlarını öne doğru yuvarlar.",
+     "visual": {
+      "type": "image",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "9180669",
+        "url": "https://pixabay.com/get/g70693e7f1443ea675159065ca18bee06e561184f292e8f253546b6c4dfc65dc5f1633202d805585158a9c86b2509623ceff7dc39f14c7cb8198e13ccf9ee4d1a_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/fitness-exercise-men-work-out-gym-9180669/",
+        "checked": "man doing a flat barbell bench press with a spotter behind him, side view, gym, no logos"
+       }
+      ]
+     }
+    },
+    {
+     "text": "O zaman yük göğüsten çok ön omza binebilir.",
+     "visual": {
+      "type": "compare",
+      "left": "Omuzlar öne",
+      "right": "Ön omuz yorulur",
+      "verdict": "none"
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "Çözüm: başlamadan önce kürek kemiklerini geriye ve aşağı doğru topla.",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Bench press kurulumu",
+      "cues": [
+       "Kürek kemikleri geri-aşağı",
+       "Göğüs hafif yukarı",
+       "Ayaklar yere sağlam"
+      ]
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Barı kontrollü indir ve dirseklerini gövdene göre çok fazla açma.",
+     "visual": {
+      "type": "keyword",
+      "text": "Kontrollü in, dirsekler çok açılmasın",
+      "highlight": "Kontrollü"
+     }
+    },
+    {
+     "text": "Omzunda ağrı varsa bir sağlık uzmanına danış.",
+     "visual": {
+      "type": "keyword",
+      "text": "Ağrı varsa uzmana danış",
+      "highlight": "uzmana"
+     }
+    },
+    {
+     "text": "Şimdi tekrar sor kendine: bench presste yorulan göğsün mü, omzun mu?",
+     "visual": {
+      "type": "title",
+      "text": "Göğüs mü, omuz mu?",
+      "highlight": "Göğüs"
+     },
+     "sfx": "reveal"
+    }
+   ]
+  }
+ ],
+ "critic": {
+  "passed": true,
+  "score": 7.9,
+  "notes": [
+   "Cues are standard NSCA bench setup (scapulae retracted/depressed, feet flat, controlled descent, elbows not fully flared).",
+   "Claim kept conservative (\"binebilir\"); pain -> professional. No clip: used a checked photo + cards."
+  ]
+ }
+}

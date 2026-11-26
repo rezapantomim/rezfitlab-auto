@@ -13,7 +13,8 @@
  {
   "id": "G-bench-omuz",
   "idea": "Bench pressde omuzları korumak: kürek kemiklerini sabitle",
-  "status": "todo"
+  "status": "queued",
+  "episode": "S-20261202-bench-omuz"
  },
  {
   "id": "G-latpull-tutus",

@@ -1,0 +1,123 @@
+{
+ "id": "S-20261129-hrr-orta-siddet",
+ "kind": "short",
+ "short_type": "quiz",
+ "topic_id": "Q061",
+ "related_long_topic": "T24",
+ "publish_at": "2026-11-29T15:00:00Z",
+ "playlist": "quiz",
+ "quiz": {
+  "question": "Kalp atım hızı rezervine (HRR) göre orta şiddet hangi aralıktır?",
+  "options": [
+   "%20–39 HRR",
+   "%40–59 HRR",
+   "%60–84 HRR",
+   "%85 ve üstü"
+  ],
+  "answer": 1,
+  "explanation": "Rezervin yüzde 40–59 arası orta şiddettir.",
+  "countdown_s": 4
+ },
+ "upload": {
+  "title": "HRR'ye göre orta şiddet hangi aralıktır?",
+  "description": "Kalp atım hızı rezervi (HRR) sınav sorusu: orta şiddet hangi aralıktır? Cevabı ve kısa hesabı 30 saniyede öğren.\n\nDetaylı anlatım: {LONG_URL}",
+  "tags": [
+   "kalp atım hızı rezervi",
+   "HRR",
+   "Karvonen",
+   "hedef nabız",
+   "orta şiddet",
+   "fitness eğitmenliği",
+   "fitness sınavı",
+   "kardiyo",
+   "nabız",
+   "antrenman bilimi",
+   "fitness quiz"
+  ],
+  "hashtags": [
+   "#fitnesseğitmeni",
+   "#kardiyo",
+   "#shorts"
+  ],
+  "pinned_comment": "Sen kaç saniyede bildin? Detaylı anlatım: {LONG_URL}"
+ },
+ "sources": [
+  {
+   "title": "ACSM Position Stand (Garber et al., 2011)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21694556/"
+  }
+ ],
+ "scenes": [
+  {
+   "title": "Soru",
+   "beats": [
+    {
+     "text": "Kalp atım hızı rezervine göre orta şiddet hangi aralıktır? Süren başladı!",
+     "visual": {
+      "type": "keyword",
+      "text": "HRR: orta şiddet?",
+      "highlight": "orta"
+     },
+     "sfx": "riser"
+    }
+   ]
+  },
+  {
+   "title": "Cevap",
+   "beats": [
+    {
+     "text": "Doğru cevap B: rezervin yüzde kırkı ile elli dokuzu arası.",
+     "visual": {
+      "type": "keyword",
+      "text": "%40–59 HRR",
+      "highlight": "%40–59"
+     },
+     "sfx": "reveal"
+    },
+    {
+     "text": "Rezerv, maksimum nabızdan dinlenme nabzının çıkarılmasıyla bulunur.",
+     "visual": {
+      "type": "keyword",
+      "text": "HRR = HRmax − dinlenme nabzı",
+      "highlight": "HRR"
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Maksimum nabzı yüz doksan, dinlenme nabzı altmış olan biri için bu, dakikada yaklaşık yüz on iki ile yüz otuz yedi atım demek.",
+     "visual": {
+      "type": "stat",
+      "value": "112–137",
+      "label": "atım/dk · orta şiddet"
+     }
+    },
+    {
+     "text": "Tuzağa dikkat: yüzde HRmax ile yüzde HRR aynı şey değildir.",
+     "visual": {
+      "type": "compare",
+      "left": "% HRmax",
+      "right": "% HRR",
+      "verdict": "none"
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "Detaylı anlatım kanalda. Sen kaç saniyede bildin? Yorumlara yaz!",
+     "visual": {
+      "type": "title",
+      "text": "Kaç saniyede bildin?",
+      "highlight": "saniyede"
+     }
+    }
+   ]
+  }
+ ],
+ "critic": {
+  "passed": true,
+  "score": 8.3,
+  "notes": [
+   "ACSM: moderate = 40–59 % HRR (Garber 2011); example 0.4x130+60=112, 0.59x130+60≈137 correct.",
+   "One correct option; distractors are the light/vigorous/near-max bands."
+  ]
+ }
+}

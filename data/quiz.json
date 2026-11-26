@@ -89,7 +89,8 @@
   ],
   "source_note": "Soru kökünün bir bölümü bozuk.",
   "long_topic": "T01",
-  "status": "todo"
+  "status": "queued",
+  "episode": "S-20261201-transvers-duzlem"
  },
  {
   "id": "Q008",
@@ -115,7 +116,8 @@
   ],
   "source_note": "",
   "long_topic": "T01",
-  "status": "todo"
+  "status": "queued",
+  "episode": "S-20261203-biceps-curl-duzlem"
  },
  {
   "id": "Q010",
@@ -791,7 +793,8 @@
   ],
   "source_note": "İkinci seçenek bozuk ve etiketsiz. Aralık kaynak tablosuna aittir.",
   "long_topic": "T24",
-  "status": "todo"
+  "status": "queued",
+  "episode": "S-20261129-hrr-orta-siddet"
  },
  {
   "id": "Q062",
