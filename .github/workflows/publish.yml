@@ -81,7 +81,10 @@ jobs:
         run: |
           git config user.name "rezfitlab-bot"
           git config user.email "rezfitlab-bot@users.noreply.github.com"
-          git add data/history.json data/topics.json data/quiz.json data/gym_ideas.json queue archive failed 2>/dev/null || true
+          # add path by path: one missing path (e.g. no failed/ yet) makes a combined `git add` add nothing
+          for p in data/history.json data/topics.json data/quiz.json data/gym_ideas.json queue archive failed; do
+            [ -e "$p" ] && git add -A -- "$p"
+          done
           git diff --cached --quiet && { echo "nothing to save"; exit 0; }
           git commit -m "publish: $(date -u +%F) [skip ci]"
           for i in 1 2 3; do git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push && break; sleep 5; done

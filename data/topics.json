@@ -27,7 +27,8 @@
   ],
   "gym_angle": "dengeli program: sadece sagittal hareketler yetmez",
   "order": 2,
-  "status": "todo"
+  "status": "queued",
+  "episode": "L-20261201-hareket-duzlemleri"
  },
  {
   "id": "T22",

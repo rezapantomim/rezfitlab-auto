@@ -1,0 +1,1243 @@
+{
+ "id": "L-20261201-hareket-duzlemleri",
+ "kind": "long",
+ "topic_id": "T01",
+ "publish_at": "2026-12-01T17:00:00Z",
+ "playlist": "exam",
+ "thumb_text": "Vücudun 3 Haritası",
+ "thumb_highlight": "3 Haritası",
+ "thumb_pose": "arms-folded",
+ "upload": {
+  "title": "Hareket Düzlemleri: Sagittal, Frontal, Transvers (Sınav + Salon)",
+  "description": "Hareket düzlemleri — sagittal, frontal ve transvers — fitness eğitmenliği sınavının en sık sorulan konularından biri. Bu videoda üç düzlemi, eksenleri ve sınav tuzaklarını örnek hareketlerle öğreniyorsun; sonra programını üç düzleme göre nasıl dengeleyeceğini görüyorsun.\n\n{CHAPTERS}\n\nKaynaklar:\nOpenStax Anatomy and Physiology 2e — 1.6 Anatomical Terminology: https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology\nOpenStax Anatomy and Physiology 2e — 9.5 Types of Body Movements: https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements",
+  "tags": [
+   "hareket düzlemleri",
+   "sagittal düzlem",
+   "frontal düzlem",
+   "transvers düzlem",
+   "koronal düzlem",
+   "hareket eksenleri",
+   "anatomi",
+   "hareket anatomisi",
+   "fitness eğitmenliği",
+   "fitness eğitmenliği sınavı",
+   "EREPS",
+   "fleksiyon ekstansiyon",
+   "abdüksiyon addüksiyon",
+   "rotasyon",
+   "antrenman programı",
+   "yana lunge",
+   "planes of motion",
+   "fitness"
+  ],
+  "hashtags": [
+   "#anatomi",
+   "#fitnesseğitmeni",
+   "#hareketdüzlemleri"
+  ],
+  "pinned_comment": "Küçük test: yana lunge hangi düzlemde yapılır? Cevabını yaz, sonra programındaki en sevdiğin hareketi de ekle!"
+ },
+ "sources": [
+  {
+   "title": "OpenStax Anatomy and Physiology 2e — 1.6 Anatomical Terminology",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology"
+  },
+  {
+   "title": "OpenStax Anatomy and Physiology 2e — 9.5 Types of Body Movements",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements"
+  }
+ ],
+ "scenes": [
+  {
+   "title": "Salonda bir şey eksik",
+   "layer": "hook",
+   "beats": [
+    {
+     "text": "Squat, deadlift, leg press, koşu bandı. Haftalık programın büyük ihtimalle bunlardan oluşuyor.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Squat",
+       "Deadlift",
+       "Leg press",
+       "Koşu bandı"
+      ],
+      "text": "Tanıdık program"
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "Bu hareketlerin ortak bir noktası var ve çoğu kişi bunu hiç fark etmiyor.",
+     "visual": {
+      "type": "title",
+      "text": "Ortak nokta?",
+      "highlight": "Ortak"
+     }
+    },
+    {
+     "text": "Hepsi vücudunu büyük ölçüde aynı yönde hareket ettiriyor: öne ve arkaya.",
+     "visual": {
+      "type": "keyword",
+      "text": "Hep öne ve arkaya",
+      "highlight": "öne ve arkaya"
+     }
+    },
+    {
+     "text": "Oysa gündelik hayatta yana adım atıyorsun, eğiliyorsun, dönüyorsun.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Yana adım",
+       "Yana eğilme",
+       "Dönme"
+      ],
+      "text": "Gündelik hayat"
+     }
+    },
+    {
+     "text": "Bir kutuyu yerden alıp yandaki rafa koyarken bile vücudun aynı anda birkaç yönde çalışır.",
+     "visual": {
+      "type": "keyword",
+      "text": "Gündelik hayat çok yönlü",
+      "highlight": "çok yönlü"
+     }
+    },
+    {
+     "text": "Anatomi bu farkı üç hayali düzlemle anlatır. Fitness eğitmenliği sınavlarının da temel konularından biridir.",
+     "visual": {
+      "type": "diagram",
+      "name": "planes",
+      "text": "Vücudun 3 haritası",
+      "params": {
+       "highlight": "all"
+      }
+     },
+     "sfx": "reveal"
+    },
+    {
+     "text": "Bu videonun sonunda her hareketin hangi düzlemde olduğunu birkaç saniyede söyleyebileceksin.",
+     "visual": {
+      "type": "stat",
+      "value": "3",
+      "label": "düzlem · birkaç saniyede"
+     }
+    },
+    {
+     "text": "Bu yüzden konu sadece sınav için değil, salonda daha dengeli çalışmak için de önemli.",
+     "visual": {
+      "type": "title",
+      "text": "Sınav + salon",
+      "highlight": "salon"
+     }
+    },
+    {
+     "text": "Ve programına hangi hareketi eklemen gerektiğini de bileceksin. Hadi başlayalım.",
+     "visual": {
+      "type": "compare",
+      "left": "Sınav",
+      "right": "Salon",
+      "verdict": "both"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Anatomik pozisyon ve 3 düzlem",
+   "layer": "exam",
+   "beats": [
+    {
+     "text": "Her şey anatomik pozisyonla başlar: dik durursun, yüzün öne bakar, kolların yanda ve avuç içlerin öndedir.",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Anatomik pozisyon",
+      "cues": [
+       "Dik duruş",
+       "Yüz öne bakar",
+       "Kollar yanda",
+       "Avuç içi önde"
+      ]
+     }
+    },
+    {
+     "text": "Bütün yön ve hareket terimleri bu başlangıç duruşuna göre tanımlanır.",
+     "visual": {
+      "type": "keyword",
+      "text": "Başlangıç noktası",
+      "highlight": "Başlangıç"
+     }
+    },
+    {
+     "text": "Örneğin dirseği bükmek bu duruşa göre fleksiyondur; avuç içinin yönü de yine bu duruşa göre adlandırılır.",
+     "visual": {
+      "type": "keyword",
+      "text": "Her şey bu duruşa göre",
+      "highlight": "bu duruşa"
+     }
+    },
+    {
+     "text": "Şimdi bu duruştaki vücudu üç farklı yönden, hayali bir camla kestiğini düşün.",
+     "visual": {
+      "type": "image",
+      "images": [
+       {
+        "provider": "wikimedia",
+        "id": "Planes of Body unlabeled.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Planes_of_Body_unlabeled.jpg",
+        "license": "CC BY 4.0",
+        "credit": "CNX Anatomy & Physiology, CC BY 4.0, via Wikimedia Commons",
+        "page": "https://commons.wikimedia.org/wiki/File:Planes_of_Body_unlabeled.jpg",
+        "checked": "OpenStax figure: standing body in anatomical position with three translucent planes (two vertical, one horizontal at hip level), no text"
+       }
+      ],
+      "labels": [
+       {
+        "text": "Sagittal",
+        "x": 60,
+        "y": 8
+       },
+       {
+        "text": "Frontal",
+        "x": 16,
+        "y": 22
+       },
+       {
+        "text": "Transvers",
+        "x": 88,
+        "y": 44
+       }
+      ]
+     },
+     "sfx": "pop"
+    },
+    {
+     "text": "Sagittal düzlem vücudu sağ ve sol olarak ikiye ayırır.",
+     "visual": {
+      "type": "diagram",
+      "name": "planes",
+      "text": "Sagittal: sağ / sol",
+      "params": {
+       "highlight": "sagittal"
+      }
+     }
+    },
+    {
+     "text": "Tam ortadan geçip iki eşit yarı oluşturuyorsa buna orta sagittal, yani medyan düzlem denir.",
+     "visual": {
+      "type": "keyword",
+      "text": "Orta sagittal = medyan",
+      "highlight": "medyan"
+     }
+    },
+    {
+     "text": "Frontal düzlem vücudu ön ve arka olarak ayırır. Kitaplarda koronal düzlem adıyla da geçer.",
+     "visual": {
+      "type": "diagram",
+      "name": "planes",
+      "text": "Frontal: ön / arka",
+      "params": {
+       "highlight": "frontal"
+      }
+     }
+    },
+    {
+     "text": "Ön yüze anterior, arka yüze posterior denir; bu terimleri de frontal düzlemle birlikte öğren.",
+     "visual": {
+      "type": "compare",
+      "left": "Anterior: ön",
+      "right": "Posterior: arka",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Transvers düzlem ise vücudu üst ve alt olarak ayırır. Ona yatay düzlem de denir.",
+     "visual": {
+      "type": "diagram",
+      "name": "planes",
+      "text": "Transvers: üst / alt",
+      "params": {
+       "highlight": "transverse"
+      }
+     }
+    },
+    {
+     "text": "Bu üç düzlem birbirine diktir; tıpkı bir odanın zemini ve iki duvarı gibi.",
+     "visual": {
+      "type": "title",
+      "text": "Zemin + iki duvar",
+      "highlight": "iki duvar"
+     }
+    },
+    {
+     "text": "Sınavda isimler değişebilir: koronal, frontal demektir; yatay ise transvers demektir.",
+     "visual": {
+      "type": "compare",
+      "left": "Koronal = frontal",
+      "right": "Yatay = transvers",
+      "verdict": "both"
+     }
+    },
+    {
+     "text": "Bir hareket, vücut parçasının bu düzlemlerden birine paralel ilerlemesiyle o düzleme ait sayılır.",
+     "visual": {
+      "type": "keyword",
+      "text": "Hareket düzleme paralel ilerler",
+      "highlight": "paralel"
+     }
+    },
+    {
+     "text": "Her düzlemin bir de dönme ekseni vardır. Eksen, düzleme her zaman diktir.",
+     "visual": {
+      "type": "keyword",
+      "text": "Eksen düzleme diktir",
+      "highlight": "diktir"
+     }
+    },
+    {
+     "text": "Eksenleri birazdan her düzlemle birlikte tekrar edeceğiz; şimdilik bu kuralı aklında tut.",
+     "visual": {
+      "type": "title",
+      "text": "Kuralı aklında tut",
+      "highlight": "aklında"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Sagittal düzlem: öne ve arkaya",
+   "layer": "exam",
+   "beats": [
+    {
+     "text": "İlk düzlemle başlayalım: sagittal düzlem.",
+     "visual": {
+      "type": "title",
+      "text": "Sagittal düzlem",
+      "highlight": "Sagittal"
+     }
+    },
+    {
+     "text": "Bu düzlemdeki temel hareketler fleksiyon ve ekstansiyondur.",
+     "visual": {
+      "type": "compare",
+      "left": "Fleksiyon",
+      "right": "Ekstansiyon",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Fleksiyon, eklemdeki açının küçülmesi; yani bükülmedir.",
+     "visual": {
+      "type": "diagram",
+      "name": "joint_action",
+      "text": "Fleksiyon",
+      "params": {
+       "from": "170",
+       "to": "50",
+       "label": "Açı küçülür"
+      }
+     }
+    },
+    {
+     "text": "Ekstansiyon ise bu açının büyümesi; yani eklemin açılmasıdır.",
+     "visual": {
+      "type": "diagram",
+      "name": "joint_action",
+      "text": "Ekstansiyon",
+      "params": {
+       "from": "50",
+       "to": "170",
+       "label": "Açı büyür"
+      }
+     }
+    },
+    {
+     "text": "Biceps curl buna en güzel örnektir: yandan bakınca ön kol öne ve yukarı kalkar.",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Biceps curl",
+      "cues": [
+       "Dirsek sabit",
+       "Ön kol yukarı",
+       "Kontrollü iniş"
+      ],
+      "muscles": [
+       "Biceps brachii"
+      ]
+     }
+    },
+    {
+     "text": "Squat da büyük ölçüde sagittal düzlemdedir. Kalça ve diz bükülür, sonra açılır.",
+     "visual": {
+      "type": "image",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "1282232",
+        "url": "https://pixabay.com/get/g71277f19bcb6964062e261bdd94a5bfb4ee7492314aeb73b07c255712823e979f088baf63c676d57dc59fdc4fe663f58ba79a949aae62fa10cc7892841f7cc12_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/man-person-power-strength-strong-1282232/",
+        "checked": "man in a deep barbell back squat, front view, dark gym"
+       }
+      ],
+      "labels": [
+       {
+        "text": "Kalça",
+        "x": 52,
+        "y": 55
+       },
+       {
+        "text": "Diz",
+        "x": 44,
+        "y": 72
+       }
+      ]
+     }
+    },
+    {
+     "text": "Kalçanın ve dizin bükülüp açılması, sagittal düzlemin tipik hareket kalıbıdır.",
+     "visual": {
+      "type": "keyword",
+      "text": "Bük ve aç: sagittal kalıp",
+      "highlight": "sagittal"
+     }
+    },
+    {
+     "text": "Öne lunge da öyle: öne atılan adım, yandan bakınca düz bir çizgi üzerinde ilerler.",
+     "visual": {
+      "type": "image",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "2699780",
+        "url": "https://pixabay.com/get/gb2f6b708d39c88a4a2bdaafced3ee85dd05e156476a552b9d72b41ee4eeb1a31f9f23988655a96bb752bf5c1d0e9a0df8b4e767ab1455e58e9207f0f6f9ca987_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/young-woman-girl-athletic-nature-2699780/",
+        "checked": "woman in a forward lunge, side view, outdoors by rocks and water"
+       }
+      ],
+      "labels": [
+       {
+        "text": "Öne adım",
+        "x": 62,
+        "y": 70
+       }
+      ]
+     }
+    },
+    {
+     "text": "Sagittal düzlemdeki hareketler, sağdan sola uzanan bir eksen etrafında gerçekleşir.",
+     "visual": {
+      "type": "keyword",
+      "text": "Eksen: sağdan sola",
+      "highlight": "sağdan sola"
+     }
+    },
+    {
+     "text": "Bu eksene frontal eksen ya da mediolateral eksen denir.",
+     "visual": {
+      "type": "compare",
+      "left": "Frontal eksen",
+      "right": "Mediolateral eksen",
+      "verdict": "both"
+     }
+    },
+    {
+     "text": "Diz ve dirsek gibi menteşe eklemleri, hareketlerinin büyük kısmını bu düzlemde yapar.",
+     "visual": {
+      "type": "keyword",
+      "text": "Menteşe eklemleri",
+      "highlight": "Menteşe"
+     }
+    },
+    {
+     "text": "Pratik bir ipucu: hareketi yandan izlediğinde en net görüyorsan, büyük ihtimalle sagittal düzlemdedir.",
+     "visual": {
+      "type": "keyword",
+      "text": "Yandan net görünüyorsa sagittal",
+      "highlight": "Yandan"
+     }
+    },
+    {
+     "text": "Squat derinliğini ve dizin yolunu da yandan çekilmiş bir videoda en net görürsün.",
+     "visual": {
+      "type": "title",
+      "text": "Yandan çek, net gör",
+      "highlight": "Yandan"
+     }
+    },
+    {
+     "text": "Yürüme, koşma, bisiklet, deadlift ve leg press de çoğunlukla bu düzlemde çalışır.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Yürüme, koşma",
+       "Bisiklet",
+       "Deadlift",
+       "Leg press"
+      ],
+      "text": "Hep sagittal"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Frontal düzlem: yana açılış",
+   "layer": "exam",
+   "beats": [
+    {
+     "text": "İkinci düzlem frontal düzlem.",
+     "visual": {
+      "type": "title",
+      "text": "Frontal düzlem",
+      "highlight": "Frontal"
+     }
+    },
+    {
+     "text": "Burada temel hareketler abdüksiyon ve addüksiyondur.",
+     "visual": {
+      "type": "compare",
+      "left": "Abdüksiyon",
+      "right": "Addüksiyon",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Abdüksiyon, uzvun vücudun orta hattından uzaklaşmasıdır. Addüksiyon ise orta hatta yaklaşmasıdır.",
+     "visual": {
+      "type": "keyword",
+      "text": "Ab uzaklaştırır, ad yaklaştırır",
+      "highlight": "uzaklaştırır"
+     }
+    },
+    {
+     "text": "Lateral raise bunun klasik örneğidir: kolların yana açılıp omuz hizasına kadar kalkar.",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Lateral raise",
+      "cues": [
+       "Kollar yana",
+       "Omuz hizasına kadar",
+       "Kontrollü iniş"
+      ],
+      "muscles": [
+       "Orta deltoid"
+      ]
+     }
+    },
+    {
+     "text": "Kolu indirdiğinde ise omuzda addüksiyon olur. Yani aynı tekrarın iki yarısı farklı isimler alır.",
+     "visual": {
+      "type": "compare",
+      "left": "Kaldırırken: abdüksiyon",
+      "right": "İndirirken: addüksiyon",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Yana lunge da frontal düzlemde gerçekleşir. Vücut yana doğru yer değiştirir.",
+     "visual": {
+      "type": "image",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "1845759",
+        "url": "https://pixabay.com/get/gc367323bd5afbb49f75342ebaa81f503c785ff6b40a0abe2b39d9c1764652e2d2063b27a08b5d528c7b940a09c7b359106eb6e570a999546d38d1f488ac8b98f_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/exercise-fitness-lateral-lunges-1845759/",
+        "checked": "man doing a lateral (side) lunge, front view, plain light grey background",
+        "cutout": true
+       }
+      ],
+      "labels": [
+       {
+        "text": "Yana adım",
+        "x": 78,
+        "y": 86
+       }
+      ]
+     }
+    },
+    {
+     "text": "Dikkat: yana lunge sırasında öndeki dizin bükülmesi yine bir fleksiyondur.",
+     "visual": {
+      "type": "keyword",
+      "text": "Diz yine bükülür",
+      "highlight": "bükülür"
+     }
+    },
+    {
+     "text": "Ama hareketin baskın yönü yana olduğu için, bütün hareket frontal düzlemde kabul edilir.",
+     "visual": {
+      "type": "keyword",
+      "text": "Baskın yön belirler",
+      "highlight": "Baskın"
+     }
+    },
+    {
+     "text": "Gövdeni sağa ya da sola eğmek de frontal düzlemdedir. Buna lateral fleksiyon denir.",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Lateral fleksiyon",
+      "cues": [
+       "Gövde yana eğilir",
+       "Kaburga ve pelvis yaklaşır",
+       "Öne eğilme yok"
+      ]
+     }
+    },
+    {
+     "text": "Yana eğilmeyi öne eğilmeyle karıştırma: öne eğilmek gövde fleksiyonudur ve sagittal düzlemdedir.",
+     "visual": {
+      "type": "compare",
+      "left": "Yana eğilme: frontal",
+      "right": "Öne eğilme: sagittal",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Frontal düzlemdeki hareketler, önden arkaya uzanan sagittal eksen etrafında olur.",
+     "visual": {
+      "type": "compare",
+      "left": "Frontal düzlem",
+      "right": "Sagittal eksen",
+      "verdict": "both"
+     }
+    },
+    {
+     "text": "İpucu: hareketi en iyi önden izleyerek görüyorsan, büyük ihtimalle frontal düzlemdedir.",
+     "visual": {
+      "type": "keyword",
+      "text": "Önden net görünüyorsa frontal",
+      "highlight": "Önden"
+     }
+    },
+    {
+     "text": "Örneğin yana lunge’da dizinin ayak yönünde kalıp kalmadığını da en iyi önden bakarak kontrol edersin.",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Yana lunge kontrolü",
+      "cues": [
+       "Önden bak",
+       "Diz ayak yönünde",
+       "Gövde dik"
+      ]
+     }
+    },
+    {
+     "text": "Jumping jack, yana adım ve side plank da bu düzlemle ilişkili hareketlerdir.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Jumping jack",
+       "Yana adım",
+       "Side plank"
+      ],
+      "text": "Frontal örnekler"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Transvers düzlem ve sınav tuzakları",
+   "layer": "exam",
+   "beats": [
+    {
+     "text": "Üçüncü düzlem transvers düzlem. Hatırla: vücudu üst ve alt olarak ayırır.",
+     "visual": {
+      "type": "diagram",
+      "name": "planes",
+      "text": "Transvers düzlem",
+      "params": {
+       "highlight": "transverse"
+      }
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "Bu düzlemin temel hareketi rotasyon, yani dönmedir.",
+     "visual": {
+      "type": "title",
+      "text": "Rotasyon",
+      "highlight": "Rotasyon"
+     }
+    },
+    {
+     "text": "Rotasyon içe ve dışa olarak ayrılır: uzvun ön yüzü orta hatta doğru dönüyorsa içe rotasyondur.",
+     "visual": {
+      "type": "compare",
+      "left": "İçe rotasyon",
+      "right": "Dışa rotasyon",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Başını sağa sola çevirmek, gövdeni döndürmek ya da kalçayı içe ve dışa çevirmek buna örnektir.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Baş rotasyonu",
+       "Gövde rotasyonu",
+       "Kalçanın iç ve dış rotasyonu"
+      ]
+     }
+    },
+    {
+     "text": "Kollarını önde birleştirdiğin dumbbell fly gibi yatay hareketler de transvers düzlemde sayılır.",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Dumbbell fly",
+      "cues": [
+       "Kollar yatay",
+       "Dirsekler hafif bükük",
+       "Kontrollü açılış"
+      ],
+      "muscles": [
+       "Göğüs"
+      ]
+     }
+    },
+    {
+     "text": "Bu harekete yatay addüksiyon denir; kolları geri açmak ise yatay abdüksiyondur.",
+     "visual": {
+      "type": "keyword",
+      "text": "Yatay addüksiyon / abdüksiyon",
+      "highlight": "Yatay"
+     }
+    },
+    {
+     "text": "Transvers düzlemdeki hareketler, yukarıdan aşağıya uzanan uzunlamasına eksen etrafında gerçekleşir.",
+     "visual": {
+      "type": "keyword",
+      "text": "Eksen: uzunlamasına",
+      "highlight": "uzunlamasına"
+     }
+    },
+    {
+     "text": "Şimdi sınav tuzaklarına geçelim. Birinci tuzak: düzlem ile ekseni karıştırmak.",
+     "visual": {
+      "type": "title",
+      "text": "Sınav tuzakları",
+      "highlight": "tuzakları"
+     },
+     "sfx": "impact"
+    },
+    {
+     "text": "Sagittal düzlemdeki hareket frontal eksende, frontal düzlemdeki hareket ise sagittal eksende olur.",
+     "visual": {
+      "type": "compare",
+      "left": "Sagittal düzlem → frontal eksen",
+      "right": "Frontal düzlem → sagittal eksen",
+      "verdict": "both"
+     }
+    },
+    {
+     "text": "İkinci tuzak: farklı isimler. Koronal, frontal; yatay, transvers demektir.",
+     "visual": {
+      "type": "compare",
+      "left": "Koronal = frontal",
+      "right": "Yatay = transvers",
+      "verdict": "both"
+     }
+    },
+    {
+     "text": "Üçüncü tuzak: bir eklemin bükülmesine bakıp bütün hareketi yanlış düzleme koymak.",
+     "visual": {
+      "type": "keyword",
+      "text": "Baskın yöne bak",
+      "highlight": "Baskın"
+     }
+    },
+    {
+     "text": "Yana lunge’da diz bükülür ama baskın hareket yanadır. Cevap: frontal düzlem.",
+     "visual": {
+      "type": "compare",
+      "left": "Diz bükülür",
+      "right": "Cevap: frontal",
+      "verdict": "right"
+     }
+    },
+    {
+     "text": "Biceps curl’de ise avucunu yukarı çevirmek supinasyondur ve ayrı bir ön kol hareketidir.",
+     "visual": {
+      "type": "compare",
+      "left": "Dirsek fleksiyonu",
+      "right": "Supinasyon",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Soruyu okurken kendine iki şey sor: hareket hangi yöne gidiyor ve hangi açıdan en net görünüyor?",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Hangi yöne gidiyor?",
+       "Hangi açıdan net?"
+      ],
+      "text": "İki soru"
+     }
+    },
+    {
+     "text": "Bu iki soru, karşına çıkacak hareket sorularının çoğunu çözmene yardımcı olur.",
+     "visual": {
+      "type": "title",
+      "text": "İki soru, çoğu cevap",
+      "highlight": "İki soru"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Gerçek hayatta düzlemler karışır",
+   "layer": "exam",
+   "beats": [
+    {
+     "text": "Bir şeyi daha bilmelisin: gerçek hareketler çoğu zaman tek bir düzlemde kalmaz.",
+     "visual": {
+      "type": "title",
+      "text": "Düzlemler karışır",
+      "highlight": "karışır"
+     },
+     "sfx": "whoosh"
+    },
+    {
+     "text": "Bir topa vururken bacağın öne gider, gövden döner ve kolların dengeyi korumak için yana açılır.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Bacak öne: sagittal",
+       "Gövde döner: transvers",
+       "Kollar yana: frontal"
+      ],
+      "text": "Topa vuruş"
+     }
+    },
+    {
+     "text": "Bu tür hareketlere çok düzlemli hareketler denir. Spor ve günlük hayat büyük ölçüde böyledir.",
+     "visual": {
+      "type": "keyword",
+      "text": "Çok düzlemli hareket",
+      "highlight": "Çok düzlemli"
+     }
+    },
+    {
+     "text": "Sınav soruları ise genellikle hareketin baskın düzlemini sorar; o yüzden en belirgin yönü seç.",
+     "visual": {
+      "type": "compare",
+      "left": "Gerçek hayat: çok düzlem",
+      "right": "Sınav: baskın düzlem",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Çapraz hareketler de buna örnektir: yerden bir kutuyu alıp karşı omuz hizasındaki rafa kaldırmak gibi.",
+     "visual": {
+      "type": "keyword",
+      "text": "Çapraz yol",
+      "highlight": "Çapraz"
+     }
+    },
+    {
+     "text": "Kabloyla yapılan woodchop hareketi, bu çapraz yolu salonda kontrollü şekilde çalışmanı sağlar.",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Kablo woodchop",
+      "cues": [
+       "Ayaklar sabit",
+       "Kalça ve gövde birlikte döner",
+       "Kontrollü tempo"
+      ]
+     }
+    },
+    {
+     "text": "Ama önce her düzlemi ayrı ayrı tanımak gerekir; çok düzlemli hareketleri anlamanın anahtarı budur.",
+     "visual": {
+      "type": "title",
+      "text": "Önce tek tek öğren",
+      "highlight": "tek tek"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Salonda: programın kaç düzlemde?",
+   "layer": "gym",
+   "beats": [
+    {
+     "text": "Şimdi bu bilgiyi salona taşıyalım.",
+     "visual": {
+      "type": "title",
+      "text": "Salona taşı",
+      "highlight": "Salona"
+     }
+    },
+    {
+     "text": "Programındaki her hareketin yanına baskın düzlemini yaz. Sonuç çoğu kişiyi şaşırtıyor.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Squat → sagittal",
+       "Deadlift → sagittal",
+       "Lat pulldown → frontal"
+      ],
+      "text": "Programını etiketle"
+     }
+    },
+    {
+     "text": "Bazı hareketler, örneğin bench press, tekniğe göre farklı düzlemlerde sınıflandırılabilir; sınavda kitabının cevabını esas al.",
+     "visual": {
+      "type": "keyword",
+      "text": "Kitabının cevabını esas al",
+      "highlight": "Kitabının"
+     }
+    },
+    {
+     "text": "Çoğu programda sagittal hareketler ağır basar; frontal ve transvers düzlem neredeyse hiç yoktur.",
+     "visual": {
+      "type": "compare",
+      "left": "Sagittal: çok",
+      "right": "Frontal + transvers: az",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Nedeni basit: en bilinen temel hareketler bu düzlemde ve ölçmesi, ilerletmesi kolay.",
+     "visual": {
+      "type": "keyword",
+      "text": "Ölçmesi ve ilerletmesi kolay",
+      "highlight": "kolay"
+     }
+    },
+    {
+     "text": "Ama futbol, basketbol, tenis ve günlük hayat sürekli yana hareketler ve dönüşler ister.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Futbol",
+       "Basketbol",
+       "Tenis",
+       "Gündelik hayat"
+      ],
+      "text": "Üç düzlem birden"
+     }
+    },
+    {
+     "text": "Bir basketbolcu savunmada sürekli yana kayar; bir tenisçi her vuruşta gövdesini döndürür.",
+     "visual": {
+      "type": "compare",
+      "left": "Basketbol: yana kayma",
+      "right": "Tenis: gövde dönüşü",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Bu yüzden dengeli bir program, üç düzlemi de belli bir ölçüde içermelidir.",
+     "visual": {
+      "type": "keyword",
+      "text": "Dengeli program = 3 düzlem",
+      "highlight": "3 düzlem"
+     },
+     "sfx": "reveal"
+    },
+    {
+     "text": "Frontal düzlem için yana lunge, lateral raise ya da side plank ekleyebilirsin.",
+     "visual": {
+      "type": "collage",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "1845759",
+        "url": "https://pixabay.com/get/gc367323bd5afbb49f75342ebaa81f503c785ff6b40a0abe2b39d9c1764652e2d2063b27a08b5d528c7b940a09c7b359106eb6e570a999546d38d1f488ac8b98f_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/exercise-fitness-lateral-lunges-1845759/",
+        "checked": "man doing a lateral (side) lunge, front view, plain light grey background",
+        "caption": "Yana lunge"
+       },
+       {
+        "provider": "pixabay",
+        "id": "2699780",
+        "url": "https://pixabay.com/get/gb2f6b708d39c88a4a2bdaafced3ee85dd05e156476a552b9d72b41ee4eeb1a31f9f23988655a96bb752bf5c1d0e9a0df8b4e767ab1455e58e9207f0f6f9ca987_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/young-woman-girl-athletic-nature-2699780/",
+        "checked": "woman in a forward lunge, side view, outdoors by rocks and water",
+        "caption": "Öne lunge"
+       }
+      ]
+     }
+    },
+    {
+     "text": "Transvers düzlem için kabloyla gövde rotasyonu ya da Pallof press iyi bir başlangıçtır.",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Pallof press",
+      "cues": [
+       "Kablo yanda",
+       "Kollar öne uzanır",
+       "Gövde dönmesin"
+      ]
+     }
+    },
+    {
+     "text": "Pallof press’in amacı ilginçtir: gövdenin dönmesine karşı koymak. Yani rotasyonu kontrol etmeyi öğretir.",
+     "visual": {
+      "type": "keyword",
+      "text": "Dönmeye karşı koy",
+      "highlight": "karşı koy"
+     }
+    },
+    {
+     "text": "Başlarken iki ya da üç set, on ile on iki kontrollü tekrar yeterli bir başlangıç olabilir.",
+     "visual": {
+      "type": "stat",
+      "value": "2–3 × 10–12",
+      "label": "set × tekrar · başlangıç"
+     }
+    },
+    {
+     "text": "Yeni bir düzlemde çalışırken hafif başla, hareket aralığını ağrısız tut ve tempoyu kontrol et.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Hafif başla",
+       "Ağrısız aralık",
+       "Kontrollü tempo"
+      ],
+      "text": "Güvenli başlangıç"
+     }
+    },
+    {
+     "text": "Bel, diz ya da omuz problemin varsa yeni hareketleri bir uzmanla birlikte seç.",
+     "visual": {
+      "type": "keyword",
+      "text": "Problem varsa uzmana danış",
+      "highlight": "uzmana"
+     }
+    },
+    {
+     "text": "Peki bunu pratikte nasıl yaparsın? Basit bir örnek vereyim.",
+     "visual": {
+      "type": "title",
+      "text": "Örnek bir hafta",
+      "highlight": "Örnek"
+     }
+    },
+    {
+     "text": "Bacak gününde squat ve deadlift kalsın, sonuna iki set yana lunge ekle.",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Bacak günü",
+      "cues": [
+       "Squat",
+       "Deadlift",
+       "+ Yana lunge"
+      ]
+     }
+    },
+    {
+     "text": "Üst vücut gününde bench press ve row kalsın, yanına lateral raise ve dumbbell fly koy.",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Üst vücut günü",
+      "cues": [
+       "Bench press",
+       "Row",
+       "+ Lateral raise",
+       "+ Dumbbell fly"
+      ]
+     }
+    },
+    {
+     "text": "Lat pulldown zaten programındaysa, geniş tutuşla omuzda frontal düzlemde bir hareket yaptığını bil.",
+     "visual": {
+      "type": "keyword",
+      "text": "Lat pulldown: frontal",
+      "highlight": "frontal"
+     }
+    },
+    {
+     "text": "Karın çalışmasında sadece crunch yapma; side plank ve Pallof press ile diğer düzlemleri de çalıştır.",
+     "visual": {
+      "type": "compare",
+      "left": "Sadece crunch",
+      "right": "Crunch + side plank + Pallof",
+      "verdict": "right"
+     }
+    },
+    {
+     "text": "Isınmada da üç düzlemi kullanabilirsin: bacak salınımlarını önce öne arkaya, sonra yana yap.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Öne-arkaya salınım",
+       "Yana salınım",
+       "Gövde dönüşü"
+      ],
+      "text": "Isınma"
+     }
+    },
+    {
+     "text": "Bu salınımları on tekrar civarında, acele etmeden ve ağrısız bir aralıkta yap.",
+     "visual": {
+      "type": "exercise_card",
+      "text": "Isınma",
+      "cues": [
+       "10 tekrar civarı",
+       "Acele etme",
+       "Ağrısız aralık"
+      ]
+     }
+    },
+    {
+     "text": "Böylece programının yapısı aynı kalır, ama vücudun daha fazla yönde hareket etmeyi öğrenir.",
+     "visual": {
+      "type": "keyword",
+      "text": "Aynı program, daha çok yön",
+      "highlight": "daha çok yön"
+     }
+    },
+    {
+     "text": "Bu hafta kendi programına bak: frontal ve transvers düzlemden kaç hareket var?",
+     "visual": {
+      "type": "title",
+      "text": "Senin programında kaç tane?",
+      "highlight": "kaç tane"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Özet",
+   "layer": "summary",
+   "beats": [
+    {
+     "text": "Toparlayalım.",
+     "visual": {
+      "type": "title",
+      "text": "Özet",
+      "highlight": "Özet"
+     }
+    },
+    {
+     "text": "Sınavda hatırla: sagittal sağ ve sol, frontal ön ve arka, transvers üst ve alt olarak ayırır.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Sagittal: sağ / sol",
+       "Frontal: ön / arka",
+       "Transvers: üst / alt"
+      ],
+      "text": "Sınavda hatırla"
+     }
+    },
+    {
+     "text": "Fleksiyon ve ekstansiyon sagittal; abdüksiyon, addüksiyon ve yana eğilme frontal; rotasyon ise transvers düzlemdedir.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Fleksiyon/ekstansiyon → sagittal",
+       "Abdüksiyon/addüksiyon → frontal",
+       "Rotasyon → transvers"
+      ]
+     }
+    },
+    {
+     "text": "Ve tuzağı unutma: eksen düzleme diktir, isimler de değişebilir.",
+     "visual": {
+      "type": "compare",
+      "left": "Eksen ⟂ düzlem",
+      "right": "Koronal = frontal",
+      "verdict": "both"
+     }
+    },
+    {
+     "text": "Eksenleri de unutma: sagittal düzlemde frontal eksen, frontal düzlemde sagittal eksen, transverste uzunlamasına eksen.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "Sagittal → frontal eksen",
+       "Frontal → sagittal eksen",
+       "Transvers → uzunlamasına"
+      ],
+      "text": "Eksenler"
+     }
+    },
+    {
+     "text": "Salonda uygula: programına en az bir frontal ve bir transvers düzlem hareketi ekle.",
+     "visual": {
+      "type": "list",
+      "items": [
+       "+1 frontal hareket",
+       "+1 transvers hareket",
+       "Hafif başla"
+      ],
+      "text": "Salonda uygula"
+     },
+     "sfx": "reveal"
+    }
+   ]
+  },
+  {
+   "title": "Sıra sende",
+   "layer": "cta",
+   "beats": [
+    {
+     "text": "Şimdi küçük bir test: yana lunge hangi düzlemde? Cevabını yorumlara yaz.",
+     "visual": {
+      "type": "title",
+      "text": "Yana lunge: hangi düzlem?",
+      "highlight": "hangi düzlem"
+     }
+    },
+    {
+     "text": "İpucu vereyim: hareketin baskın yönünü düşün ve önden mi, yandan mı daha net göründüğüne bak.",
+     "visual": {
+      "type": "compare",
+      "left": "Önden net?",
+      "right": "Yandan net?",
+      "verdict": "none"
+     }
+    },
+    {
+     "text": "Programındaki en sevdiğin hareketi de yaz; hangi düzlemde olduğunu birlikte bulalım.",
+     "visual": {
+      "type": "keyword",
+      "text": "En sevdiğin hareket?",
+      "highlight": "sevdiğin"
+     }
+    },
+    {
+     "text": "Sınava hazırlanıyorsan, Fitness Eğitmenliği Sınavına Hazırlık listesindeki diğer videolara da göz at.",
+     "visual": {
+      "type": "keyword",
+      "text": "Sınav hazırlık listesi",
+      "highlight": "Sınav"
+     }
+    },
+    {
+     "text": "Videoyu kaydet ki sınavdan önce bu üç haritaya tekrar bakabilesin. Görüşmek üzere!",
+     "visual": {
+      "type": "diagram",
+      "name": "planes",
+      "text": "Kaydet, tekrar bak",
+      "params": {
+       "highlight": "all"
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "critic": {
+  "passed": true,
+  "score": 8.0,
+  "notes": [
+   "Facts checked against OpenStax A&P 2e 1.6/9.5: plane divisions, coronal=frontal, horizontal=transverse, plane/axis pairs, flexion/extension, ab/adduction, lateral flexion, medial/lateral rotation, horizontal ab/adduction.",
+   "Round 1 fixes: bench press and shoulder press removed from \"pure sagittal\" examples (technique-dependent; told to follow the textbook), exam-frequency claim softened, 10 chapters merged to 9.",
+   "Gym layer: 2+ concrete safe applications (add frontal/transverse moves, example week, warm-up), conservative cues, problem -> professional.",
+   "Pictures checked: OpenStax planes figure (CC BY, credited) with Turkish labels, squat, forward lunge, side lunge (cutout), lunge collage. No stock clips (no clip clearly showed the exercise)."
+  ]
+ }
+}
