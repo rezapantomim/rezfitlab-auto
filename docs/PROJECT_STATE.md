@@ -1,4 +1,4 @@
-# Project state — 2026-11-26
+# Project state — 2026-11-27
 
 ## Done
 - Contract `schema/episode.schema.json`, rules `config/rules.md`, critic `config/critic.md`, settings `config/channel.json`.
@@ -14,6 +14,15 @@
 - Google Cloud (moved 2026-11-26 to the channel's own account rezfitlab@gmail.com): project `rezfitlab-auto-515916`
   (YouTube Data API v3, OAuth app "Rez Fitlab Uploader" In production, Desktop client `rezfitlab-uploader` 715040955711-…);
   secret YT_TOKEN_JSON = Rez Fitlab (@rezfitlab), verified. The old project `rezfitlab-auto` (personal account) was shut down on 2026-11-26 (deleted after 2026-12-26).
+
+- Motion redesign 2026-11-27 (owner: "too much is written, go towards motion and collages"): kinetic text (words pop in,
+  marker highlight), any text visual can carry a photo (`images`, full-bleed Ken Burns / parallax), new types `icons`
+  (drawn-on line icons, `render/src/Icons.tsx`) and `split` (2-photo split screen), `stat` on a photo, flying collages,
+  beat transitions, captions 4 words (long). Quiz Shorts now show the next beat's visual as soon as the quiz card leaves.
+  Writer rules: <= 4 words per on-screen string, <= 30 % text-only beats, a picture-driven visual every 2nd beat, a photo on
+  <= 3 beats (enforced by `tools/validate.py`; the publisher runs it with `--no-style`, so style never blocks an upload).
+  All 6 queued episodes (29 Nov - 3 Dec) reworked; `archive/` untouched. Before/after frames: `docs/redesign/`.
+  GitHub dry runs green: S-20261129 (run 46040889859), L-20261201 (run 46041665218).
 
 ## Decisions
 - Fully automatic, no human review; writing on the owner's PC (Claude Code), render/upload on GitHub Actions.
