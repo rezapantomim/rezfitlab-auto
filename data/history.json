@@ -12,6 +12,32 @@
    "music": null,
    "thumb": null,
    "comment_pending": "Sen kaç saniyede bildin? Detaylı anlatım: https://www.youtube.com/@RezFitlab"
+  },
+  {
+   "id": "S-20261128-squat-diz",
+   "kind": "short",
+   "topic_id": "G-squat-diz",
+   "title": "Squatta dizler parmak ucunu geçebilir mi?",
+   "video_id": "uzhVk68jQIY",
+   "publish_at": "2026-11-28T15:00:00Z",
+   "uploaded_at": "2026-11-27T06:39:17+00:00",
+   "seconds": 35.7,
+   "music": null,
+   "thumb": null,
+   "comment_pending": "Sana da \"dizler parmak ucunu geçmesin\" dendi mi? Yorumlara yaz!"
+  },
+  {
+   "id": "L-20261128-hr-zones",
+   "kind": "long",
+   "topic_id": "T24",
+   "title": "Yağ Yakım Bölgesi Gerçek mi? Hedef Nabız Hesaplama (Karvonen)",
+   "video_id": "WAw8O3lBH6U",
+   "publish_at": "2026-11-28T17:00:00Z",
+   "uploaded_at": "2026-11-27T06:55:47+00:00",
+   "seconds": 535.2,
+   "music": null,
+   "thumb": true,
+   "comment_pending": "Dinlenme nabzın kaç? Yaz, hedef aralığını birlikte hesaplayalım 👇"
   }
  ]
 }
