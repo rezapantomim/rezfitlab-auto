@@ -32,5 +32,7 @@
 - Note: workflow_dispatch defaults to dry_run=true; pass `-f dry_run=false` for a real manual upload.
 
 ## Open issues
+- GitHub cron had never fired (all runs so far manual). Moved to 05:17 / 12:43 UTC on 2026-11-27; verify the first `schedule` run.
+  Owner declined a local backup trigger for now; if cron stays silent, offer it again (Task Scheduler -> `gh workflow run publish.yml -f dry_run=false`).
 - Local Python 3.15: no rembg wheels (cutouts only on Actions); needs `tzdata`. Local renders: REMOTION_BROWSER = installed Chrome.
 - Wikimedia needs the etiquette User-Agent (else 429). Comments can't be pinned via API. Custom thumbnails need a phone-verified channel.
