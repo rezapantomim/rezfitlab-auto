@@ -2,8 +2,8 @@ name: Publish
 
 on:
   schedule:
-    - cron: '0 5 * * *'      # daily 08:00 Istanbul: build + schedule everything due in the next 40 h
-    - cron: '0 13 * * *'     # backup run (picks up anything the morning run could not finish)
+    - cron: '17 5 * * *'     # daily ~08:17 Istanbul (off the full hour: GitHub delays/drops busy top-of-hour schedules): build + schedule everything due in the next 40 h
+    - cron: '43 12 * * *'    # ~15:43 Istanbul backup run (picks up anything the morning run could not finish)
   workflow_dispatch:
     inputs:
       dry_run:

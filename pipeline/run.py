@@ -174,7 +174,7 @@ def main():
         desc = description(ep, timeline, track, hist)
         save(out / 'upload.json', {'title': ep['upload']['title'], 'description': desc, 'tags': ep['upload']['tags']})
         if a.dry_run:
-            report.append(f'🧪 {ep["id"]}: built {secs:.0f} s -> {final}'); continue
+            report.append(f'🧪 TEST (yüklenmedi / not uploaded): {ep["id"]} built OK, {secs // 60:.0f}:{secs % 60:02.0f} - video in the run artifacts'); continue
         from . import youtube
         title = ep['upload']['title'] + (' #Shorts' if ep['kind'] == 'short' and '#shorts' not in ep['upload']['title'].lower() else '')
         vid = youtube.upload(yt, final, ep, title, desc, ep['upload']['tags'])
