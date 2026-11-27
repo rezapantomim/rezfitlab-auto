@@ -158,7 +158,7 @@ def main():
             continue
         if not a.dry_run and left <= 0:
             report.append(f'⏸ {ep["id"]}: daily upload cap reached, tomorrow'); break
-        v = subprocess.run([sys.executable, str(ROOT / 'tools/validate.py'), str(f)], capture_output=True, text=True)
+        v = subprocess.run([sys.executable, str(ROOT / 'tools/validate.py'), '--no-style', str(f)], capture_output=True, text=True)
         if v.returncode != 0:
             report.append(f'❌ {ep["id"]}: invalid\n{v.stdout[-800:]}'); continue
         out = WORK / ep['id']

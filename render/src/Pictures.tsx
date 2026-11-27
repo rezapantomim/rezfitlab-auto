@@ -1,9 +1,10 @@
-/* Picture visuals: a single picture (photo card or cut-out, optional label arrows) and a 2-4 picture collage. */
+/* Picture visuals: Ken Burns / parallax photo, full-bleed picture, photo card or cut-out (optional label arrows), animated collage. */
 import React from 'react';
 import { AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 import type { Beat, Pic, Props } from './types';
 import { trUpper } from './types';
 import { HEAD, BODY } from './fonts';
+import { KineticText } from './Kinetic';
 
 /** Largest w x h box with the picture's aspect ratio that fits in maxW x maxH. */
 const fit = (p: Pic, maxW: number, maxH: number) => {
@@ -72,6 +73,68 @@ export const SinglePicture: React.FC<{ beat: Beat; p: Props; vertical: boolean }
   );
 };
 
+
+const CL = { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' } as const;
+
+/** A picture filling its parent with slow Ken Burns motion (4 variants by seed). Vertical frames with a landscape picture get
+ *  parallax: a blurred, slower backdrop plus the sharp picture across the full width. Cut-outs float on a soft accent glow. */
+export const KenBurns: React.FC<{ pic: Pic; dur: number; seed: number; vertical: boolean; p: Props; centerY?: number }> = (
+  { pic, dur, seed, vertical, p, centerY = 640 }) => {
+  const f = useCurrentFrame();
+  const t = interpolate(f, [0, Math.max(30, dur)], [0, 1], CL);
+  const m = seed % 4;
+  const s0 = [1.04, 1.2, 1.13, 1.13][m], s1 = [1.18, 1.05, 1.13, 1.13][m];
+  const x0 = [0, 0, -3.5, 3.5][m], x1 = [0, 0, 3.5, -3.5][m];
+  const sc = s0 + (s1 - s0) * t, tx = x0 + (x1 - x0) * t;
+  const src = staticFile(pic.src);
+  if (pic.cut) {
+    const box = fit(pic, vertical ? 980 : 1300, vertical ? 900 : 860);
+    return (
+      <AbsoluteFill style={{ background: `radial-gradient(circle at 50% ${vertical ? 33 : 50}%, ${p.style.accent}55 0%, ${p.style.bg} 60%)` }}>
+        <Img src={src} style={{ position: 'absolute', left: (vertical ? 1080 : 1920) / 2 - box.w / 2, top: (vertical ? centerY : 540) - box.h / 2,
+          width: box.w, height: box.h, objectFit: 'contain', transform: `scale(${0.95 + 0.08 * t}) translateY(${Math.sin(f / 20) * 8}px)`,
+          filter: 'drop-shadow(0 24px 40px #000c)' }} />
+      </AbsoluteFill>
+    );
+  }
+  const cover = (extra: React.CSSProperties, k = 1) => (
+    <Img src={src} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover',
+      transform: `scale(${1 + (sc - 1) * k}) translateX(${tx * k}%)`, ...extra }} />
+  );
+  if (vertical && pic.w / pic.h > 0.85) {
+    const h = Math.min(1100, (1080 * pic.h) / pic.w);
+    return (
+      <AbsoluteFill style={{ overflow: 'hidden' }}>
+        {cover({ filter: 'blur(26px) brightness(0.5) saturate(1.2)' }, 0.5)}
+        <div style={{ position: 'absolute', left: 0, right: 0, top: centerY - h / 2, height: h, overflow: 'hidden',
+          boxShadow: '0 30px 60px #000c', borderTop: `6px solid ${p.style.accent}`, borderBottom: `6px solid ${p.style.accent}` }}>
+          {cover({})}
+        </div>
+      </AbsoluteFill>
+    );
+  }
+  return <AbsoluteFill style={{ overflow: 'hidden' }}>{cover({})}</AbsoluteFill>;
+};
+
+/** Full-bleed photo (Ken Burns) with an optional kinetic 1-4 word line. */
+export const FullPicture: React.FC<{ beat: Beat; p: Props; vertical: boolean; seed: number }> = ({ beat, p, vertical, seed }) => {
+  const pic = beat.imgs![0];
+  const v = beat.visual;
+  return (
+    <AbsoluteFill>
+      <KenBurns pic={pic} dur={beat.dur} seed={seed} vertical={vertical} p={p} />
+      <AbsoluteFill style={{ background: vertical ? 'linear-gradient(180deg, #0007 0%, #0000 18%, #0000 55%, #000c 72%)'
+        : 'linear-gradient(180deg, #0006 0%, #0000 25%, #0000 55%, #000b 100%)' }} />
+      {v.text && (
+        <div style={{ position: 'absolute', left: vertical ? 60 : 110, right: vertical ? 60 : 500, top: vertical ? 1010 : undefined,
+          bottom: vertical ? undefined : 190 }}>
+          <KineticText text={v.text} hl={v.highlight} p={p} size={vertical ? 92 : 104} align={vertical ? 'center' : 'left'} delay={6} />
+        </div>
+      )}
+    </AbsoluteFill>
+  );
+};
+
 // slot centres (x %, y %), card width (% of stage) and rotation, per picture count
 const SLOTS_H: Record<number, [number, number, number, number][]> = {
   2: [[30, 50, 40, -4], [70, 52, 40, 3]],
@@ -83,6 +146,8 @@ const SLOTS_V: Record<number, [number, number, number, number][]> = {
   3: [[33, 19, 54, -5], [67, 50, 54, 3], [36, 81, 54, -2]],
   4: [[28, 25, 46, -4], [72, 30, 46, 4], [30, 72, 46, 3], [70, 76, 46, -3]],
 };
+// where each card flies in from (dx, dy in px)
+const FROM: [number, number][] = [[-1300, -200], [1300, 150], [-200, 1300], [1100, -900]];
 
 export const Collage: React.FC<{ beat: Beat; p: Props; vertical: boolean }> = ({ beat, p, vertical }) => {
   const f = useCurrentFrame();
@@ -93,36 +158,50 @@ export const Collage: React.FC<{ beat: Beat; p: Props; vertical: boolean }> = ({
   const slots = (vertical ? SLOTS_V : SLOTS_H)[n];
   const stage = vertical ? { x: 50, y: 250, w: width - 100, h: 820 } : { x: 110, y: 130, w: width - 220, h: height - 330 };
   const step = Math.max(6, Math.min(14, (beat.dur - 20) / n));
+  const cam = interpolate(f, [0, Math.max(30, beat.dur)], [1, 1.07], CL);
+  const back = pics.find((x) => !x.cut);
   return (
     <AbsoluteFill>
-      {pics.map((pic, i) => {
-        const [cx, cy, cw, rot] = slots[i];
-        const k = spring({ frame: f - i * step, fps, config: { damping: 13, mass: 0.8 } });
-        const maxW = (stage.w * cw) / 100, maxH = stage.h * (n === 2 && !vertical ? 0.8 : vertical && n >= 3 ? 0.36 : 0.5);
-        const box = fit(pic, maxW, maxH);
-        const drift = Math.sin((f + i * 40) / 40) * 6;
-        const left = stage.x + (stage.w * cx) / 100 - box.w / 2, top = stage.y + (stage.h * cy) / 100 - box.h / 2;
-        const cap = meta[i]?.caption;
-        return (
-          <div key={i} style={{ position: 'absolute', left, top: top + drift, width: box.w, height: box.h, opacity: k,
-            transform: `scale(${0.6 + 0.4 * k}) rotate(${rot * k + (1 - k) * 18}deg)`, zIndex: n - i /* earlier cards (and their stickers) stay on top */ }}>
-            {pic.cut ? (
-              <Img src={staticFile(pic.src)} style={{ width: '100%', height: '100%', objectFit: 'contain', filter: 'drop-shadow(0 16px 26px #000c)' }} />
-            ) : (
-              <div style={{ width: '100%', height: '100%', background: '#fff', padding: 10, boxSizing: 'border-box', boxShadow: '0 18px 40px #000b' }}>
-                <Img src={staticFile(pic.src)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-              </div>
-            )}
-            {!pic.cut && <Tape color={i % 2 ? p.style.accent2 : p.style.text} rot={-rot * 1.5} />}
-            {cap && <Sticker text={cap} p={p} size={vertical ? 40 : 36} />}
-          </div>
-        );
-      })}
+      {back && (
+        <AbsoluteFill style={{ opacity: 0.35 }}>
+          <Img src={staticFile(back.src)} style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'blur(30px) saturate(1.3)',
+            transform: `scale(${1.2 * cam})` }} />
+        </AbsoluteFill>
+      )}
+      <AbsoluteFill style={{ transform: `scale(${cam})` }}>
+        {pics.map((pic, i) => {
+          const [cx, cy, cw, rot] = slots[i];
+          const k = spring({ frame: f - i * step, fps, config: { damping: 14, mass: 0.9 } });
+          const maxW = (stage.w * cw) / 100, maxH = stage.h * (n === 2 && !vertical ? 0.8 : vertical && n >= 3 ? 0.36 : 0.5);
+          const box = fit(pic, maxW, maxH);
+          const depth = 1 + i * 0.4;                                    // parallax: later cards drift more
+          const drift = Math.sin((f + i * 40) / 40) * 6 * depth;
+          const left = stage.x + (stage.w * cx) / 100 - box.w / 2, top = stage.y + (stage.h * cy) / 100 - box.h / 2;
+          const [dx, dy] = FROM[i % 4];
+          const cap = meta[i]?.caption;
+          const zoom = interpolate(f, [i * step, Math.max(i * step + 1, beat.dur)], [1.12, 1.0], CL);
+          return (
+            <div key={i} style={{ position: 'absolute', left, top: top + drift, width: box.w, height: box.h, opacity: Math.min(1, k * 2),
+              transform: `translate(${(1 - k) * dx}px, ${(1 - k) * dy}px) rotate(${rot * k + (1 - k) * (i % 2 ? 25 : -25)}deg)`,
+              zIndex: n - i /* earlier cards (and their stickers) stay on top */ }}>
+              {pic.cut ? (
+                <Img src={staticFile(pic.src)} style={{ width: '100%', height: '100%', objectFit: 'contain', filter: 'drop-shadow(0 16px 26px #000c)' }} />
+              ) : (
+                <div style={{ width: '100%', height: '100%', background: '#fff', padding: 10, boxSizing: 'border-box', boxShadow: '0 18px 40px #000b' }}>
+                  <div style={{ width: '100%', height: '100%', overflow: 'hidden' }}>
+                    <Img src={staticFile(pic.src)} style={{ width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${zoom})` }} />
+                  </div>
+                </div>
+              )}
+              {!pic.cut && <Tape color={i % 2 ? p.style.accent2 : p.style.text} rot={-rot * 1.5} />}
+              {cap && <div style={{ opacity: interpolate(f, [i * step + 8, i * step + 14], [0, 1], CL) }}><Sticker text={cap} p={p} size={vertical ? 42 : 38} /></div>}
+            </div>
+          );
+        })}
+      </AbsoluteFill>
       {beat.visual.text && (
-        <div style={{ position: 'absolute', left: 0, right: 0, top: vertical ? 1125 : 60, textAlign: 'center', fontFamily: HEAD,
-          fontSize: vertical ? 64 : 58, color: p.style.text, textShadow: '0 4px 14px #000',
-          opacity: interpolate(f, [n * step, n * step + 10], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }) }}>
-          {trUpper(beat.visual.text)}
+        <div style={{ position: 'absolute', left: 60, right: 60, top: vertical ? 1100 : 50 }}>
+          <KineticText text={beat.visual.text} hl={beat.visual.highlight} p={p} size={vertical ? 72 : 66} delay={n * step} />
         </div>
       )}
     </AbsoluteFill>

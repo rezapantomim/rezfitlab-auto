@@ -55,8 +55,20 @@
      "text": "Kalp atım hızı rezervine göre orta şiddet hangi aralıktır? Süren başladı!",
      "visual": {
       "type": "keyword",
-      "text": "HRR: orta şiddet?",
-      "highlight": "orta"
+      "text": "Orta şiddet?",
+      "highlight": "orta",
+      "icon": "pulse",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "8545861",
+        "url": "https://pixabay.com/get/ge517a7e647731d2eace1ed9027e6488b9ff5312c76fca458b0fe7193ea1275e5f16bf53f2e54e80eb9d0e518077e009270dc2dae7104c91cac56316dd072810e_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/man-treadmill-run-training-gym-8545861/",
+        "checked": "man running on a treadmill in a bright gym (cardio at moderate pace)"
+       }
+      ]
      },
      "sfx": "riser"
     }
@@ -68,18 +80,40 @@
     {
      "text": "Doğru cevap B: rezervin yüzde kırkı ile elli dokuzu arası.",
      "visual": {
-      "type": "keyword",
-      "text": "%40–59 HRR",
-      "highlight": "%40–59"
+      "type": "stat",
+      "value": "%40–59",
+      "label": "HRR",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "957115",
+        "url": "https://pixabay.com/get/g7829ac316f9826e2f9036394ae1fee8571ed52c2e1d5f1bf4ddf8b652d02b30252ff4d3ded5d27319923d308d8fcd36855340de8c70f96be9eff6eb4fdf84817_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/fitness-treadmill-running-957115/",
+        "checked": "close-up of running shoes on a treadmill belt"
+       }
+      ]
      },
      "sfx": "reveal"
     },
     {
      "text": "Rezerv, maksimum nabızdan dinlenme nabzının çıkarılmasıyla bulunur.",
      "visual": {
-      "type": "keyword",
-      "text": "HRR = HRmax − dinlenme nabzı",
-      "highlight": "HRR"
+      "type": "icons",
+      "icons": [
+       {
+        "icon": "pulse",
+        "label": "Maks nabız"
+       },
+       {
+        "icon": "minus"
+       },
+       {
+        "icon": "sleep",
+        "label": "Dinlenme nabzı"
+       }
+      ]
      },
      "sfx": "pop"
     },
@@ -88,7 +122,19 @@
      "visual": {
       "type": "stat",
       "value": "112–137",
-      "label": "atım/dk · orta şiddet"
+      "label": "atım / dk",
+      "icon": "heart",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "8545861",
+        "url": "https://pixabay.com/get/ge517a7e647731d2eace1ed9027e6488b9ff5312c76fca458b0fe7193ea1275e5f16bf53f2e54e80eb9d0e518077e009270dc2dae7104c91cac56316dd072810e_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/man-treadmill-run-training-gym-8545861/",
+        "checked": "man running on a treadmill in a bright gym (cardio at moderate pace)"
+       }
+      ]
      }
     },
     {
@@ -105,8 +151,20 @@
      "text": "Detaylı anlatım kanalda. Sen kaç saniyede bildin? Yorumlara yaz!",
      "visual": {
       "type": "title",
-      "text": "Kaç saniyede bildin?",
-      "highlight": "saniyede"
+      "text": "Kaç saniyede?",
+      "highlight": "saniyede",
+      "icon": "timer",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "1842062",
+        "url": "https://pixabay.com/get/g75a0e95953da7763c122d0f2235420dcbab5db37063e53125cdc7985bf53b95d6faf1f3a14e7df3436f211fef4b5d88300f1adfd0cddb9ebec583f84beae6e64_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/heart-rate-time-monitor-exercise-1842062/",
+        "checked": "round fitness watch on a wrist showing a red heart and a heart-rate number, no brand visible"
+       }
+      ]
      }
     }
    ]
@@ -117,7 +175,8 @@
   "score": 8.3,
   "notes": [
    "ACSM: moderate = 40–59 % HRR (Garber 2011); example 0.4x130+60=112, 0.59x130+60≈137 correct.",
-   "One correct option; distractors are the light/vigorous/near-max bands."
+   "One correct option; distractors are the light/vigorous/near-max bands.",
+   "2026-11-27 visual rework: fewer words, photos/icons/motion (narration unchanged)"
   ]
  }
 }

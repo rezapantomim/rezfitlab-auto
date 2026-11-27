@@ -14,15 +14,21 @@ const Background: React.FC<{ p: Props }> = ({ p }) => {
     <AbsoluteFill style={{ background: `radial-gradient(circle at ${x}% ${y}%, ${p.style.accent}33 0%, ${p.style.bg} 55%)` }}>
       <AbsoluteFill style={{
         backgroundImage: `linear-gradient(${p.style.text}08 1px, transparent 1px), linear-gradient(90deg, ${p.style.text}08 1px, transparent 1px)`,
-        backgroundSize: '60px 60px',
+        backgroundSize: '60px 60px', backgroundPosition: `0 ${(f * 0.5) % 60}px`,
       }} />
+      {[0, 1, 2].map((i) => (
+        <div key={i} style={{ position: 'absolute', width: 520, height: 520, borderRadius: 260, filter: 'blur(90px)', opacity: 0.22,
+          background: i === 1 ? p.style.accent2 : p.style.accent,
+          left: `${15 + i * 30 + 12 * Math.sin((f + i * 200) / 160)}%`, top: `${20 + i * 22 + 10 * Math.cos((f + i * 130) / 190)}%`,
+          transform: 'translate(-50%, -50%)' }} />
+      ))}
     </AbsoluteFill>
   );
 };
 
 const Captions: React.FC<{ beat: Beat; p: Props; vertical: boolean }> = ({ beat, p, vertical }) => {
   const f = useCurrentFrame() + beat.from;               // absolute frame
-  const size = vertical ? 3 : 7;
+  const size = vertical ? 3 : 4;                       // short caption chunks: less reading, more watching
   const idx = Math.max(0, beat.words.findIndex((w) => w.f1 >= f));
   const start = Math.floor(idx / size) * size;
   const chunk = beat.words.slice(start, start + size);
@@ -96,7 +102,7 @@ export const Episode: React.FC<Props> = (p) => {
       <Background p={p} />
       {p.beats.map((b, i) => (
         <Sequence key={i} from={b.from} durationInFrames={b.dur}>
-          {!(p.quiz && b.from < quizEnd) && <VisualView beat={b} p={p} vertical={vertical} />}
+          {!(p.quiz && b.from < quizEnd) && <VisualView beat={b} p={p} vertical={vertical} idx={i} />}
           {!(p.quiz && b.from < p.quiz.cdTo) && <Captions beat={b} p={p} vertical={vertical} />}
         </Sequence>
       ))}

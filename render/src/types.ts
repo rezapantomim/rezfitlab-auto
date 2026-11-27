@@ -4,12 +4,14 @@ export type Style = {
 };
 
 export type Visual = {
-  type: 'stock' | 'keyword' | 'title' | 'list' | 'stat' | 'compare' | 'diagram' | 'exercise_card' | 'quote' | 'image' | 'collage';
+  type: 'stock' | 'keyword' | 'title' | 'list' | 'stat' | 'compare' | 'diagram' | 'exercise_card' | 'quote' | 'image' | 'collage'
+    | 'icons' | 'split';
   text?: string; highlight?: string; items?: string[]; value?: string; label?: string;
   left?: string; right?: string; verdict?: 'left' | 'right' | 'both' | 'none';
   name?: string; params?: Record<string, any>; muscles?: string[]; cues?: string[]; overlay?: string;
   images?: { caption?: string; cutout?: boolean }[];
   labels?: { text: string; x: number; y: number }[];
+  icon?: string; icons?: { icon: string; label?: string }[]; layout?: 'full' | 'card';
 };
 
 export type Pic = { src: string; w: number; h: number; cut: boolean };

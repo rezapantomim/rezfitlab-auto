@@ -71,29 +71,33 @@ def coach_photo(ep):
 
 
 def fetch_images(ep):
-    """visual.images[k] -> render/public/img/<id>_<beat>_<k>.(jpg|png); returns {beat_index: [{src, w, h, cut}, ...]}."""
+    """visual.images[k] (any visual type) -> render/public/img/<id>_<beat>_<k>.(jpg|png); returns {beat_index: [{src, w, h, cut}, ...]}.
+    A picture used on several beats is downloaded (and cut out) only once."""
     out = PUBLIC / 'img'; out.mkdir(parents=True, exist_ok=True)
     beats = [b for s in ep['scenes'] for b in s['beats']]
-    srcs = {}
+    srcs, done = {}, {}
     for i, b in enumerate(beats):
         v = b['visual']
-        if v['type'] not in ('image', 'collage'):
+        if not v.get('images'):
             continue
         lst = []
-        for k, pic in enumerate(v.get('images', [])):
-            im = Image.open(io.BytesIO(_picture(pic)))
-            im = im.convert('RGBA') if im.mode in ('RGBA', 'LA', 'P') else im.convert('RGB')
-            im.thumbnail((1600, 1600))
-            if pic.get('cutout'):
-                cut = _cutout(im.convert('RGB'))
-                if cut is not None:
-                    im = cut
-            name = f'{ep["id"]}_{i:03d}_{k}.' + ('png' if im.mode == 'RGBA' else 'jpg')
-            if im.mode == 'RGBA':
-                im.save(out / name)
-            else:
-                im.save(out / name, quality=90)
-            lst.append({'src': f'img/{name}', 'w': im.width, 'h': im.height, 'cut': im.mode == 'RGBA'})
+        for k, pic in enumerate(v['images']):
+            key = (pic['provider'], pic['id'], bool(pic.get('cutout')))
+            if key not in done:
+                im = Image.open(io.BytesIO(_picture(pic)))
+                im = im.convert('RGBA') if im.mode in ('RGBA', 'LA', 'P') else im.convert('RGB')
+                im.thumbnail((1600, 1600))
+                if pic.get('cutout'):
+                    cut = _cutout(im.convert('RGB'))
+                    if cut is not None:
+                        im = cut
+                name = f'{ep["id"]}_{i:03d}_{k}.' + ('png' if im.mode == 'RGBA' else 'jpg')
+                if im.mode == 'RGBA':
+                    im.save(out / name)
+                else:
+                    im.save(out / name, quality=90)
+                done[key] = {'src': f'img/{name}', 'w': im.width, 'h': im.height, 'cut': im.mode == 'RGBA'}
+            lst.append(done[key])
         srcs[i] = lst
     return srcs
 
