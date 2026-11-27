@@ -79,10 +79,12 @@
     {
      "text": "Sagittal düzlem sağ ve sol, frontal düzlem ise ön ve arka olarak ayırır.",
      "visual": {
-      "type": "compare",
-      "left": "Sagittal: sağ / sol",
-      "right": "Frontal: ön / arka",
-      "verdict": "none"
+      "type": "diagram",
+      "name": "planes",
+      "text": "Sagittal · Frontal",
+      "params": {
+       "highlight": "all"
+      }
      },
      "sfx": "whoosh"
     },
@@ -93,8 +95,18 @@
       "text": "Gövde rotasyonu",
       "cues": [
        "Kalça sabit",
-       "Gövde döner",
-       "Kontrollü tempo"
+       "Gövde döner"
+      ],
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "2250970",
+        "url": "https://pixabay.com/get/g635c9b87bdd381f33650eed002ed2a25df3b0af773dd349f17c791e40a2a4d67e8f092ddf595a8e584db15e689258610933cbc15bf593057323ddfdc09c3e6ce_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-crunches-sport-training-2250970/",
+        "checked": "woman on a mat doing a twisting (bicycle) crunch: elbow towards the opposite knee, torso rotates"
+       }
       ]
      },
      "sfx": "pop"
@@ -103,8 +115,20 @@
      "text": "Detaylı anlatım kanalda. Sen kaç saniyede bildin? Yorumlara yaz!",
      "visual": {
       "type": "title",
-      "text": "Kaç saniyede bildin?",
-      "highlight": "saniyede"
+      "text": "Kaç saniyede?",
+      "highlight": "saniyede",
+      "icon": "timer",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "91849",
+        "url": "https://pixabay.com/get/ge27fb13369b992cc75f1c5b1730d04a466b6809b1a13f7ea1c99ddb8cb50e0eee4571d1df383b637ce6d27c982aa77c7_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/gym-equipment-weights-machines-91849/",
+        "checked": "empty gym hall with racks and benches, no people"
+       }
+      ]
      }
     }
    ]
@@ -115,7 +139,8 @@
   "score": 8.2,
   "notes": [
    "OpenStax 1.6: transverse (horizontal) plane divides superior/inferior; sagittal R/L; frontal anterior/posterior. Rotation occurs in the transverse plane.",
-   "Oblique is a real but non-cardinal plane -> plausible distractor, not correct."
+   "Oblique is a real but non-cardinal plane -> plausible distractor, not correct.",
+   "2026-11-27 visual rework: fewer words, photos/icons/motion (narration unchanged)"
   ]
  }
 }

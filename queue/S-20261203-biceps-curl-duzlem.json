@@ -58,7 +58,7 @@
      "text": "Biceps curl hangi hareket düzleminde yapılır? Süren başladı!",
      "visual": {
       "type": "keyword",
-      "text": "Biceps curl: hangi düzlem?",
+      "text": "Hangi düzlem?",
       "highlight": "düzlem"
      },
      "sfx": "riser"
@@ -97,10 +97,30 @@
     {
      "text": "Avucunu yukarı çevirmek ise supinasyondur; bu ayrı bir ön kol hareketidir.",
      "visual": {
-      "type": "compare",
+      "type": "split",
       "left": "Fleksiyon: dirsek",
       "right": "Supinasyon: ön kol",
-      "verdict": "none"
+      "verdict": "none",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "8246973",
+        "url": "https://pixabay.com/get/g2853358d2461867306f92027d244e81d62f7b0c7e10673e215344521a2065cab0f00ff2e08d4ca7ac3e2b667809c9af6a9f214d54259a31777356e1c3ae27559_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/weight-dumbbell-strength-arm-force-8246973/",
+        "checked": "side view of an arm doing a dumbbell biceps curl, forearm raised, no face"
+       },
+       {
+        "provider": "pixabay",
+        "id": "7207995",
+        "url": "https://pixabay.com/get/g4282cab9a07946f6bc5b1696350e8cbd058baeec237ed1a078ce902de8d07debae4edb219d39199a776ec6a455820476dd3fac8275b339caad9a5e02f136191b_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/fruit-raspberry-ripe-raspberry-hand-7207995/",
+        "checked": "open hand, palm facing up (supinated), holding a raspberry"
+       }
+      ]
      },
      "sfx": "whoosh"
     },
@@ -108,8 +128,20 @@
      "text": "Detaylı anlatım kanalda. Sen kaç saniyede bildin? Yorumlara yaz!",
      "visual": {
       "type": "title",
-      "text": "Kaç saniyede bildin?",
-      "highlight": "saniyede"
+      "text": "Kaç saniyede?",
+      "highlight": "saniyede",
+      "icon": "timer",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "2728335",
+        "url": "https://pixabay.com/get/gb6f81a5877ce43ab8c90f9100fd7cbedfcaef0a83f2ca053a9287ffc8a512aba133cdefe27ed1ce454a0aef48ccca41cd3e67ade2b4782cf9e0d70600f1890a7_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/exercise-weightlifting-2728335/",
+        "checked": "man seated doing a dumbbell curl, elbow bent, face hidden by the arm"
+       }
+      ]
      }
     }
    ]
@@ -120,7 +152,8 @@
   "score": 8.1,
   "notes": [
    "Standard curl = elbow flexion in the sagittal plane about a frontal (mediolateral) axis — OpenStax 9.5.",
-   "Supination is forearm rotation (transverse plane), correctly kept separate."
+   "Supination is forearm rotation (transverse plane), correctly kept separate.",
+   "2026-11-27 visual rework: fewer words, photos/icons/motion (narration unchanged)"
   ]
  }
 }

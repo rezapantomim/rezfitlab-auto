@@ -39,7 +39,18 @@
      "visual": {
       "type": "keyword",
       "text": "Göğüs mü, omuz mu?",
-      "highlight": "omuz"
+      "highlight": "omuz",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "3899877",
+        "url": "https://pixabay.com/get/gd07634ad459284e82c6a9e05040a8ace1825345e18919a472c3199164014b65bebdd8206459c41879af030d4e47ac3b2a74aa84cbb3cebab4fe79bd26609268a_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/exercise-gym-weights-training-3899877/",
+        "checked": "man pressing a barbell lying on a flat bench, seen from above, dark gym"
+       }
+      ]
      },
      "sfx": "impact"
     },
@@ -47,6 +58,8 @@
      "text": "Çoğu kişi barı indirirken omuzlarını öne doğru yuvarlar.",
      "visual": {
       "type": "image",
+      "text": "Omuzlar öne",
+      "highlight": "öne",
       "images": [
        {
         "provider": "pixabay",
@@ -63,10 +76,17 @@
     {
      "text": "O zaman yük göğüsten çok ön omza binebilir.",
      "visual": {
-      "type": "compare",
-      "left": "Omuzlar öne",
-      "right": "Ön omuz yorulur",
-      "verdict": "none"
+      "type": "icons",
+      "icons": [
+       {
+        "icon": "warning",
+        "label": "Omuzlar öne"
+       },
+       {
+        "icon": "muscle",
+        "label": "Ön omuz yorulur"
+       }
+      ]
      },
      "sfx": "whoosh"
     },
@@ -74,11 +94,22 @@
      "text": "Çözüm: başlamadan önce kürek kemiklerini geriye ve aşağı doğru topla.",
      "visual": {
       "type": "exercise_card",
-      "text": "Bench press kurulumu",
+      "text": "Bench kurulumu",
       "cues": [
        "Kürek kemikleri geri-aşağı",
        "Göğüs hafif yukarı",
-       "Ayaklar yere sağlam"
+       "Ayaklar sağlam"
+      ],
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "9180669",
+        "url": "https://pixabay.com/get/gc3c5836b2412a6a1f52caa851040c482a790baac4d10d3dcdb403da8534385c7a38fa7951c7f2a44462cff93c891105468e28244ff37c3851c5ba6b5081d39e0_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/fitness-exercise-men-work-out-gym-9180669/",
+        "checked": "flat barbell bench press with a spotter standing behind the bench"
+       }
       ]
      },
      "sfx": "pop"
@@ -87,16 +118,36 @@
      "text": "Barı kontrollü indir ve dirseklerini gövdene göre çok fazla açma.",
      "visual": {
       "type": "keyword",
-      "text": "Kontrollü in, dirsekler çok açılmasın",
-      "highlight": "Kontrollü"
+      "text": "Kontrollü in",
+      "highlight": "Kontrollü",
+      "icon": "down",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "3899877",
+        "url": "https://pixabay.com/get/gd07634ad459284e82c6a9e05040a8ace1825345e18919a472c3199164014b65bebdd8206459c41879af030d4e47ac3b2a74aa84cbb3cebab4fe79bd26609268a_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/exercise-gym-weights-training-3899877/",
+        "checked": "man pressing a barbell lying on a flat bench, seen from above, dark gym"
+       }
+      ]
      }
     },
     {
      "text": "Omzunda ağrı varsa bir sağlık uzmanına danış.",
      "visual": {
-      "type": "keyword",
-      "text": "Ağrı varsa uzmana danış",
-      "highlight": "uzmana"
+      "type": "icons",
+      "icons": [
+       {
+        "icon": "warning",
+        "label": "Ağrı?"
+       },
+       {
+        "icon": "shield",
+        "label": "Uzmana danış"
+       }
+      ]
      }
     },
     {
@@ -104,7 +155,18 @@
      "visual": {
       "type": "title",
       "text": "Göğüs mü, omuz mu?",
-      "highlight": "Göğüs"
+      "highlight": "Göğüs",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "9180669",
+        "url": "https://pixabay.com/get/g70693e7f1443ea675159065ca18bee06e561184f292e8f253546b6c4dfc65dc5f1633202d805585158a9c86b2509623ceff7dc39f14c7cb8198e13ccf9ee4d1a_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/fitness-exercise-men-work-out-gym-9180669/",
+        "checked": "man doing a flat barbell bench press with a spotter behind him, side view, gym, no logos"
+       }
+      ]
      },
      "sfx": "reveal"
     }
@@ -116,7 +178,8 @@
   "score": 7.9,
   "notes": [
    "Cues are standard NSCA bench setup (scapulae retracted/depressed, feet flat, controlled descent, elbows not fully flared).",
-   "Claim kept conservative (\"binebilir\"); pain -> professional. No clip: used a checked photo + cards."
+   "Claim kept conservative (\"binebilir\"); pain -> professional. No clip: used a checked photo + cards.",
+   "2026-11-27 visual rework: fewer words, photos/icons/motion (narration unchanged)"
   ]
  }
 }

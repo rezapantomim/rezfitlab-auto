@@ -26,7 +26,7 @@ Structure: hook (≤ 30 s, a surprising question or a common mistake) → exam l
 
 ## Long video (8–10 min, 1150–1450 words, 5–9 scenes)
 - Scene 1 = HOOK. No definitions before 0:20. Promise a concrete payoff.
-- Every beat must be SHOWABLE: a diagram, a number, a list, a comparison, a correctly identified exercise clip.
+- Every beat must be SHOWABLE: a photo, a collage, a split-screen comparison, a diagram, a number, animated icons, a clip.
 - A visual change every 3–6 s (one beat ≈ one visual).
 - Max ~10 numbers per video, every number sourced.
 
@@ -50,7 +50,13 @@ Prefer: ACSM guidelines, WHO physical-activity guidelines, CDC, NSCA, OpenStax A
 The original AHA question bank text is corrupted machine translation: use it only to know WHICH concept is meant,
 never copy its wording, and verify every fact independently.
 
-## Visuals
+## Visuals — motion first, few words (owner decision 2026-11-27)
+The owner found the first week too text-heavy: viewers should WATCH, not read. The narration carries the information.
+- On-screen text = 2–4 words per string (headline, caption, label, list item, cue). Never a sentence on screen.
+- At most 30 % of beats may be text-only (keyword / title / list / stat / compare / exercise_card / quote without a photo).
+- A picture-driven visual (image, collage, split, stock, diagram, or any text visual with a photo behind it) at least every
+  2nd beat. Use `icons` (animated line icons) instead of lists. Lists / cues: max 3 entries.
+- A photo may appear on at most 3 beats of one episode. Enforced by `tools/validate.py`.
 - Stock clips only from Pexels/Pixabay and only after the writer has LOOKED at the clip preview and confirmed it shows exactly
   the named exercise (or a generic scene that matches the sentence). Wrong exercise = worse than no clip → use exercise_card / diagram.
 - Pictures (`image`, `collage`) come only from Pixabay (Pixabay Content License) and Wikimedia Commons (public domain, CC0, CC BY —
@@ -59,7 +65,8 @@ never copy its wording, and verify every fact independently.
   `image` = one picture, optionally with up to 4 `labels` (arrows pointing at x/y % of the picture: "Tendon", "Bağ"...);
   use `cutout: true` for an object or a person on a plain background (the background is removed).
   `collage` = 2-4 related pictures that illustrate the sentence together (e.g. foods rich in protein, everyday movements in
-  the frontal plane), each with an optional 1-2 word `caption` sticker. Aim for 1 picture visual every ~20-30 s in long videos.
+  the frontal plane), each with an optional 1-2 word `caption` sticker. `split` = 2 photos side by side (right vs wrong,
+  A vs B). Any text visual can carry one photo in `images` (full-bleed Ken Burns background).
   Text on a picture must be readable for the viewer or irrelevant: avoid figures full of English labels unless the narration
   explains them (use `labels` in Turkish instead).
 - Diagrams are drawn by code: planes, joint_action, hr_zones, rpe_scale, mmt_grades, kinetic_chain, body_map, timeline, bar.

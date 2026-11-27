@@ -16,6 +16,9 @@ Any HARD item failing → `passed: false` regardless of score.
 ## SOFT (affect score)
 - Hook strength in the first 3 s (Short) / 20 s (long).
 - Visual variety: a change every 3–6 s, no more than 2 of the same visual type in a row.
+- Motion over text: would a viewer with the sound off see pictures, collages and movement rather than read sentences?
+  ≤ 4 words per on-screen string, ≤ 30 % text-only beats, a picture-driven visual at least every 2nd beat (the validator
+  checks the numbers; you judge whether each photo truly fits its sentence — a wrong photo is worse than an icon or diagram).
 - Title searchability and curiosity without clickbait.
 - Clear practical takeaway for gym-goers; exact terms for exam candidates.
 

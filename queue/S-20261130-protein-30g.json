@@ -14,7 +14,19 @@
      "visual": {
       "type": "keyword",
       "text": "30 gram sınırı?",
-      "highlight": "30 gram"
+      "highlight": "30 gram",
+      "icon": "question",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "123668",
+        "url": "https://pixabay.com/get/g5884f2653331a19c829635c28caf143db32aa526f19114e1fc565ddd3cc73fdbb0546091de9ae007da20bdc5021cfa9d5d5dc1dd2d119435d4fdab0928ea2122_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/meat-barbecue-grill-bbq-barbeque-123668/",
+        "checked": "grilled chicken breast on a grill"
+       }
+      ]
      },
      "sfx": "riser"
     },
@@ -22,7 +34,6 @@
      "text": "Tavuk, yumurta, yoğurt… Çoğumuz proteini gün içine eşit bölmeye çalışıyoruz.",
      "visual": {
       "type": "collage",
-      "text": "Protein kaynakları",
       "images": [
        {
         "provider": "pixabay",
@@ -116,11 +127,20 @@
     {
      "text": "Asıl önemli olan günlük toplam protein miktarı ve düzenli antrenman.",
      "visual": {
-      "type": "list",
-      "items": [
-       "Günlük toplam",
-       "Düzenli antrenman",
-       "Yeterli uyku"
+      "type": "icons",
+      "icons": [
+       {
+        "icon": "food",
+        "label": "Günlük toplam"
+       },
+       {
+        "icon": "dumbbell",
+        "label": "Antrenman"
+       },
+       {
+        "icon": "sleep",
+        "label": "Uyku"
+       }
       ]
      }
     },
@@ -129,7 +149,19 @@
      "visual": {
       "type": "title",
       "text": "Kaç öğün?",
-      "highlight": "öğün"
+      "highlight": "öğün",
+      "icon": "egg",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "6035549",
+        "url": "https://pixabay.com/get/ga0c4b6c6890d8cf1e974ea373899180d709e47fa6b76676c572c30ea43ee745dfddd5a51afae5e230f1ea14b527f0fc7b2023911b14073c55f9a5c8b474acba1_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/easter-eggs-eggs-easter-food-6035549/",
+        "checked": "brown and white eggs in a carton"
+       }
+      ]
      },
      "sfx": "pop"
     }
@@ -163,7 +195,8 @@
   "passed": true,
   "score": 8.0,
   "notes": [
-   "local picture test"
+   "local picture test",
+   "2026-11-27 visual rework: fewer words, photos/icons/motion (narration unchanged)"
   ]
  }
 }

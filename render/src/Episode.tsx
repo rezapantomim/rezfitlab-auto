@@ -100,12 +100,23 @@ export const Episode: React.FC<Props> = (p) => {
   return (
     <AbsoluteFill style={{ backgroundColor: p.style.bg, fontFamily: BODY }}>
       <Background p={p} />
-      {p.beats.map((b, i) => (
-        <Sequence key={i} from={b.from} durationInFrames={b.dur}>
-          {!(p.quiz && b.from < quizEnd) && <VisualView beat={b} p={p} vertical={vertical} idx={i} />}
-          {!(p.quiz && b.from < p.quiz.cdTo) && <Captions beat={b} p={p} vertical={vertical} />}
-        </Sequence>
-      ))}
+      {p.beats.map((b, i) => {
+        // quiz Shorts: a beat that starts under the quiz card shows its visual as soon as the card leaves (from quizEnd)
+        const vFrom = p.quiz ? Math.max(b.from, quizEnd) : b.from;
+        const vDur = b.from + b.dur - vFrom;
+        return (
+          <React.Fragment key={i}>
+            {vDur >= 15 && (
+              <Sequence from={vFrom} durationInFrames={vDur}>
+                <VisualView beat={{ ...b, from: vFrom, dur: vDur }} p={p} vertical={vertical} idx={i} />
+              </Sequence>
+            )}
+            <Sequence from={b.from} durationInFrames={b.dur}>
+              {!(p.quiz && b.from < p.quiz.cdTo) && <Captions beat={b} p={p} vertical={vertical} />}
+            </Sequence>
+          </React.Fragment>
+        );
+      })}
       {p.quiz && f < quizEnd && <QuizView q={p.quiz} p={p} />}
       {!vertical && scene && (
         <div style={{ position: 'absolute', top: 44, left: 56, display: 'flex', gap: 14, alignItems: 'center' }}>

@@ -55,14 +55,49 @@
     {
      "text": "Squat, deadlift, leg press, koşu bandı. Haftalık programın büyük ihtimalle bunlardan oluşuyor.",
      "visual": {
-      "type": "list",
-      "items": [
-       "Squat",
-       "Deadlift",
-       "Leg press",
-       "Koşu bandı"
-      ],
-      "text": "Tanıdık program"
+      "type": "collage",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "1282232",
+        "url": "https://pixabay.com/get/g71277f19bcb6964062e261bdd94a5bfb4ee7492314aeb73b07c255712823e979f088baf63c676d57dc59fdc4fe663f58ba79a949aae62fa10cc7892841f7cc12_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/man-person-power-strength-strong-1282232/",
+        "checked": "man in a deep barbell back squat, front view, dark gym",
+        "caption": "Squat"
+       },
+       {
+        "provider": "pixabay",
+        "id": "375482",
+        "url": "https://pixabay.com/get/g86c75353149d2c25702a55b2f9c6916c4f1b416d1d954884a2978cca7077524f30df8aa7024ab28a77e2db9458ac76e48209db4fcffb621bacce1205365928b8_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/barbell-crossfit-lifting-gym-375482/",
+        "checked": "feet in red shoes behind a loaded barbell on the gym floor, deadlift start",
+        "caption": "Deadlift"
+       },
+       {
+        "provider": "pixabay",
+        "id": "6777444",
+        "url": "https://pixabay.com/get/gb705e8700463c77d89fcc0112a23ba540ccf9e339c667164aed2859f32500b92ddcb6d27d8e1a66c02d67984b8373defde29f823b00015d0bb4d8f9f24fc6e59_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-fitness-gym-health-senior-6777444/",
+        "checked": "woman pushing a leg press machine sled with her legs",
+        "caption": "Leg press"
+       },
+       {
+        "provider": "pixabay",
+        "id": "8545861",
+        "url": "https://pixabay.com/get/ge517a7e647731d2eace1ed9027e6488b9ff5312c76fca458b0fe7193ea1275e5f16bf53f2e54e80eb9d0e518077e009270dc2dae7104c91cac56316dd072810e_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/man-treadmill-run-training-gym-8545861/",
+        "checked": "man running on a treadmill in a bright gym",
+        "caption": "Koşu bandı"
+       }
+      ]
      },
      "sfx": "whoosh"
     },
@@ -71,35 +106,85 @@
      "visual": {
       "type": "title",
       "text": "Ortak nokta?",
-      "highlight": "Ortak"
+      "highlight": "Ortak",
+      "icon": "question"
      }
     },
     {
      "text": "Hepsi vücudunu büyük ölçüde aynı yönde hareket ettiriyor: öne ve arkaya.",
      "visual": {
       "type": "keyword",
-      "text": "Hep öne ve arkaya",
-      "highlight": "öne ve arkaya"
+      "text": "Öne ve arkaya",
+      "highlight": "arkaya",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "4782722",
+        "url": "https://pixabay.com/get/g4ab7e26db10f0ae307eda9e91400c99273f3709592234f54c65a46825d1f260b6d5c53edda3d84227d0236376f6f54b1c26b5d9c4a6c2dc3c90784780a1d1ef4_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/running-woman-race-athlete-sport-4782722/",
+        "checked": "legs of a person running on a park path (forward motion)"
+       }
+      ]
      }
     },
     {
      "text": "Oysa gündelik hayatta yana adım atıyorsun, eğiliyorsun, dönüyorsun.",
      "visual": {
-      "type": "list",
-      "items": [
-       "Yana adım",
-       "Yana eğilme",
-       "Dönme"
-      ],
-      "text": "Gündelik hayat"
+      "type": "collage",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "8252172",
+        "url": "https://pixabay.com/get/ga433e1df28968b75988e67e546c1ae3acb896ea30f535c0b5765e3ab1ab0c2b7f6b71fd4917951ad8c7a3b24b8795a2103b301e3e11c146c129e22089a7684b4_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/moving-apartment-packing-8252172/",
+        "checked": "man and woman lifting and carrying cardboard moving boxes",
+        "caption": "Kaldır"
+       },
+       {
+        "provider": "pixabay",
+        "id": "1845759",
+        "url": "https://pixabay.com/get/gc367323bd5afbb49f75342ebaa81f503c785ff6b40a0abe2b39d9c1764652e2d2063b27a08b5d528c7b940a09c7b359106eb6e570a999546d38d1f488ac8b98f_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/exercise-fitness-lateral-lunges-1845759/",
+        "checked": "man doing a lateral (side) lunge, front view, plain light grey background",
+        "cutout": true,
+        "caption": "Yana adım"
+       },
+       {
+        "provider": "pixabay",
+        "id": "2250970",
+        "url": "https://pixabay.com/get/g635c9b87bdd381f33650eed002ed2a25df3b0af773dd349f17c791e40a2a4d67e8f092ddf595a8e584db15e689258610933cbc15bf593057323ddfdc09c3e6ce_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-crunches-sport-training-2250970/",
+        "checked": "woman on a mat doing a twisting (bicycle) crunch, torso rotates",
+        "caption": "Dön"
+       }
+      ]
      }
     },
     {
      "text": "Bir kutuyu yerden alıp yandaki rafa koyarken bile vücudun aynı anda birkaç yönde çalışır.",
      "visual": {
       "type": "keyword",
-      "text": "Gündelik hayat çok yönlü",
-      "highlight": "çok yönlü"
+      "text": "Çok yönlü",
+      "highlight": "yönlü",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "8252172",
+        "url": "https://pixabay.com/get/ga433e1df28968b75988e67e546c1ae3acb896ea30f535c0b5765e3ab1ab0c2b7f6b71fd4917951ad8c7a3b24b8795a2103b301e3e11c146c129e22089a7684b4_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/moving-apartment-packing-8252172/",
+        "checked": "man and woman lifting and carrying cardboard moving boxes"
+       }
+      ]
      }
     },
     {
@@ -119,24 +204,53 @@
      "visual": {
       "type": "stat",
       "value": "3",
-      "label": "düzlem · birkaç saniyede"
+      "label": "düzlem",
+      "icon": "target"
      }
     },
     {
      "text": "Bu yüzden konu sadece sınav için değil, salonda daha dengeli çalışmak için de önemli.",
      "visual": {
-      "type": "title",
-      "text": "Sınav + salon",
-      "highlight": "salon"
+      "type": "split",
+      "left": "Sınav",
+      "right": "Salon",
+      "verdict": "none",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "841171",
+        "url": "https://pixabay.com/get/gfb4a987b98646e86437ccb72dd74d59d8c0ff7c0b67a171f7cd2837f0a3eaee5e119f42df5d3ddb4b9daf8db97f3595ef3bc7fa71a914059b0ca93b2b24840b2_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/book-read-woman-reading-glasses-841171/",
+        "checked": "young woman with glasses reading a book (studying)"
+       },
+       {
+        "provider": "pixabay",
+        "id": "91849",
+        "url": "https://pixabay.com/get/ge27fb13369b992cc75f1c5b1730d04a466b6809b1a13f7ea1c99ddb8cb50e0eee4571d1df383b637ce6d27c982aa77c7_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/gym-equipment-weights-machines-91849/",
+        "checked": "empty gym hall with racks and benches, no people"
+       }
+      ]
      }
     },
     {
      "text": "Ve programına hangi hareketi eklemen gerektiğini de bileceksin. Hadi başlayalım.",
      "visual": {
-      "type": "compare",
-      "left": "Sınav",
-      "right": "Salon",
-      "verdict": "both"
+      "type": "icons",
+      "icons": [
+       {
+        "icon": "target",
+        "label": "Doğru hareket"
+       },
+       {
+        "icon": "plus",
+        "label": "Programına ekle"
+       }
+      ]
      }
     }
    ]
@@ -152,9 +266,19 @@
       "text": "Anatomik pozisyon",
       "cues": [
        "Dik duruş",
-       "Yüz öne bakar",
-       "Kollar yanda",
+       "Yüz öne",
        "Avuç içi önde"
+      ],
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "4502800",
+        "url": "https://pixabay.com/get/g4807e7ea70400552fb05d682075bd68e3d25dcaa19ee7b3ee29ac8ca755cb65d620a664cec721cf8a69a756813a741f6e563c7016e5542d566f4ba2992005f1f_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/man-boy-young-twenty-brick-wall-4502800/",
+        "checked": "man standing upright facing the camera in front of a brick wall, arms at sides"
+       }
       ]
      }
     },
@@ -163,15 +287,27 @@
      "visual": {
       "type": "keyword",
       "text": "Başlangıç noktası",
-      "highlight": "Başlangıç"
+      "highlight": "Başlangıç",
+      "icon": "person"
      }
     },
     {
      "text": "Örneğin dirseği bükmek bu duruşa göre fleksiyondur; avuç içinin yönü de yine bu duruşa göre adlandırılır.",
      "visual": {
       "type": "keyword",
-      "text": "Her şey bu duruşa göre",
-      "highlight": "bu duruşa"
+      "text": "Fleksiyon",
+      "highlight": "Fleksiyon",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "8246973",
+        "url": "https://pixabay.com/get/g2853358d2461867306f92027d244e81d62f7b0c7e10673e215344521a2065cab0f00ff2e08d4ca7ac3e2b667809c9af6a9f214d54259a31777356e1c3ae27559_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/weight-dumbbell-strength-arm-force-8246973/",
+        "checked": "side view of an arm doing a dumbbell biceps curl, no face"
+       }
+      ]
      }
     },
     {
@@ -270,34 +406,49 @@
     {
      "text": "Sınavda isimler değişebilir: koronal, frontal demektir; yatay ise transvers demektir.",
      "visual": {
-      "type": "compare",
-      "left": "Koronal = frontal",
-      "right": "Yatay = transvers",
-      "verdict": "both"
+      "type": "diagram",
+      "name": "planes",
+      "text": "İsimler değişir",
+      "params": {
+       "highlight": "all"
+      }
      }
     },
     {
      "text": "Bir hareket, vücut parçasının bu düzlemlerden birine paralel ilerlemesiyle o düzleme ait sayılır.",
      "visual": {
       "type": "keyword",
-      "text": "Hareket düzleme paralel ilerler",
-      "highlight": "paralel"
+      "text": "Düzleme paralel",
+      "highlight": "paralel",
+      "icon": "up"
      }
     },
     {
      "text": "Her düzlemin bir de dönme ekseni vardır. Eksen, düzleme her zaman diktir.",
      "visual": {
       "type": "keyword",
-      "text": "Eksen düzleme diktir",
-      "highlight": "diktir"
+      "text": "Eksen: dik",
+      "highlight": "dik",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "2728335",
+        "url": "https://pixabay.com/get/gb6f81a5877ce43ab8c90f9100fd7cbedfcaef0a83f2ca053a9287ffc8a512aba133cdefe27ed1ce454a0aef48ccca41cd3e67ade2b4782cf9e0d70600f1890a7_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/exercise-weightlifting-2728335/",
+        "checked": "man seated doing a dumbbell curl, elbow bent, face hidden"
+       }
+      ]
      }
     },
     {
      "text": "Eksenleri birazdan her düzlemle birlikte tekrar edeceğiz; şimdilik bu kuralı aklında tut.",
      "visual": {
       "type": "title",
-      "text": "Kuralı aklında tut",
-      "highlight": "aklında"
+      "text": "Aklında tut",
+      "highlight": "Aklında",
+      "icon": "brain"
      }
     }
    ]
@@ -311,7 +462,18 @@
      "visual": {
       "type": "title",
       "text": "Sagittal düzlem",
-      "highlight": "Sagittal"
+      "highlight": "Sagittal",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "10200792",
+        "url": "https://pixabay.com/get/g46b1768049c04c29971997b330ab28ada8e75ede0c4638fdf2751bc756d1890fea6e8dd29b4af9969431678a13abe3e1844effbd9b76a0ef198579d79bd5874e_1280.png",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-sports-running-jog-fitness-10200792/",
+        "checked": "smiling woman jogging in a park"
+       }
+      ]
      }
     },
     {
@@ -359,8 +521,16 @@
        "Ön kol yukarı",
        "Kontrollü iniş"
       ],
-      "muscles": [
-       "Biceps brachii"
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "8246973",
+        "url": "https://pixabay.com/get/g2853358d2461867306f92027d244e81d62f7b0c7e10673e215344521a2065cab0f00ff2e08d4ca7ac3e2b667809c9af6a9f214d54259a31777356e1c3ae27559_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/weight-dumbbell-strength-arm-force-8246973/",
+        "checked": "side view of an arm doing a dumbbell biceps curl, no face"
+       }
       ]
      }
     },
@@ -397,8 +567,9 @@
      "text": "Kalçanın ve dizin bükülüp açılması, sagittal düzlemin tipik hareket kalıbıdır.",
      "visual": {
       "type": "keyword",
-      "text": "Bük ve aç: sagittal kalıp",
-      "highlight": "sagittal"
+      "text": "Bük ve aç",
+      "highlight": "Bük",
+      "icon": "rotate"
      }
     },
     {
@@ -430,7 +601,18 @@
      "visual": {
       "type": "keyword",
       "text": "Eksen: sağdan sola",
-      "highlight": "sağdan sola"
+      "highlight": "sağdan sola",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "2728335",
+        "url": "https://pixabay.com/get/gb6f81a5877ce43ab8c90f9100fd7cbedfcaef0a83f2ca053a9287ffc8a512aba133cdefe27ed1ce454a0aef48ccca41cd3e67ade2b4782cf9e0d70600f1890a7_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/exercise-weightlifting-2728335/",
+        "checked": "man seated doing a dumbbell curl, elbow bent, face hidden"
+       }
+      ]
      }
     },
     {
@@ -447,15 +629,27 @@
      "visual": {
       "type": "keyword",
       "text": "Menteşe eklemleri",
-      "highlight": "Menteşe"
+      "highlight": "Menteşe",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "6777444",
+        "url": "https://pixabay.com/get/gb705e8700463c77d89fcc0112a23ba540ccf9e339c667164aed2859f32500b92ddcb6d27d8e1a66c02d67984b8373defde29f823b00015d0bb4d8f9f24fc6e59_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-fitness-gym-health-senior-6777444/",
+        "checked": "woman pushing a leg press machine sled with her legs"
+       }
+      ]
      }
     },
     {
      "text": "Pratik bir ipucu: hareketi yandan izlediğinde en net görüyorsan, büyük ihtimalle sagittal düzlemdedir.",
      "visual": {
       "type": "keyword",
-      "text": "Yandan net görünüyorsa sagittal",
-      "highlight": "Yandan"
+      "text": "Yandan bak: sagittal",
+      "highlight": "Yandan",
+      "icon": "eye"
      }
     },
     {
@@ -463,18 +657,65 @@
      "visual": {
       "type": "title",
       "text": "Yandan çek, net gör",
-      "highlight": "Yandan"
+      "highlight": "Yandan",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "1282232",
+        "url": "https://pixabay.com/get/g71277f19bcb6964062e261bdd94a5bfb4ee7492314aeb73b07c255712823e979f088baf63c676d57dc59fdc4fe663f58ba79a949aae62fa10cc7892841f7cc12_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/man-person-power-strength-strong-1282232/",
+        "checked": "man in a deep barbell back squat, front view, dark gym"
+       }
+      ]
      }
     },
     {
      "text": "Yürüme, koşma, bisiklet, deadlift ve leg press de çoğunlukla bu düzlemde çalışır.",
      "visual": {
-      "type": "list",
-      "items": [
-       "Yürüme, koşma",
-       "Bisiklet",
-       "Deadlift",
-       "Leg press"
+      "type": "collage",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "4782722",
+        "url": "https://pixabay.com/get/g4ab7e26db10f0ae307eda9e91400c99273f3709592234f54c65a46825d1f260b6d5c53edda3d84227d0236376f6f54b1c26b5d9c4a6c2dc3c90784780a1d1ef4_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/running-woman-race-athlete-sport-4782722/",
+        "checked": "legs of a person running on a park path (forward motion)",
+        "caption": "Koşu"
+       },
+       {
+        "provider": "pixabay",
+        "id": "384566",
+        "url": "https://pixabay.com/get/gc32512b2e065cd37d62981464d7857399c8f42fa5180be56b10b696a82b157f790d47b4875595f792e7b2f0fe11e5aa7876f9fa6616f447839d7ae4ce43f2b1d_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/bicycle-bike-biking-sport-cycle-384566/",
+        "checked": "man riding a road bicycle, motion-blurred background",
+        "caption": "Bisiklet"
+       },
+       {
+        "provider": "pixabay",
+        "id": "375482",
+        "url": "https://pixabay.com/get/g86c75353149d2c25702a55b2f9c6916c4f1b416d1d954884a2978cca7077524f30df8aa7024ab28a77e2db9458ac76e48209db4fcffb621bacce1205365928b8_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/barbell-crossfit-lifting-gym-375482/",
+        "checked": "feet in red shoes behind a loaded barbell on the gym floor, deadlift start",
+        "caption": "Deadlift"
+       },
+       {
+        "provider": "pixabay",
+        "id": "6777444",
+        "url": "https://pixabay.com/get/gb705e8700463c77d89fcc0112a23ba540ccf9e339c667164aed2859f32500b92ddcb6d27d8e1a66c02d67984b8373defde29f823b00015d0bb4d8f9f24fc6e59_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-fitness-gym-health-senior-6777444/",
+        "checked": "woman pushing a leg press machine sled with her legs",
+        "caption": "Leg press"
+       }
       ],
       "text": "Hep sagittal"
      }
@@ -490,7 +731,18 @@
      "visual": {
       "type": "title",
       "text": "Frontal düzlem",
-      "highlight": "Frontal"
+      "highlight": "Frontal",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "81494",
+        "url": "https://pixabay.com/get/ge04824ab56a0ec8d0deb66679428bdecec9febf99c637292e8131313d40d0c1d6d2166325ea218b6f28efd7bcc68c453_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/sailors-men-women-working-morning-81494/",
+        "checked": "silhouettes of a group jumping with arms and legs spread sideways (jumping jacks) against the sky"
+       }
+      ]
      }
     },
     {
@@ -506,8 +758,19 @@
      "text": "Abdüksiyon, uzvun vücudun orta hattından uzaklaşmasıdır. Addüksiyon ise orta hatta yaklaşmasıdır.",
      "visual": {
       "type": "keyword",
-      "text": "Ab uzaklaştırır, ad yaklaştırır",
-      "highlight": "uzaklaştırır"
+      "text": "Ab uzaklaşır, ad yaklaşır",
+      "highlight": "uzaklaşır",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "7437534",
+        "url": "https://pixabay.com/get/g9530af3baca8b3fe6b0850dd49f235d96ae0ca7ad7fa09f175cbfaa523726993f53e8450fc425544042d9d8d44ffdddf3713e0d263a649a33d325015ba786b83_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/couple-gym-exercise-fitness-health-7437534/",
+        "checked": "man and woman raising dumbbells out to the side (lateral raise) in a gym"
+       }
+      ]
      }
     },
     {
@@ -517,11 +780,19 @@
       "text": "Lateral raise",
       "cues": [
        "Kollar yana",
-       "Omuz hizasına kadar",
+       "Omuz hizasına",
        "Kontrollü iniş"
       ],
-      "muscles": [
-       "Orta deltoid"
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "7437534",
+        "url": "https://pixabay.com/get/g9530af3baca8b3fe6b0850dd49f235d96ae0ca7ad7fa09f175cbfaa523726993f53e8450fc425544042d9d8d44ffdddf3713e0d263a649a33d325015ba786b83_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/couple-gym-exercise-fitness-health-7437534/",
+        "checked": "man and woman raising dumbbells out to the side (lateral raise) in a gym"
+       }
       ]
      }
     },
@@ -529,8 +800,8 @@
      "text": "Kolu indirdiğinde ise omuzda addüksiyon olur. Yani aynı tekrarın iki yarısı farklı isimler alır.",
      "visual": {
       "type": "compare",
-      "left": "Kaldırırken: abdüksiyon",
-      "right": "İndirirken: addüksiyon",
+      "left": "Kaldır: abdüksiyon",
+      "right": "İndir: addüksiyon",
       "verdict": "none"
      }
     },
@@ -562,17 +833,25 @@
     {
      "text": "Dikkat: yana lunge sırasında öndeki dizin bükülmesi yine bir fleksiyondur.",
      "visual": {
-      "type": "keyword",
+      "type": "diagram",
+      "name": "joint_action",
       "text": "Diz yine bükülür",
-      "highlight": "bükülür"
+      "params": {
+       "from": 170,
+       "to": 95,
+       "label": "Diz fleksiyonu"
+      }
      }
     },
     {
      "text": "Ama hareketin baskın yönü yana olduğu için, bütün hareket frontal düzlemde kabul edilir.",
      "visual": {
-      "type": "keyword",
-      "text": "Baskın yön belirler",
-      "highlight": "Baskın"
+      "type": "diagram",
+      "name": "planes",
+      "text": "Baskın yön: yana",
+      "params": {
+       "highlight": "frontal"
+      }
      }
     },
     {
@@ -582,18 +861,20 @@
       "text": "Lateral fleksiyon",
       "cues": [
        "Gövde yana eğilir",
-       "Kaburga ve pelvis yaklaşır",
        "Öne eğilme yok"
-      ]
+      ],
+      "icon": "person"
      }
     },
     {
      "text": "Yana eğilmeyi öne eğilmeyle karıştırma: öne eğilmek gövde fleksiyonudur ve sagittal düzlemdedir.",
      "visual": {
-      "type": "compare",
-      "left": "Yana eğilme: frontal",
-      "right": "Öne eğilme: sagittal",
-      "verdict": "none"
+      "type": "diagram",
+      "name": "planes",
+      "text": "Yana eğilme: frontal",
+      "params": {
+       "highlight": "frontal"
+      }
      }
     },
     {
@@ -609,30 +890,59 @@
      "text": "İpucu: hareketi en iyi önden izleyerek görüyorsan, büyük ihtimalle frontal düzlemdedir.",
      "visual": {
       "type": "keyword",
-      "text": "Önden net görünüyorsa frontal",
-      "highlight": "Önden"
+      "text": "Önden bak: frontal",
+      "highlight": "Önden",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "81494",
+        "url": "https://pixabay.com/get/ge04824ab56a0ec8d0deb66679428bdecec9febf99c637292e8131313d40d0c1d6d2166325ea218b6f28efd7bcc68c453_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/sailors-men-women-working-morning-81494/",
+        "checked": "silhouettes of a group jumping with arms and legs spread sideways (jumping jacks) against the sky"
+       }
+      ]
      }
     },
     {
      "text": "Örneğin yana lunge’da dizinin ayak yönünde kalıp kalmadığını da en iyi önden bakarak kontrol edersin.",
      "visual": {
       "type": "exercise_card",
-      "text": "Yana lunge kontrolü",
+      "text": "Yana lunge",
       "cues": [
        "Önden bak",
        "Diz ayak yönünde",
        "Gövde dik"
-      ]
+      ],
+      "icon": "squat"
      }
     },
     {
      "text": "Jumping jack, yana adım ve side plank da bu düzlemle ilişkili hareketlerdir.",
      "visual": {
-      "type": "list",
-      "items": [
-       "Jumping jack",
-       "Yana adım",
-       "Side plank"
+      "type": "collage",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "81494",
+        "url": "https://pixabay.com/get/ge04824ab56a0ec8d0deb66679428bdecec9febf99c637292e8131313d40d0c1d6d2166325ea218b6f28efd7bcc68c453_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/sailors-men-women-working-morning-81494/",
+        "checked": "silhouettes of a group jumping with arms and legs spread sideways (jumping jacks) against the sky",
+        "caption": "Jumping jack"
+       },
+       {
+        "provider": "pixabay",
+        "id": "1327256",
+        "url": "https://pixabay.com/get/gd92f80abdcf50436c4d6f47efe1bd220df8b1c5fa915aadab64f010317a335d4ada0f04379fc66a89b3d58c256d757199b210b2a9e06a0349a740f1c26478b1d_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/plank-fitness-muscular-exercising-1327256/",
+        "checked": "woman in a side plank on a mat with the top arm raised",
+        "caption": "Side plank"
+       }
       ],
       "text": "Frontal örnekler"
      }
@@ -660,7 +970,19 @@
      "visual": {
       "type": "title",
       "text": "Rotasyon",
-      "highlight": "Rotasyon"
+      "highlight": "Rotasyon",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "2250970",
+        "url": "https://pixabay.com/get/g635c9b87bdd381f33650eed002ed2a25df3b0af773dd349f17c791e40a2a4d67e8f092ddf595a8e584db15e689258610933cbc15bf593057323ddfdc09c3e6ce_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-crunches-sport-training-2250970/",
+        "checked": "woman on a mat doing a twisting (bicycle) crunch, torso rotates"
+       }
+      ],
+      "icon": "rotate"
      }
     },
     {
@@ -677,9 +999,21 @@
      "visual": {
       "type": "list",
       "items": [
-       "Baş rotasyonu",
-       "Gövde rotasyonu",
-       "Kalçanın iç ve dış rotasyonu"
+       "Baş",
+       "Gövde",
+       "Kalça"
+      ],
+      "text": "Rotasyon",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "2250970",
+        "url": "https://pixabay.com/get/g635c9b87bdd381f33650eed002ed2a25df3b0af773dd349f17c791e40a2a4d67e8f092ddf595a8e584db15e689258610933cbc15bf593057323ddfdc09c3e6ce_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-crunches-sport-training-2250970/",
+        "checked": "woman on a mat doing a twisting (bicycle) crunch, torso rotates"
+       }
       ]
      }
     },
@@ -693,8 +1027,16 @@
        "Dirsekler hafif bükük",
        "Kontrollü açılış"
       ],
-      "muscles": [
-       "Göğüs"
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "2260736",
+        "url": "https://pixabay.com/get/gfe6359f84661fdb1133dab3ccb2d9d80ce60af63adeb07f75a074bc3d5a22b629b1a3a4264171a1b1d984c5a9d9bacbc6a5fbb7fddc6985d3d5f129d31f2ea4a_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-personal-trainer-fitness-2260736/",
+        "checked": "woman lying on a bench moving dumbbells in a wide arc, coach spotting from behind (dumbbell fly)"
+       }
       ]
      }
     },
@@ -702,7 +1044,7 @@
      "text": "Bu harekete yatay addüksiyon denir; kolları geri açmak ise yatay abdüksiyondur.",
      "visual": {
       "type": "keyword",
-      "text": "Yatay addüksiyon / abdüksiyon",
+      "text": "Yatay addüksiyon",
       "highlight": "Yatay"
      }
     },
@@ -711,7 +1053,18 @@
      "visual": {
       "type": "keyword",
       "text": "Eksen: uzunlamasına",
-      "highlight": "uzunlamasına"
+      "highlight": "uzunlamasına",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "8137977",
+        "url": "https://pixabay.com/get/gb99008fbac4781fe337daba1987c3043d30872e2a4b3e3728a7e1bda062f4bcc013595650aa9a8d22fe7cc012cf957d6be423767463298aeec2db493bd8f088b_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-tennis-sport-play-game-8137977/",
+        "checked": "woman serving on a tennis court, seen from above, torso turning"
+       }
+      ]
      }
     },
     {
@@ -719,7 +1072,19 @@
      "visual": {
       "type": "title",
       "text": "Sınav tuzakları",
-      "highlight": "tuzakları"
+      "highlight": "tuzakları",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "841171",
+        "url": "https://pixabay.com/get/gfb4a987b98646e86437ccb72dd74d59d8c0ff7c0b67a171f7cd2837f0a3eaee5e119f42df5d3ddb4b9daf8db97f3595ef3bc7fa71a914059b0ca93b2b24840b2_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/book-read-woman-reading-glasses-841171/",
+        "checked": "young woman with glasses reading a book (studying)"
+       }
+      ],
+      "icon": "warning"
      },
      "sfx": "impact"
     },
@@ -727,18 +1092,20 @@
      "text": "Sagittal düzlemdeki hareket frontal eksende, frontal düzlemdeki hareket ise sagittal eksende olur.",
      "visual": {
       "type": "compare",
-      "left": "Sagittal düzlem → frontal eksen",
-      "right": "Frontal düzlem → sagittal eksen",
+      "left": "Sagittal → frontal eksen",
+      "right": "Frontal → sagittal eksen",
       "verdict": "both"
      }
     },
     {
      "text": "İkinci tuzak: farklı isimler. Koronal, frontal; yatay, transvers demektir.",
      "visual": {
-      "type": "compare",
-      "left": "Koronal = frontal",
-      "right": "Yatay = transvers",
-      "verdict": "both"
+      "type": "diagram",
+      "name": "planes",
+      "text": "Koronal = frontal",
+      "params": {
+       "highlight": "all"
+      }
      }
     },
     {
@@ -746,36 +1113,64 @@
      "visual": {
       "type": "keyword",
       "text": "Baskın yöne bak",
-      "highlight": "Baskın"
+      "highlight": "Baskın",
+      "icon": "eye"
      }
     },
     {
      "text": "Yana lunge’da diz bükülür ama baskın hareket yanadır. Cevap: frontal düzlem.",
      "visual": {
-      "type": "compare",
-      "left": "Diz bükülür",
-      "right": "Cevap: frontal",
-      "verdict": "right"
+      "type": "diagram",
+      "name": "planes",
+      "text": "Cevap: frontal",
+      "params": {
+       "highlight": "frontal"
+      }
      }
     },
     {
      "text": "Biceps curl’de ise avucunu yukarı çevirmek supinasyondur ve ayrı bir ön kol hareketidir.",
      "visual": {
-      "type": "compare",
+      "type": "split",
       "left": "Dirsek fleksiyonu",
       "right": "Supinasyon",
-      "verdict": "none"
+      "verdict": "none",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "8246973",
+        "url": "https://pixabay.com/get/g2853358d2461867306f92027d244e81d62f7b0c7e10673e215344521a2065cab0f00ff2e08d4ca7ac3e2b667809c9af6a9f214d54259a31777356e1c3ae27559_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/weight-dumbbell-strength-arm-force-8246973/",
+        "checked": "side view of an arm doing a dumbbell biceps curl, no face"
+       },
+       {
+        "provider": "pixabay",
+        "id": "7207995",
+        "url": "https://pixabay.com/get/g4282cab9a07946f6bc5b1696350e8cbd058baeec237ed1a078ce902de8d07debae4edb219d39199a776ec6a455820476dd3fac8275b339caad9a5e02f136191b_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/fruit-raspberry-ripe-raspberry-hand-7207995/",
+        "checked": "open hand, palm facing up (supinated), holding a raspberry"
+       }
+      ]
      }
     },
     {
      "text": "Soruyu okurken kendine iki şey sor: hareket hangi yöne gidiyor ve hangi açıdan en net görünüyor?",
      "visual": {
-      "type": "list",
-      "items": [
-       "Hangi yöne gidiyor?",
-       "Hangi açıdan net?"
-      ],
-      "text": "İki soru"
+      "type": "icons",
+      "icons": [
+       {
+        "icon": "question",
+        "label": "Hangi yön?"
+       },
+       {
+        "icon": "eye",
+        "label": "Hangi açı?"
+       }
+      ]
      }
     },
     {
@@ -783,7 +1178,18 @@
      "visual": {
       "type": "title",
       "text": "İki soru, çoğu cevap",
-      "highlight": "İki soru"
+      "highlight": "İki soru",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "6784555",
+        "url": "https://pixabay.com/get/g9d9fb8151147815787c9c92fa3c63f4212d987d04073c3a328edcee0b8f1de08c9873753adea4453e4ca1fccd3ca6832adfe51379e48200b8306137f744c33ae_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-book-you-read-library-6784555/",
+        "checked": "young woman with glasses looking at books in a library"
+       }
+      ]
      }
     }
    ]
@@ -797,20 +1203,39 @@
      "visual": {
       "type": "title",
       "text": "Düzlemler karışır",
-      "highlight": "karışır"
+      "highlight": "karışır",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "1678992",
+        "url": "https://pixabay.com/get/gd837efd9f781c1846ce0b2a3464b6b77bf7aec6f7aa82c96c87457d6847bd723f92484b9718847e1f011d1cce7a883a111bcae862308af8aadd26a008a536b5d_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/soccer-ball-sports-goal-kick-1678992/",
+        "checked": "football player kicking a ball on grass, legs and ball in frame"
+       }
+      ]
      },
      "sfx": "whoosh"
     },
     {
      "text": "Bir topa vururken bacağın öne gider, gövden döner ve kolların dengeyi korumak için yana açılır.",
      "visual": {
-      "type": "list",
-      "items": [
-       "Bacak öne: sagittal",
-       "Gövde döner: transvers",
-       "Kollar yana: frontal"
-      ],
-      "text": "Topa vuruş"
+      "type": "icons",
+      "icons": [
+       {
+        "icon": "run",
+        "label": "Bacak: sagittal"
+       },
+       {
+        "icon": "rotate",
+        "label": "Gövde: transvers"
+       },
+       {
+        "icon": "person",
+        "label": "Kollar: frontal"
+       }
+      ]
      }
     },
     {
@@ -818,7 +1243,18 @@
      "visual": {
       "type": "keyword",
       "text": "Çok düzlemli hareket",
-      "highlight": "Çok düzlemli"
+      "highlight": "Çok düzlemli",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "1678992",
+        "url": "https://pixabay.com/get/gd837efd9f781c1846ce0b2a3464b6b77bf7aec6f7aa82c96c87457d6847bd723f92484b9718847e1f011d1cce7a883a111bcae862308af8aadd26a008a536b5d_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/soccer-ball-sports-goal-kick-1678992/",
+        "checked": "football player kicking a ball on grass, legs and ball in frame"
+       }
+      ]
      }
     },
     {
@@ -835,7 +1271,18 @@
      "visual": {
       "type": "keyword",
       "text": "Çapraz yol",
-      "highlight": "Çapraz"
+      "highlight": "Çapraz",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "8252172",
+        "url": "https://pixabay.com/get/ga433e1df28968b75988e67e546c1ae3acb896ea30f535c0b5765e3ab1ab0c2b7f6b71fd4917951ad8c7a3b24b8795a2103b301e3e11c146c129e22089a7684b4_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/moving-apartment-packing-8252172/",
+        "checked": "man and woman lifting and carrying cardboard moving boxes"
+       }
+      ]
      }
     },
     {
@@ -845,8 +1292,19 @@
       "text": "Kablo woodchop",
       "cues": [
        "Ayaklar sabit",
-       "Kalça ve gövde birlikte döner",
+       "Gövde birlikte döner",
        "Kontrollü tempo"
+      ],
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "3545063",
+        "url": "https://pixabay.com/get/g843ac87d44f96ac51a954ceb225cf2b44cb6d2ca98a302fbcbf204f21ee2a4a4e9a09524b2f9c56bfb85f3261ed30931a717914b522367f1c746ec6cc1d5d36f_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/man-training-gym-strengthening-3545063/",
+        "checked": "man from behind working at a cable crossover machine, handles in both hands"
+       }
       ]
      }
     },
@@ -854,7 +1312,7 @@
      "text": "Ama önce her düzlemi ayrı ayrı tanımak gerekir; çok düzlemli hareketleri anlamanın anahtarı budur.",
      "visual": {
       "type": "title",
-      "text": "Önce tek tek öğren",
+      "text": "Önce tek tek",
       "highlight": "tek tek"
      }
     }
@@ -869,7 +1327,18 @@
      "visual": {
       "type": "title",
       "text": "Salona taşı",
-      "highlight": "Salona"
+      "highlight": "Salona",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "91849",
+        "url": "https://pixabay.com/get/ge27fb13369b992cc75f1c5b1730d04a466b6809b1a13f7ea1c99ddb8cb50e0eee4571d1df383b637ce6d27c982aa77c7_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/gym-equipment-weights-machines-91849/",
+        "checked": "empty gym hall with racks and benches, no people"
+       }
+      ]
      }
     },
     {
@@ -881,15 +1350,37 @@
        "Deadlift → sagittal",
        "Lat pulldown → frontal"
       ],
-      "text": "Programını etiketle"
+      "text": "Etiketle",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "1284248",
+        "url": "https://pixabay.com/get/ge23add2ae3f7e944c728ee33e42366cfbe24ff707ffe5bbe5bff416617a760bee0a22c3a9524d1b78b86bd3783813662c9c051e922be5a5423f1ad8e8f57acdc_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/arm-hand-write-planner-planning-1284248/",
+        "checked": "hand writing in an open notebook with a pen"
+       }
+      ]
      }
     },
     {
      "text": "Bazı hareketler, örneğin bench press, tekniğe göre farklı düzlemlerde sınıflandırılabilir; sınavda kitabının cevabını esas al.",
      "visual": {
       "type": "keyword",
-      "text": "Kitabının cevabını esas al",
-      "highlight": "Kitabının"
+      "text": "Kitabın cevabı esas",
+      "highlight": "Kitabın",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "9180669",
+        "url": "https://pixabay.com/get/gc3c5836b2412a6a1f52caa851040c482a790baac4d10d3dcdb403da8534385c7a38fa7951c7f2a44462cff93c891105468e28244ff37c3851c5ba6b5081d39e0_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/fitness-exercise-men-work-out-gym-9180669/",
+        "checked": "flat barbell bench press with a spotter behind the bench"
+       }
+      ]
      }
     },
     {
@@ -905,19 +1396,56 @@
      "text": "Nedeni basit: en bilinen temel hareketler bu düzlemde ve ölçmesi, ilerletmesi kolay.",
      "visual": {
       "type": "keyword",
-      "text": "Ölçmesi ve ilerletmesi kolay",
-      "highlight": "kolay"
+      "text": "Ölçmesi kolay",
+      "highlight": "kolay",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "7445556",
+        "url": "https://pixabay.com/get/g456363ed34e492cc12c752c8fb40ada41c1f030b9f6735ad16a671ce36e5cddda71fa1e879df114089922d2660f37dff37d645b368c776a3ba392be006627200_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/lifting-woman-weightlifting-gym-7445556/",
+        "checked": "woman lifting a barbell from the floor (deadlift), gym"
+       }
+      ]
      }
     },
     {
      "text": "Ama futbol, basketbol, tenis ve günlük hayat sürekli yana hareketler ve dönüşler ister.",
      "visual": {
-      "type": "list",
-      "items": [
-       "Futbol",
-       "Basketbol",
-       "Tenis",
-       "Gündelik hayat"
+      "type": "collage",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "1678992",
+        "url": "https://pixabay.com/get/gd837efd9f781c1846ce0b2a3464b6b77bf7aec6f7aa82c96c87457d6847bd723f92484b9718847e1f011d1cce7a883a111bcae862308af8aadd26a008a536b5d_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/soccer-ball-sports-goal-kick-1678992/",
+        "checked": "football player kicking a ball on grass, legs and ball in frame",
+        "caption": "Futbol"
+       },
+       {
+        "provider": "pixabay",
+        "id": "2258650",
+        "url": "https://pixabay.com/get/g95cff399498ae64be4b3695c9be317d174176d57e5ee1ba23eaec764d013dffde7dc89259c97fc2af4066df596e9397a55bc44e41c603a6fbe0695f08fc4f561_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/basketball-sport-ball-game-2258650/",
+        "checked": "silhouette of a basketball player jumping to the hoop at sunset, not recognisable",
+        "caption": "Basketbol"
+       },
+       {
+        "provider": "pixabay",
+        "id": "8137977",
+        "url": "https://pixabay.com/get/gb99008fbac4781fe337daba1987c3043d30872e2a4b3e3728a7e1bda062f4bcc013595650aa9a8d22fe7cc012cf957d6be423767463298aeec2db493bd8f088b_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-tennis-sport-play-game-8137977/",
+        "checked": "woman serving on a tennis court, seen from above, torso turning",
+        "caption": "Tenis"
+       }
       ],
       "text": "Üç düzlem birden"
      }
@@ -925,18 +1453,39 @@
     {
      "text": "Bir basketbolcu savunmada sürekli yana kayar; bir tenisçi her vuruşta gövdesini döndürür.",
      "visual": {
-      "type": "compare",
-      "left": "Basketbol: yana kayma",
-      "right": "Tenis: gövde dönüşü",
-      "verdict": "none"
+      "type": "split",
+      "left": "Yana kayma",
+      "right": "Gövde dönüşü",
+      "verdict": "none",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "2258650",
+        "url": "https://pixabay.com/get/g95cff399498ae64be4b3695c9be317d174176d57e5ee1ba23eaec764d013dffde7dc89259c97fc2af4066df596e9397a55bc44e41c603a6fbe0695f08fc4f561_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/basketball-sport-ball-game-2258650/",
+        "checked": "silhouette of a basketball player jumping to the hoop at sunset, not recognisable"
+       },
+       {
+        "provider": "pixabay",
+        "id": "8137977",
+        "url": "https://pixabay.com/get/gb99008fbac4781fe337daba1987c3043d30872e2a4b3e3728a7e1bda062f4bcc013595650aa9a8d22fe7cc012cf957d6be423767463298aeec2db493bd8f088b_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-tennis-sport-play-game-8137977/",
+        "checked": "woman serving on a tennis court, seen from above, torso turning"
+       }
+      ]
      }
     },
     {
      "text": "Bu yüzden dengeli bir program, üç düzlemi de belli bir ölçüde içermelidir.",
      "visual": {
       "type": "keyword",
-      "text": "Dengeli program = 3 düzlem",
-      "highlight": "3 düzlem"
+      "text": "Dengeli program: 3 düzlem",
+      "highlight": "3 düzlem",
+      "icon": "target"
      },
      "sfx": "reveal"
     },
@@ -947,23 +1496,23 @@
       "images": [
        {
         "provider": "pixabay",
-        "id": "1845759",
-        "url": "https://pixabay.com/get/gc367323bd5afbb49f75342ebaa81f503c785ff6b40a0abe2b39d9c1764652e2d2063b27a08b5d528c7b940a09c7b359106eb6e570a999546d38d1f488ac8b98f_1280.jpg",
+        "id": "7437534",
+        "url": "https://pixabay.com/get/g9530af3baca8b3fe6b0850dd49f235d96ae0ca7ad7fa09f175cbfaa523726993f53e8450fc425544042d9d8d44ffdddf3713e0d263a649a33d325015ba786b83_1280.jpg",
         "license": "Pixabay Content License",
         "credit": "",
-        "page": "https://pixabay.com/photos/exercise-fitness-lateral-lunges-1845759/",
-        "checked": "man doing a lateral (side) lunge, front view, plain light grey background",
-        "caption": "Yana lunge"
+        "page": "https://pixabay.com/photos/couple-gym-exercise-fitness-health-7437534/",
+        "checked": "man and woman raising dumbbells out to the side (lateral raise) in a gym",
+        "caption": "Lateral raise"
        },
        {
         "provider": "pixabay",
-        "id": "2699780",
-        "url": "https://pixabay.com/get/gb2f6b708d39c88a4a2bdaafced3ee85dd05e156476a552b9d72b41ee4eeb1a31f9f23988655a96bb752bf5c1d0e9a0df8b4e767ab1455e58e9207f0f6f9ca987_1280.jpg",
+        "id": "1327256",
+        "url": "https://pixabay.com/get/gd92f80abdcf50436c4d6f47efe1bd220df8b1c5fa915aadab64f010317a335d4ada0f04379fc66a89b3d58c256d757199b210b2a9e06a0349a740f1c26478b1d_1280.jpg",
         "license": "Pixabay Content License",
         "credit": "",
-        "page": "https://pixabay.com/photos/young-woman-girl-athletic-nature-2699780/",
-        "checked": "woman in a forward lunge, side view, outdoors by rocks and water",
-        "caption": "Öne lunge"
+        "page": "https://pixabay.com/photos/plank-fitness-muscular-exercising-1327256/",
+        "checked": "woman in a side plank on a mat with the top arm raised",
+        "caption": "Side plank"
        }
       ]
      }
@@ -975,8 +1524,19 @@
       "text": "Pallof press",
       "cues": [
        "Kablo yanda",
-       "Kollar öne uzanır",
+       "Kollar öne",
        "Gövde dönmesin"
+      ],
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "3545063",
+        "url": "https://pixabay.com/get/g843ac87d44f96ac51a954ceb225cf2b44cb6d2ca98a302fbcbf204f21ee2a4a4e9a09524b2f9c56bfb85f3261ed30931a717914b522367f1c746ec6cc1d5d36f_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/man-training-gym-strengthening-3545063/",
+        "checked": "man from behind working at a cable crossover machine, handles in both hands"
+       }
       ]
      }
     },
@@ -985,7 +1545,8 @@
      "visual": {
       "type": "keyword",
       "text": "Dönmeye karşı koy",
-      "highlight": "karşı koy"
+      "highlight": "karşı koy",
+      "icon": "shield"
      }
     },
     {
@@ -993,27 +1554,57 @@
      "visual": {
       "type": "stat",
       "value": "2–3 × 10–12",
-      "label": "set × tekrar · başlangıç"
+      "label": "Set × tekrar",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "9180669",
+        "url": "https://pixabay.com/get/gc3c5836b2412a6a1f52caa851040c482a790baac4d10d3dcdb403da8534385c7a38fa7951c7f2a44462cff93c891105468e28244ff37c3851c5ba6b5081d39e0_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/fitness-exercise-men-work-out-gym-9180669/",
+        "checked": "flat barbell bench press with a spotter behind the bench"
+       }
+      ]
      }
     },
     {
      "text": "Yeni bir düzlemde çalışırken hafif başla, hareket aralığını ağrısız tut ve tempoyu kontrol et.",
      "visual": {
-      "type": "list",
-      "items": [
-       "Hafif başla",
-       "Ağrısız aralık",
-       "Kontrollü tempo"
-      ],
-      "text": "Güvenli başlangıç"
+      "type": "icons",
+      "icons": [
+       {
+        "icon": "dumbbell",
+        "label": "Hafif başla"
+       },
+       {
+        "icon": "shield",
+        "label": "Ağrısız"
+       },
+       {
+        "icon": "timer",
+        "label": "Kontrollü tempo"
+       }
+      ]
      }
     },
     {
      "text": "Bel, diz ya da omuz problemin varsa yeni hareketleri bir uzmanla birlikte seç.",
      "visual": {
       "type": "keyword",
-      "text": "Problem varsa uzmana danış",
-      "highlight": "uzmana"
+      "text": "Uzmana danış",
+      "highlight": "Uzmana",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "8558753",
+        "url": "https://pixabay.com/get/g8b6f4d888bffb0939876facb4f12a503c7e95028a74bbce2aba3ab727933fdd8f07075c12350d00230e9afbb265681651e18bc6a5e2947d6d7977dfed01b0daf_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/back-pain-pain-spine-health-8558753/",
+        "checked": "therapist examining a seated patient's lower back with both hands"
+       }
+      ]
      }
     },
     {
@@ -1021,7 +1612,19 @@
      "visual": {
       "type": "title",
       "text": "Örnek bir hafta",
-      "highlight": "Örnek"
+      "highlight": "Örnek",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "1284248",
+        "url": "https://pixabay.com/get/ge23add2ae3f7e944c728ee33e42366cfbe24ff707ffe5bbe5bff416617a760bee0a22c3a9524d1b78b86bd3783813662c9c051e922be5a5423f1ad8e8f57acdc_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/arm-hand-write-planner-planning-1284248/",
+        "checked": "hand writing in an open notebook with a pen"
+       }
+      ],
+      "icon": "calendar"
      }
     },
     {
@@ -1033,6 +1636,17 @@
        "Squat",
        "Deadlift",
        "+ Yana lunge"
+      ],
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "7445556",
+        "url": "https://pixabay.com/get/g456363ed34e492cc12c752c8fb40ada41c1f030b9f6735ad16a671ce36e5cddda71fa1e879df114089922d2660f37dff37d645b368c776a3ba392be006627200_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/lifting-woman-weightlifting-gym-7445556/",
+        "checked": "woman lifting a barbell from the floor (deadlift), gym"
+       }
       ]
      }
     },
@@ -1042,10 +1656,20 @@
       "type": "exercise_card",
       "text": "Üst vücut günü",
       "cues": [
-       "Bench press",
-       "Row",
+       "Bench + row",
        "+ Lateral raise",
        "+ Dumbbell fly"
+      ],
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "9180669",
+        "url": "https://pixabay.com/get/gc3c5836b2412a6a1f52caa851040c482a790baac4d10d3dcdb403da8534385c7a38fa7951c7f2a44462cff93c891105468e28244ff37c3851c5ba6b5081d39e0_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/fitness-exercise-men-work-out-gym-9180669/",
+        "checked": "flat barbell bench press with a spotter behind the bench"
+       }
       ]
      }
     },
@@ -1054,16 +1678,47 @@
      "visual": {
       "type": "keyword",
       "text": "Lat pulldown: frontal",
-      "highlight": "frontal"
+      "highlight": "frontal",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "2227803",
+        "url": "https://pixabay.com/get/gd84c81e9c9123d9c3416c3127b84eb880effd5a1894a7944f5b926dc82163d3ee3e4746ef44f941a6fe73a32f92dd578c4f21f6c43157ec4a67ac82817b155eb_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-sport-fitness-muscle-girl-2227803/",
+        "checked": "woman from behind pulling a wide lat pulldown bar, dark gym"
+       }
+      ]
      }
     },
     {
      "text": "Karın çalışmasında sadece crunch yapma; side plank ve Pallof press ile diğer düzlemleri de çalıştır.",
      "visual": {
-      "type": "compare",
+      "type": "split",
       "left": "Sadece crunch",
-      "right": "Crunch + side plank + Pallof",
-      "verdict": "right"
+      "right": "Crunch + side plank",
+      "verdict": "right",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "2245029",
+        "url": "https://pixabay.com/get/g468195b233368ee48da48e7726e7fd488f31683ff8ea90c17fa02b6d7d2f082804c00535fed977c49f149ace1ba0819e37706b12254f1ded4015c3ab59b76601_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/sports-fitness-fit-training-2245029/",
+        "checked": "woman on a mat doing a crunch, dark studio"
+       },
+       {
+        "provider": "pixabay",
+        "id": "1327256",
+        "url": "https://pixabay.com/get/gd92f80abdcf50436c4d6f47efe1bd220df8b1c5fa915aadab64f010317a335d4ada0f04379fc66a89b3d58c256d757199b210b2a9e06a0349a740f1c26478b1d_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/plank-fitness-muscular-exercising-1327256/",
+        "checked": "woman in a side plank on a mat with the top arm raised"
+       }
+      ]
      }
     },
     {
@@ -1071,11 +1726,22 @@
      "visual": {
       "type": "list",
       "items": [
-       "Öne-arkaya salınım",
-       "Yana salınım",
+       "Öne-arkaya",
+       "Yana",
        "Gövde dönüşü"
       ],
-      "text": "Isınma"
+      "text": "Isınma",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "7217972",
+        "url": "https://pixabay.com/get/g977c54e9f73208e41bb98494c40b8c3dd8350bd47ebc8eb0dc2dc391bfe31064ae3403580bf74d263961c7f39f23dbe3ac43f5d0b2d37dc229ab4b1c991b9913_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/girl-stretching-fitness-running-7217972/",
+        "checked": "woman stretching in a deep lunge on a park path (warm-up)"
+       }
+      ]
      }
     },
     {
@@ -1084,26 +1750,50 @@
       "type": "exercise_card",
       "text": "Isınma",
       "cues": [
-       "10 tekrar civarı",
+       "10 tekrar",
        "Acele etme",
        "Ağrısız aralık"
-      ]
+      ],
+      "icon": "timer"
      }
     },
     {
      "text": "Böylece programının yapısı aynı kalır, ama vücudun daha fazla yönde hareket etmeyi öğrenir.",
      "visual": {
       "type": "keyword",
-      "text": "Aynı program, daha çok yön",
-      "highlight": "daha çok yön"
+      "text": "Daha çok yön",
+      "highlight": "çok yön",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "10200792",
+        "url": "https://pixabay.com/get/g46b1768049c04c29971997b330ab28ada8e75ede0c4638fdf2751bc756d1890fea6e8dd29b4af9969431678a13abe3e1844effbd9b76a0ef198579d79bd5874e_1280.png",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-sports-running-jog-fitness-10200792/",
+        "checked": "smiling woman jogging in a park"
+       }
+      ]
      }
     },
     {
      "text": "Bu hafta kendi programına bak: frontal ve transvers düzlemden kaç hareket var?",
      "visual": {
       "type": "title",
-      "text": "Senin programında kaç tane?",
-      "highlight": "kaç tane"
+      "text": "Sende kaç tane?",
+      "highlight": "kaç tane",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "1284248",
+        "url": "https://pixabay.com/get/ge23add2ae3f7e944c728ee33e42366cfbe24ff707ffe5bbe5bff416617a760bee0a22c3a9524d1b78b86bd3783813662c9c051e922be5a5423f1ad8e8f57acdc_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/arm-hand-write-planner-planning-1284248/",
+        "checked": "hand writing in an open notebook with a pen"
+       }
+      ],
+      "icon": "question"
      }
     }
    ]
@@ -1123,13 +1813,12 @@
     {
      "text": "Sınavda hatırla: sagittal sağ ve sol, frontal ön ve arka, transvers üst ve alt olarak ayırır.",
      "visual": {
-      "type": "list",
-      "items": [
-       "Sagittal: sağ / sol",
-       "Frontal: ön / arka",
-       "Transvers: üst / alt"
-      ],
-      "text": "Sınavda hatırla"
+      "type": "diagram",
+      "name": "planes",
+      "text": "Sınavda hatırla",
+      "params": {
+       "highlight": "all"
+      }
      }
     },
     {
@@ -1140,6 +1829,17 @@
        "Fleksiyon/ekstansiyon → sagittal",
        "Abdüksiyon/addüksiyon → frontal",
        "Rotasyon → transvers"
+      ],
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "6784555",
+        "url": "https://pixabay.com/get/g9d9fb8151147815787c9c92fa3c63f4212d987d04073c3a328edcee0b8f1de08c9873753adea4453e4ca1fccd3ca6832adfe51379e48200b8306137f744c33ae_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-book-you-read-library-6784555/",
+        "checked": "young woman with glasses looking at books in a library"
+       }
       ]
      }
     },
@@ -1161,19 +1861,38 @@
        "Frontal → sagittal eksen",
        "Transvers → uzunlamasına"
       ],
-      "text": "Eksenler"
+      "text": "Eksenler",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "841171",
+        "url": "https://pixabay.com/get/gfb4a987b98646e86437ccb72dd74d59d8c0ff7c0b67a171f7cd2837f0a3eaee5e119f42df5d3ddb4b9daf8db97f3595ef3bc7fa71a914059b0ca93b2b24840b2_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/book-read-woman-reading-glasses-841171/",
+        "checked": "young woman with glasses reading a book (studying)"
+       }
+      ]
      }
     },
     {
      "text": "Salonda uygula: programına en az bir frontal ve bir transvers düzlem hareketi ekle.",
      "visual": {
-      "type": "list",
-      "items": [
-       "+1 frontal hareket",
-       "+1 transvers hareket",
-       "Hafif başla"
-      ],
-      "text": "Salonda uygula"
+      "type": "icons",
+      "icons": [
+       {
+        "icon": "plus",
+        "label": "+1 frontal"
+       },
+       {
+        "icon": "plus",
+        "label": "+1 transvers"
+       },
+       {
+        "icon": "dumbbell",
+        "label": "Hafif başla"
+       }
+      ]
      },
      "sfx": "reveal"
     }
@@ -1188,16 +1907,35 @@
      "visual": {
       "type": "title",
       "text": "Yana lunge: hangi düzlem?",
-      "highlight": "hangi düzlem"
+      "highlight": "hangi düzlem",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "1845759",
+        "url": "https://pixabay.com/get/gc367323bd5afbb49f75342ebaa81f503c785ff6b40a0abe2b39d9c1764652e2d2063b27a08b5d528c7b940a09c7b359106eb6e570a999546d38d1f488ac8b98f_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/exercise-fitness-lateral-lunges-1845759/",
+        "checked": "man doing a lateral (side) lunge, front view, plain light grey background",
+        "cutout": true
+       }
+      ]
      }
     },
     {
      "text": "İpucu vereyim: hareketin baskın yönünü düşün ve önden mi, yandan mı daha net göründüğüne bak.",
      "visual": {
-      "type": "compare",
-      "left": "Önden net?",
-      "right": "Yandan net?",
-      "verdict": "none"
+      "type": "icons",
+      "icons": [
+       {
+        "icon": "eye",
+        "label": "Önden mi?"
+       },
+       {
+        "icon": "eye",
+        "label": "Yandan mı?"
+       }
+      ]
      }
     },
     {
@@ -1205,7 +1943,18 @@
      "visual": {
       "type": "keyword",
       "text": "En sevdiğin hareket?",
-      "highlight": "sevdiğin"
+      "highlight": "sevdiğin",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "9248942",
+        "url": "https://pixabay.com/get/g3b8f5cd58faee162c7f5968085c40b6b6da0fe2dfaab987a6100da118ba360ab694830dc959c2181a18c5a1e984d19d1f207da23e97be4ecc895974d4dcd6e1f_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-gym-simulators-fitness-9248942/",
+        "checked": "woman doing a lat pulldown with a wide grip, colourful gym"
+       }
+      ]
      }
     },
     {
@@ -1213,7 +1962,18 @@
      "visual": {
       "type": "keyword",
       "text": "Sınav hazırlık listesi",
-      "highlight": "Sınav"
+      "highlight": "Sınav",
+      "images": [
+       {
+        "provider": "pixabay",
+        "id": "6784555",
+        "url": "https://pixabay.com/get/g9d9fb8151147815787c9c92fa3c63f4212d987d04073c3a328edcee0b8f1de08c9873753adea4453e4ca1fccd3ca6832adfe51379e48200b8306137f744c33ae_1280.jpg",
+        "license": "Pixabay Content License",
+        "credit": "",
+        "page": "https://pixabay.com/photos/woman-book-you-read-library-6784555/",
+        "checked": "young woman with glasses looking at books in a library"
+       }
+      ]
      }
     },
     {
@@ -1237,7 +1997,8 @@
    "Facts checked against OpenStax A&P 2e 1.6/9.5: plane divisions, coronal=frontal, horizontal=transverse, plane/axis pairs, flexion/extension, ab/adduction, lateral flexion, medial/lateral rotation, horizontal ab/adduction.",
    "Round 1 fixes: bench press and shoulder press removed from \"pure sagittal\" examples (technique-dependent; told to follow the textbook), exam-frequency claim softened, 10 chapters merged to 9.",
    "Gym layer: 2+ concrete safe applications (add frontal/transverse moves, example week, warm-up), conservative cues, problem -> professional.",
-   "Pictures checked: OpenStax planes figure (CC BY, credited) with Turkish labels, squat, forward lunge, side lunge (cutout), lunge collage. No stock clips (no clip clearly showed the exercise)."
+   "Pictures checked: OpenStax planes figure (CC BY, credited) with Turkish labels, squat, forward lunge, side lunge (cutout), lunge collage. No stock clips (no clip clearly showed the exercise).",
+   "2026-11-27 visual rework: photos / collages / split screens / icons, max 4 words on screen (narration unchanged)"
   ]
  }
 }
